@@ -4,17 +4,16 @@ author      : Guilherme Garcia & Gabriel Marroig
 job         : University of São Paulo - Brasil
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
 widgets     : [mathjax]     # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
+# A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
 
-### Guilherme Garcia & Gabriel Marroig
+## Guilherme Garcia & Gabriel Marroig
 
-University of São Paulo - Brasil
+### University of São Paulo - Brasil
 
 ---
 
@@ -74,9 +73,9 @@ legend(0, 0,
 
 ![](figures/matrixspace.png)
 
----
+--- &vertical
 
-## 
+### Phylogenetic Distribution of Matrix Disparity
 
 ```{r phylo_decdiv, echo = FALSE, fig.width = 8, fig.height = 6}
 
@@ -99,21 +98,28 @@ text (y = c(-2, -1, 0, 1, 2), x = c(0, 0, 0, 0, 0) + 0.5,
 
 ```
 
---- 
+***
 
-## 
+### Tests for Phylogenetic Distribution of Disparity 
 
 ```{r riem_decdiv, echo = FALSE, warning = FALSE, message = FALSE}
-kable (riem.tab)
+ppca.Data$riem.decdiv.def.table
 ```
 
----
+--- &twocol
 
-## 
+### pPCA Eigenvalue Distribution
 
-```{r ppca_eval, fig.width = 8, fig.height = 4, echo = FALSE, warning = FALSE, message = FALSE}
-print (arrangeGrob(ppca.Plots $ eval.profile + guides(fill = FALSE),
-                   ppca.Plots $ var.moran + guides(size = FALSE), ncol = 2))
+*** =left
+
+```{r ppca_eval, fig.width = 5, fig.height = 5, echo = FALSE, warning = FALSE, message = FALSE}
+ppca.Plots $ eval.profile + guides(fill = FALSE)
+```
+
+*** =right
+
+```{r var_moran, fig.width = 5, fig.height = 5, echo = FALSE, warning = FALSE, message = FALSE}
+ppca.Plots $ var.moran + guides(size = FALSE)
 ```
 
 ---
@@ -343,7 +349,7 @@ ppca.Data $ post.arc %>%
 
 ## Local Shape Changes
 
-```{r srd_shape_local, echo = FALSE}
+```{r srd_shape_local, echo = FALSE, fig.width = 8, fig.height = 6}
 ppca.Data $ post.arc %>%
   filter(Type == 'Local Shape Variables') %>%
   mutate('trait2' = factor (as.character(trait), levels = rownames (Aux $ def.hyp))) %>%

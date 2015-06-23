@@ -4,17 +4,16 @@ author      : Guilherme Garcia & Gabriel Marroig
 job         : University of São Paulo - Brasil
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
 widgets     : [mathjax]     # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
+# A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
 
-### Guilherme Garcia & Gabriel Marroig
+## Guilherme Garcia & Gabriel Marroig
 
-University of São Paulo - Brasil
+### University of São Paulo - Brasil
 
 ---
 
@@ -48,29 +47,36 @@ University of São Paulo - Brasil
 
 ![](figures/matrixspace.png)
 
----
+--- &vertical
 
-## 
+### Phylogenetic Distribution of Matrix Disparity
 
 ![plot of chunk phylo_decdiv](assets/fig/phylo_decdiv-1.png) 
 
---- 
+***
 
-## 
+### Tests for Phylogenetic Distribution of Disparity 
 
 
-|                                   | Value| Expectation| Distance|P-value  |
-|:----------------------------------|-----:|-----------:|--------:|:--------|
-|Single Node                        | 0.106|       0.029|   13.456|< 10^-4^ |
-|Few Nodes                          | 0.248|       0.139|   13.545|< 10^-4^ |
-|Tip/Root Skewness (Topology Only)  | 0.632|       0.505|   12.197|< 10^-4^ |
-|Tip/Root Skewness (Branch Lengths) | 0.381|       0.505|  -11.067|< 10^-4^ |
+```
+##                                        Value Expectation  Distance P-value
+## Single Node                        0.1058344  0.02863164  13.45587   1e-04
+## Few Nodes                          0.2482746   0.1394544  13.54525   1e-04
+## Tip/Root Skewness (Topology Only)  0.6317855   0.5047114  12.19689   1e-04
+## Tip/Root Skewness (Branch Lengths) 0.3812437   0.5046797 -11.06684   1e-04
+```
 
----
+--- &twocol
 
-## 
+### pPCA Eigenvalue Distribution
+
+*** =left
 
 ![plot of chunk ppca_eval](assets/fig/ppca_eval-1.png) 
+
+*** =right
+
+![plot of chunk var_moran](assets/fig/var_moran-1.png) 
 
 ---
 

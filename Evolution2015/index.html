@@ -21,10 +21,10 @@
   <div class="reveal">
     <div class="slides">
       <section class='' data-state='' id='slide-1'>
-  <h2>A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates</h2>
-  <h3>Guilherme Garcia &amp; Gabriel Marroig</h3>
+  <h1>A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates</h1>
+  <h2>Guilherme Garcia &amp; Gabriel Marroig</h2>
 
-<p>University of São Paulo - Brasil</p>
+<h3>University of São Paulo - Brasil</h3>
 
 </section>
 <section class='' data-state='' id='slide-2'>
@@ -63,111 +63,95 @@
   <p><img src="figures/matrixspace.png" alt=""></p>
 
 </section>
-<section class='' data-state='' id='slide-6'>
-  
-  <p><img src="assets/fig/phylo_decdiv-1.png" alt="plot of chunk phylo_decdiv"> </p>
+<section>
+   <section class='' data-state=''>
+    <h3>Phylogenetic Distribution of Matrix Disparity</h3>
+    <p><img src="assets/fig/phylo_decdiv-1.png" alt="plot of chunk phylo_decdiv"> </p>
 
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>Tests for Phylogenetic Distribution of Disparity</h3>
+
+<pre><code>##                                        Value Expectation  Distance P-value
+## Single Node                        0.1058344  0.02863164  13.45587   1e-04
+## Few Nodes                          0.2482746   0.1394544  13.54525   1e-04
+## Tip/Root Skewness (Topology Only)  0.6317855   0.5047114  12.19689   1e-04
+## Tip/Root Skewness (Branch Lengths) 0.3812437   0.5046797 -11.06684   1e-04
+</code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
 <section class='' data-state='' id='slide-7'>
+  <h3>pPCA Eigenvalue Distribution</h3>
   
-  <table><thead>
-<tr>
-<th align="left"></th>
-<th align="right">Value</th>
-<th align="right">Expectation</th>
-<th align="right">Distance</th>
-<th align="left">P-value</th>
-</tr>
-</thead><tbody>
-<tr>
-<td align="left">Single Node</td>
-<td align="right">0.106</td>
-<td align="right">0.029</td>
-<td align="right">13.456</td>
-<td align="left">&lt; 10<sup>-4^</sup></td>
-</tr>
-<tr>
-<td align="left">Few Nodes</td>
-<td align="right">0.248</td>
-<td align="right">0.139</td>
-<td align="right">13.545</td>
-<td align="left">&lt; 10<sup>-4^</sup></td>
-</tr>
-<tr>
-<td align="left">Tip/Root Skewness (Topology Only)</td>
-<td align="right">0.632</td>
-<td align="right">0.505</td>
-<td align="right">12.197</td>
-<td align="left">&lt; 10<sup>-4^</sup></td>
-</tr>
-<tr>
-<td align="left">Tip/Root Skewness (Branch Lengths)</td>
-<td align="right">0.381</td>
-<td align="right">0.505</td>
-<td align="right">-11.067</td>
-<td align="left">&lt; 10<sup>-4^</sup></td>
-</tr>
-</tbody></table>
+  <div class='left' style='float:left;width:48%'>
+    <p><img src="assets/fig/ppca_eval-1.png" alt="plot of chunk ppca_eval"> </p>
 
+  </div>    
+  <div class='right' style='float:right;width:48%'>
+    <p><img src="assets/fig/var_moran-1.png" alt="plot of chunk var_moran"> </p>
+
+  </div>
 </section>
 <section class='' data-state='' id='slide-8'>
-  
-  <p><img src="assets/fig/ppca_eval-1.png" alt="plot of chunk ppca_eval"> </p>
-
-</section>
-<section class='' data-state='' id='slide-9'>
   
   <p><img src="assets/fig/phylo_g1-1.png" alt="plot of chunk phylo_g1"> </p>
 
 </section>
-<section class='' data-state='' id='slide-10'>
+<section class='' data-state='' id='slide-9'>
   
   <p><img src="assets/fig/phylo_g2-1.png" alt="plot of chunk phylo_g2"> </p>
 
 </section>
-<section class='' data-state='' id='slide-11'>
+<section class='' data-state='' id='slide-10'>
   
   <p><img src="assets/fig/srd_g1-1.png" alt="plot of chunk srd_g1"> </p>
 
 </section>
-<section class='' data-state='' id='slide-12'>
+<section class='' data-state='' id='slide-11'>
   
   <p>##</p>
 
 <p><img src="assets/fig/srd_g2-1.png" alt="plot of chunk srd_g2"> </p>
 
 </section>
-<section class='' data-state='' id='slide-13'>
+<section class='' data-state='' id='slide-12'>
   
   <p><img src="assets/fig/srd_shape_global-1.png" alt="plot of chunk srd_shape_global"> </p>
 
 </section>
-<section class='' data-state='' id='slide-14'>
+<section class='' data-state='' id='slide-13'>
   
   <p><img src="assets/fig/phylo_l1-1.png" alt="plot of chunk phylo_l1"> </p>
 
 </section>
-<section class='' data-state='' id='slide-15'>
+<section class='' data-state='' id='slide-14'>
   
   <p><img src="assets/fig/phylo_l2-1.png" alt="plot of chunk phylo_l2"> </p>
 
 </section>
-<section class='' data-state='' id='slide-16'>
+<section class='' data-state='' id='slide-15'>
   
   <p><img src="assets/fig/srd_l1-1.png" alt="plot of chunk srd_l1"> </p>
 
 </section>
-<section class='' data-state='' id='slide-17'>
+<section class='' data-state='' id='slide-16'>
   
   <p><img src="assets/fig/srd_l2-1.png" alt="plot of chunk srd_l2"> </p>
 
 </section>
-<section class='' data-state='' id='slide-18'>
+<section class='' data-state='' id='slide-17'>
   <h2>Local Shape Changes</h2>
   <p><img src="assets/fig/srd_shape_local-1.png" alt="plot of chunk srd_shape_local"> </p>
 
 </section>
-<section class='' data-state='' id='slide-19'>
+<section class='' data-state='' id='slide-18'>
   <h2>References</h2>
   
 </section>
