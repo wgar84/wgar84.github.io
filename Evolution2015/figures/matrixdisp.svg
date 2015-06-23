@@ -121,7 +121,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="216.15361"
+     inkscape:cx="97.939324"
      inkscape:cy="237.80968"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -137,7 +137,7 @@
      inkscape:snap-intersection-paths="true"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
-     inkscape:window-x="0"
+     inkscape:window-x="1920"
      inkscape:window-y="-3"
      inkscape:window-maximized="1" />
   <metadata
@@ -148,7 +148,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -353,19 +353,6 @@
        cx="158.71538"
        id="circle8866"
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.75606346px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="262.60992"
-       y="877.62067"
-       id="text6230"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan6232"
-         x="262.60992"
-         y="877.62067">Pavoine <tspan
-   style="font-style:italic"
-   id="tspan6234">et al.</tspan> (2008)</tspan></text>
     <g
        style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
        transform="translate(91.091373,0.50507627)"
