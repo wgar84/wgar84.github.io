@@ -9,11 +9,11 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-# A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
+## A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
 
-## Guilherme Garcia & Gabriel Marroig
+### Guilherme Garcia & Gabriel Marroig
 
-### University of São Paulo - Brasil
+University of São Paulo - Brasil
 
 ---
 
@@ -107,6 +107,14894 @@ knit        : slidify::knit2slides
 ## 
 
 ![plot of chunk srd_shape_global](assets/fig/srd_shape_global-1.png) 
+
+---
+
+<script src="CanvasMatrix.js" type="text/javascript"></script>
+<canvas id="srd_shape_global_3dtextureCanvas" style="display: none;" width="256" height="256">
+Your browser does not support the HTML5 canvas element.</canvas>
+<!-- ****** points object 369 ****** -->
+<script id="srd_shape_global_3dvshader369" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+gl_PointSize = 3.;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader369" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 370 ****** -->
+<script id="srd_shape_global_3dvshader370" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader370" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 371 ****** -->
+<script id="srd_shape_global_3dvshader371" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader371" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 372 ****** -->
+<script id="srd_shape_global_3dvshader372" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader372" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 373 ****** -->
+<script id="srd_shape_global_3dvshader373" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader373" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 374 ****** -->
+<script id="srd_shape_global_3dvshader374" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader374" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 375 ****** -->
+<script id="srd_shape_global_3dvshader375" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader375" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 376 ****** -->
+<script id="srd_shape_global_3dvshader376" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader376" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 377 ****** -->
+<script id="srd_shape_global_3dvshader377" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader377" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 378 ****** -->
+<script id="srd_shape_global_3dvshader378" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader378" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 379 ****** -->
+<script id="srd_shape_global_3dvshader379" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader379" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 380 ****** -->
+<script id="srd_shape_global_3dvshader380" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader380" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 381 ****** -->
+<script id="srd_shape_global_3dvshader381" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader381" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 382 ****** -->
+<script id="srd_shape_global_3dvshader382" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader382" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 383 ****** -->
+<script id="srd_shape_global_3dvshader383" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader383" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 384 ****** -->
+<script id="srd_shape_global_3dvshader384" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader384" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 385 ****** -->
+<script id="srd_shape_global_3dvshader385" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader385" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 386 ****** -->
+<script id="srd_shape_global_3dvshader386" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader386" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 387 ****** -->
+<script id="srd_shape_global_3dvshader387" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader387" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 388 ****** -->
+<script id="srd_shape_global_3dvshader388" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader388" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 389 ****** -->
+<script id="srd_shape_global_3dvshader389" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader389" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 390 ****** -->
+<script id="srd_shape_global_3dvshader390" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader390" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 391 ****** -->
+<script id="srd_shape_global_3dvshader391" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader391" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 392 ****** -->
+<script id="srd_shape_global_3dvshader392" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader392" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 393 ****** -->
+<script id="srd_shape_global_3dvshader393" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader393" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 394 ****** -->
+<script id="srd_shape_global_3dvshader394" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader394" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 395 ****** -->
+<script id="srd_shape_global_3dvshader395" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader395" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 396 ****** -->
+<script id="srd_shape_global_3dvshader396" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader396" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 397 ****** -->
+<script id="srd_shape_global_3dvshader397" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader397" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 398 ****** -->
+<script id="srd_shape_global_3dvshader398" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader398" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 399 ****** -->
+<script id="srd_shape_global_3dvshader399" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader399" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 400 ****** -->
+<script id="srd_shape_global_3dvshader400" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader400" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 401 ****** -->
+<script id="srd_shape_global_3dvshader401" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader401" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 402 ****** -->
+<script id="srd_shape_global_3dvshader402" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader402" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 403 ****** -->
+<script id="srd_shape_global_3dvshader403" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader403" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 404 ****** -->
+<script id="srd_shape_global_3dvshader404" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader404" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 405 ****** -->
+<script id="srd_shape_global_3dvshader405" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader405" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 406 ****** -->
+<script id="srd_shape_global_3dvshader406" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader406" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 407 ****** -->
+<script id="srd_shape_global_3dvshader407" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader407" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 408 ****** -->
+<script id="srd_shape_global_3dvshader408" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader408" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 409 ****** -->
+<script id="srd_shape_global_3dvshader409" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader409" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 410 ****** -->
+<script id="srd_shape_global_3dvshader410" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader410" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 411 ****** -->
+<script id="srd_shape_global_3dvshader411" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader411" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 412 ****** -->
+<script id="srd_shape_global_3dvshader412" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader412" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 413 ****** -->
+<script id="srd_shape_global_3dvshader413" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader413" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 414 ****** -->
+<script id="srd_shape_global_3dvshader414" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader414" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 415 ****** -->
+<script id="srd_shape_global_3dvshader415" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader415" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 416 ****** -->
+<script id="srd_shape_global_3dvshader416" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader416" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 417 ****** -->
+<script id="srd_shape_global_3dvshader417" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader417" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 418 ****** -->
+<script id="srd_shape_global_3dvshader418" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader418" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 419 ****** -->
+<script id="srd_shape_global_3dvshader419" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader419" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 420 ****** -->
+<script id="srd_shape_global_3dvshader420" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader420" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 421 ****** -->
+<script id="srd_shape_global_3dvshader421" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader421" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 422 ****** -->
+<script id="srd_shape_global_3dvshader422" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader422" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 423 ****** -->
+<script id="srd_shape_global_3dvshader423" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader423" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 424 ****** -->
+<script id="srd_shape_global_3dvshader424" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader424" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 425 ****** -->
+<script id="srd_shape_global_3dvshader425" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader425" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 426 ****** -->
+<script id="srd_shape_global_3dvshader426" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader426" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 427 ****** -->
+<script id="srd_shape_global_3dvshader427" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader427" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 428 ****** -->
+<script id="srd_shape_global_3dvshader428" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader428" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 429 ****** -->
+<script id="srd_shape_global_3dvshader429" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader429" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 430 ****** -->
+<script id="srd_shape_global_3dvshader430" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader430" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 431 ****** -->
+<script id="srd_shape_global_3dvshader431" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader431" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 432 ****** -->
+<script id="srd_shape_global_3dvshader432" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader432" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 433 ****** -->
+<script id="srd_shape_global_3dvshader433" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader433" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 434 ****** -->
+<script id="srd_shape_global_3dvshader434" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader434" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 435 ****** -->
+<script id="srd_shape_global_3dvshader435" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader435" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 436 ****** -->
+<script id="srd_shape_global_3dvshader436" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader436" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 437 ****** -->
+<script id="srd_shape_global_3dvshader437" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader437" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 438 ****** -->
+<script id="srd_shape_global_3dvshader438" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader438" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 439 ****** -->
+<script id="srd_shape_global_3dvshader439" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader439" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 440 ****** -->
+<script id="srd_shape_global_3dvshader440" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader440" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 441 ****** -->
+<script id="srd_shape_global_3dvshader441" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader441" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 442 ****** -->
+<script id="srd_shape_global_3dvshader442" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader442" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 443 ****** -->
+<script id="srd_shape_global_3dvshader443" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader443" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 444 ****** -->
+<script id="srd_shape_global_3dvshader444" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader444" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 445 ****** -->
+<script id="srd_shape_global_3dvshader445" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader445" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** points object 446 ****** -->
+<script id="srd_shape_global_3dvshader446" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+gl_PointSize = 3.;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader446" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 447 ****** -->
+<script id="srd_shape_global_3dvshader447" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader447" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 448 ****** -->
+<script id="srd_shape_global_3dvshader448" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader448" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 449 ****** -->
+<script id="srd_shape_global_3dvshader449" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader449" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 450 ****** -->
+<script id="srd_shape_global_3dvshader450" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader450" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 451 ****** -->
+<script id="srd_shape_global_3dvshader451" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader451" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 452 ****** -->
+<script id="srd_shape_global_3dvshader452" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader452" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 453 ****** -->
+<script id="srd_shape_global_3dvshader453" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader453" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 454 ****** -->
+<script id="srd_shape_global_3dvshader454" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader454" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 455 ****** -->
+<script id="srd_shape_global_3dvshader455" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader455" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 456 ****** -->
+<script id="srd_shape_global_3dvshader456" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader456" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 457 ****** -->
+<script id="srd_shape_global_3dvshader457" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader457" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 458 ****** -->
+<script id="srd_shape_global_3dvshader458" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader458" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 459 ****** -->
+<script id="srd_shape_global_3dvshader459" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader459" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 460 ****** -->
+<script id="srd_shape_global_3dvshader460" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader460" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 461 ****** -->
+<script id="srd_shape_global_3dvshader461" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader461" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 462 ****** -->
+<script id="srd_shape_global_3dvshader462" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader462" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 463 ****** -->
+<script id="srd_shape_global_3dvshader463" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader463" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 464 ****** -->
+<script id="srd_shape_global_3dvshader464" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader464" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 465 ****** -->
+<script id="srd_shape_global_3dvshader465" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader465" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 466 ****** -->
+<script id="srd_shape_global_3dvshader466" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader466" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 467 ****** -->
+<script id="srd_shape_global_3dvshader467" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader467" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 468 ****** -->
+<script id="srd_shape_global_3dvshader468" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader468" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 469 ****** -->
+<script id="srd_shape_global_3dvshader469" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader469" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 470 ****** -->
+<script id="srd_shape_global_3dvshader470" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader470" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 471 ****** -->
+<script id="srd_shape_global_3dvshader471" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader471" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 472 ****** -->
+<script id="srd_shape_global_3dvshader472" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader472" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 473 ****** -->
+<script id="srd_shape_global_3dvshader473" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader473" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 474 ****** -->
+<script id="srd_shape_global_3dvshader474" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader474" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 475 ****** -->
+<script id="srd_shape_global_3dvshader475" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader475" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 476 ****** -->
+<script id="srd_shape_global_3dvshader476" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader476" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 477 ****** -->
+<script id="srd_shape_global_3dvshader477" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader477" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 478 ****** -->
+<script id="srd_shape_global_3dvshader478" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader478" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 479 ****** -->
+<script id="srd_shape_global_3dvshader479" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader479" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 480 ****** -->
+<script id="srd_shape_global_3dvshader480" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader480" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 481 ****** -->
+<script id="srd_shape_global_3dvshader481" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader481" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 482 ****** -->
+<script id="srd_shape_global_3dvshader482" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader482" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 483 ****** -->
+<script id="srd_shape_global_3dvshader483" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader483" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 484 ****** -->
+<script id="srd_shape_global_3dvshader484" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader484" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 485 ****** -->
+<script id="srd_shape_global_3dvshader485" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader485" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 486 ****** -->
+<script id="srd_shape_global_3dvshader486" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader486" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 487 ****** -->
+<script id="srd_shape_global_3dvshader487" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader487" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 488 ****** -->
+<script id="srd_shape_global_3dvshader488" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader488" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 489 ****** -->
+<script id="srd_shape_global_3dvshader489" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader489" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 490 ****** -->
+<script id="srd_shape_global_3dvshader490" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader490" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 491 ****** -->
+<script id="srd_shape_global_3dvshader491" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader491" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 492 ****** -->
+<script id="srd_shape_global_3dvshader492" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader492" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 493 ****** -->
+<script id="srd_shape_global_3dvshader493" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader493" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 494 ****** -->
+<script id="srd_shape_global_3dvshader494" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader494" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 495 ****** -->
+<script id="srd_shape_global_3dvshader495" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader495" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 496 ****** -->
+<script id="srd_shape_global_3dvshader496" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader496" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 497 ****** -->
+<script id="srd_shape_global_3dvshader497" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader497" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 498 ****** -->
+<script id="srd_shape_global_3dvshader498" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader498" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 499 ****** -->
+<script id="srd_shape_global_3dvshader499" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader499" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 500 ****** -->
+<script id="srd_shape_global_3dvshader500" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader500" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 501 ****** -->
+<script id="srd_shape_global_3dvshader501" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader501" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 502 ****** -->
+<script id="srd_shape_global_3dvshader502" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader502" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 503 ****** -->
+<script id="srd_shape_global_3dvshader503" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader503" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 504 ****** -->
+<script id="srd_shape_global_3dvshader504" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader504" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 505 ****** -->
+<script id="srd_shape_global_3dvshader505" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader505" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 506 ****** -->
+<script id="srd_shape_global_3dvshader506" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader506" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 507 ****** -->
+<script id="srd_shape_global_3dvshader507" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader507" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 508 ****** -->
+<script id="srd_shape_global_3dvshader508" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader508" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 509 ****** -->
+<script id="srd_shape_global_3dvshader509" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader509" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 510 ****** -->
+<script id="srd_shape_global_3dvshader510" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader510" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 511 ****** -->
+<script id="srd_shape_global_3dvshader511" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader511" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 512 ****** -->
+<script id="srd_shape_global_3dvshader512" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader512" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 513 ****** -->
+<script id="srd_shape_global_3dvshader513" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader513" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 514 ****** -->
+<script id="srd_shape_global_3dvshader514" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader514" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 515 ****** -->
+<script id="srd_shape_global_3dvshader515" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader515" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 516 ****** -->
+<script id="srd_shape_global_3dvshader516" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader516" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 517 ****** -->
+<script id="srd_shape_global_3dvshader517" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader517" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 518 ****** -->
+<script id="srd_shape_global_3dvshader518" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader518" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 519 ****** -->
+<script id="srd_shape_global_3dvshader519" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader519" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 520 ****** -->
+<script id="srd_shape_global_3dvshader520" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader520" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 521 ****** -->
+<script id="srd_shape_global_3dvshader521" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader521" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 522 ****** -->
+<script id="srd_shape_global_3dvshader522" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader522" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** points object 523 ****** -->
+<script id="srd_shape_global_3dvshader523" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+gl_PointSize = 3.;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader523" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 524 ****** -->
+<script id="srd_shape_global_3dvshader524" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader524" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 525 ****** -->
+<script id="srd_shape_global_3dvshader525" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader525" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 526 ****** -->
+<script id="srd_shape_global_3dvshader526" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader526" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 527 ****** -->
+<script id="srd_shape_global_3dvshader527" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader527" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 528 ****** -->
+<script id="srd_shape_global_3dvshader528" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader528" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 529 ****** -->
+<script id="srd_shape_global_3dvshader529" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader529" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 530 ****** -->
+<script id="srd_shape_global_3dvshader530" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader530" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 531 ****** -->
+<script id="srd_shape_global_3dvshader531" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader531" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 532 ****** -->
+<script id="srd_shape_global_3dvshader532" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader532" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 533 ****** -->
+<script id="srd_shape_global_3dvshader533" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader533" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 534 ****** -->
+<script id="srd_shape_global_3dvshader534" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader534" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 535 ****** -->
+<script id="srd_shape_global_3dvshader535" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader535" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 536 ****** -->
+<script id="srd_shape_global_3dvshader536" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader536" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 537 ****** -->
+<script id="srd_shape_global_3dvshader537" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader537" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 538 ****** -->
+<script id="srd_shape_global_3dvshader538" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader538" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 539 ****** -->
+<script id="srd_shape_global_3dvshader539" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader539" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 540 ****** -->
+<script id="srd_shape_global_3dvshader540" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader540" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 541 ****** -->
+<script id="srd_shape_global_3dvshader541" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader541" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 542 ****** -->
+<script id="srd_shape_global_3dvshader542" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader542" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 543 ****** -->
+<script id="srd_shape_global_3dvshader543" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader543" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 544 ****** -->
+<script id="srd_shape_global_3dvshader544" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader544" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 545 ****** -->
+<script id="srd_shape_global_3dvshader545" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader545" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 546 ****** -->
+<script id="srd_shape_global_3dvshader546" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader546" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 547 ****** -->
+<script id="srd_shape_global_3dvshader547" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader547" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 548 ****** -->
+<script id="srd_shape_global_3dvshader548" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader548" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 549 ****** -->
+<script id="srd_shape_global_3dvshader549" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader549" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 550 ****** -->
+<script id="srd_shape_global_3dvshader550" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader550" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 551 ****** -->
+<script id="srd_shape_global_3dvshader551" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader551" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 552 ****** -->
+<script id="srd_shape_global_3dvshader552" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader552" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 553 ****** -->
+<script id="srd_shape_global_3dvshader553" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader553" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 554 ****** -->
+<script id="srd_shape_global_3dvshader554" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader554" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 555 ****** -->
+<script id="srd_shape_global_3dvshader555" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader555" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 556 ****** -->
+<script id="srd_shape_global_3dvshader556" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader556" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 557 ****** -->
+<script id="srd_shape_global_3dvshader557" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader557" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 558 ****** -->
+<script id="srd_shape_global_3dvshader558" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader558" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 559 ****** -->
+<script id="srd_shape_global_3dvshader559" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader559" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 560 ****** -->
+<script id="srd_shape_global_3dvshader560" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader560" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 561 ****** -->
+<script id="srd_shape_global_3dvshader561" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader561" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 562 ****** -->
+<script id="srd_shape_global_3dvshader562" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader562" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 563 ****** -->
+<script id="srd_shape_global_3dvshader563" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader563" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 564 ****** -->
+<script id="srd_shape_global_3dvshader564" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader564" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 565 ****** -->
+<script id="srd_shape_global_3dvshader565" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader565" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 566 ****** -->
+<script id="srd_shape_global_3dvshader566" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader566" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 567 ****** -->
+<script id="srd_shape_global_3dvshader567" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader567" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 568 ****** -->
+<script id="srd_shape_global_3dvshader568" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader568" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 569 ****** -->
+<script id="srd_shape_global_3dvshader569" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader569" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 570 ****** -->
+<script id="srd_shape_global_3dvshader570" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader570" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 571 ****** -->
+<script id="srd_shape_global_3dvshader571" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader571" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 572 ****** -->
+<script id="srd_shape_global_3dvshader572" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader572" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 573 ****** -->
+<script id="srd_shape_global_3dvshader573" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader573" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 574 ****** -->
+<script id="srd_shape_global_3dvshader574" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader574" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 575 ****** -->
+<script id="srd_shape_global_3dvshader575" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader575" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 576 ****** -->
+<script id="srd_shape_global_3dvshader576" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader576" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 577 ****** -->
+<script id="srd_shape_global_3dvshader577" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader577" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 578 ****** -->
+<script id="srd_shape_global_3dvshader578" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader578" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 579 ****** -->
+<script id="srd_shape_global_3dvshader579" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader579" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 580 ****** -->
+<script id="srd_shape_global_3dvshader580" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader580" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 581 ****** -->
+<script id="srd_shape_global_3dvshader581" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader581" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 582 ****** -->
+<script id="srd_shape_global_3dvshader582" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader582" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 583 ****** -->
+<script id="srd_shape_global_3dvshader583" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader583" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 584 ****** -->
+<script id="srd_shape_global_3dvshader584" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader584" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 585 ****** -->
+<script id="srd_shape_global_3dvshader585" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader585" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 586 ****** -->
+<script id="srd_shape_global_3dvshader586" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader586" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 587 ****** -->
+<script id="srd_shape_global_3dvshader587" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader587" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 588 ****** -->
+<script id="srd_shape_global_3dvshader588" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader588" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 589 ****** -->
+<script id="srd_shape_global_3dvshader589" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader589" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 590 ****** -->
+<script id="srd_shape_global_3dvshader590" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader590" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 591 ****** -->
+<script id="srd_shape_global_3dvshader591" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader591" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 592 ****** -->
+<script id="srd_shape_global_3dvshader592" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader592" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 593 ****** -->
+<script id="srd_shape_global_3dvshader593" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader593" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 594 ****** -->
+<script id="srd_shape_global_3dvshader594" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader594" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 595 ****** -->
+<script id="srd_shape_global_3dvshader595" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader595" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 596 ****** -->
+<script id="srd_shape_global_3dvshader596" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader596" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 597 ****** -->
+<script id="srd_shape_global_3dvshader597" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader597" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 598 ****** -->
+<script id="srd_shape_global_3dvshader598" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader598" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<!-- ****** lines object 599 ****** -->
+<script id="srd_shape_global_3dvshader599" type="x-shader/x-vertex">
+attribute vec3 aPos;
+attribute vec4 aCol;
+uniform mat4 mvMatrix;
+uniform mat4 prMatrix;
+varying vec4 vCol;
+varying vec4 vPosition;
+void main(void) {
+vPosition = mvMatrix * vec4(aPos, 1.);
+gl_Position = prMatrix * vPosition;
+vCol = aCol;
+}
+</script>
+<script id="srd_shape_global_3dfshader599" type="x-shader/x-fragment"> 
+#ifdef GL_ES
+precision highp float;
+#endif
+varying vec4 vCol; // carries alpha
+varying vec4 vPosition;
+void main(void) {
+vec4 colDiff = vCol;
+vec4 lighteffect = colDiff;
+gl_FragColor = lighteffect;
+}
+</script> 
+<script type="text/javascript">
+var min = Math.min;
+var max = Math.max;
+var sqrt = Math.sqrt;
+var sin = Math.sin;
+var acos = Math.acos;
+var tan = Math.tan;
+var SQRT2 = Math.SQRT2;
+var PI = Math.PI;
+var log = Math.log;
+var exp = Math.exp;
+var rglClass = function() {
+this.zoom = new Array();
+this.FOV  = new Array();
+this.userMatrix = new CanvasMatrix4();
+this.viewport = new Array();
+this.listeners = new Array();
+this.clipplanes = new Array();
+this.opaque = new Array();
+this.transparent = new Array();
+this.subscenes = new Array();
+this.flags = new Array();
+this.prog = new Array();
+this.ofsLoc = new Array();
+this.origLoc = new Array();
+this.sizeLoc = new Array();
+this.usermatLoc = new Array();
+this.vClipplane = new Array();
+this.texture = new Array();
+this.texLoc = new Array();
+this.sampler = new Array();
+this.origsize = new Array();
+this.values = new Array();
+this.offsets = new Array();
+this.normLoc = new Array();
+this.clipLoc = new Array();
+this.centers = new Array();
+this.f = new Array();
+this.buf = new Array();
+this.ibuf = new Array();
+this.mvMatLoc = new Array();
+this.prMatLoc = new Array();
+this.textScaleLoc = new Array();
+this.normMatLoc = new Array();
+this.IMVClip = new Array();
+this.drawFns = new Array();
+this.clipFns = new Array();
+this.prMatrix = new CanvasMatrix4();
+this.mvMatrix = new CanvasMatrix4();
+this.vp = null;
+this.prmvMatrix = null;
+this.origs = null;
+this.gl = null;
+};
+(function() {
+this.getShader = function( gl, id ){
+var shaderScript = document.getElementById ( id );
+var str = "";
+var k = shaderScript.firstChild;
+while ( k ){
+if ( k.nodeType == 3 ) str += k.textContent;
+k = k.nextSibling;
+}
+var shader;
+if ( shaderScript.type == "x-shader/x-fragment" )
+shader = gl.createShader ( gl.FRAGMENT_SHADER );
+else if ( shaderScript.type == "x-shader/x-vertex" )
+shader = gl.createShader(gl.VERTEX_SHADER);
+else return null;
+gl.shaderSource(shader, str);
+gl.compileShader(shader);
+if (gl.getShaderParameter(shader, gl.COMPILE_STATUS) == 0)
+alert(gl.getShaderInfoLog(shader));
+return shader;
+}
+this.multMV = function(M, v) {
+return [M.m11*v[0] + M.m12*v[1] + M.m13*v[2] + M.m14*v[3],
+M.m21*v[0] + M.m22*v[1] + M.m23*v[2] + M.m24*v[3],
+M.m31*v[0] + M.m32*v[1] + M.m33*v[2] + M.m34*v[3],
+M.m41*v[0] + M.m42*v[1] + M.m43*v[2] + M.m44*v[3]];
+}
+this.f_is_lit = 1;
+this.f_is_smooth = 2;
+this.f_has_texture = 4;
+this.f_is_indexed = 8;
+this.f_depth_sort = 16;
+this.f_fixed_quads = 32;
+this.f_is_transparent = 64;
+this.f_is_lines = 128;
+this.f_sprites_3d = 256;
+this.f_sprite_3d = 512;
+this.f_is_subscene = 1024;
+this.f_is_clipplanes = 2048;
+this.f_reuse = 4096;
+this.whichList = function(id) {
+if (this.flags[id] & this.f_is_subscene)
+return "subscenes";
+else if (this.flags[id] & this.f_is_clipplanes)
+return "clipplanes";
+else if (this.flags[id] & this.f_is_transparent)
+return "transparent";
+else
+return "opaque"; 
+}
+this.inSubscene = function(id, subscene) {
+var thelist = this.whichList(id);
+return this[thelist][subscene].indexOf(id) > -1;
+}
+this.addToSubscene = function(id, subscene) {
+var thelist = this.whichList(id);
+if (this[thelist][subscene].indexOf(id) == -1)
+this[thelist][subscene].push(id);
+}
+this.delFromSubscene = function(id, subscene) {
+var thelist = this.whichList(id);
+var i = this[thelist][subscene].indexOf(id);
+if (i > -1)
+this[thelist][subscene].splice(i, 1);
+}
+this.setSubsceneEntries = function(ids, subscene) {
+this.subscenes[subscene] = [];
+this.clipplanes[subscene] = [];
+this.transparent[subscene] = [];
+this.opaque[subscene] = [];
+for (var i = 0; i < ids.length; i++)
+this.addToSubscene(ids[i], subscene);
+}
+this.getSubsceneEntries = function(subscene) {
+return(this.subscenes[subscene].concat(this.clipplanes[subscene]).
+concat(this.transparent[subscene]).concat(this.opaque[subscene]));
+}
+}).call(rglClass.prototype);
+var srd_shape_global_3drgl = new rglClass();
+srd_shape_global_3drgl.start = function() {
+var debug = function(msg) {
+document.getElementById("srd_shape_global_3ddebug").innerHTML = msg;
+}
+debug("");
+var canvas = document.getElementById("srd_shape_global_3dcanvas");
+if (!window.WebGLRenderingContext){
+debug(" Your browser does not support WebGL. See <a href=\"http://get.webgl.org\">http://get.webgl.org</a>");
+return;
+}
+try {
+// Try to grab the standard context. If it fails, fallback to experimental.
+this.gl = canvas.getContext("webgl") 
+|| canvas.getContext("experimental-webgl");
+}
+catch(e) {}
+if ( !this.gl ) {
+debug(" Your browser appears to support WebGL, but did not create a WebGL context.  See <a href=\"http://get.webgl.org\">http://get.webgl.org</a>");
+return;
+}
+var gl = this.gl;
+var width = 505;  var height = 505;
+canvas.width = width;   canvas.height = height;
+var normMatrix = new CanvasMatrix4();
+var saveMat = new Object();
+var distance;
+var posLoc = 0;
+var colLoc = 1;
+var activeSubscene = 363;
+this.flags[363] = 1216;
+this.zoom[363] = 1;
+this.FOV[363] = 30;
+this.viewport[363] = [0, 0, 504, 504];
+this.userMatrix[363] = new CanvasMatrix4();
+this.userMatrix[363].load([
+1, 0, 0, 0,
+0, 0.3420201, -0.9396926, 0,
+0, 0.9396926, 0.3420201, 0,
+0, 0, 0, 1
+]);
+this.clipplanes[363] = [];
+this.opaque[363] = [370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599];
+this.transparent[363] = [369,446,523];
+this.subscenes[363] = [];
+function getPowerOfTwo(value) {
+var pow = 1;
+while(pow<value) {
+pow *= 2;
+}
+return pow;
+}
+function handleLoadedTexture(texture, textureCanvas) {
+gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+gl.bindTexture(gl.TEXTURE_2D, texture);
+gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, textureCanvas);
+gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+gl.generateMipmap(gl.TEXTURE_2D);
+gl.bindTexture(gl.TEXTURE_2D, null);
+}
+function loadImageToTexture(filename, texture) {   
+var canvas = document.getElementById("srd_shape_global_3dtextureCanvas");
+var ctx = canvas.getContext("2d");
+var image = new Image();
+image.onload = function() {
+var w = image.width;
+var h = image.height;
+var canvasX = getPowerOfTwo(w);
+var canvasY = getPowerOfTwo(h);
+canvas.width = canvasX;
+canvas.height = canvasY;
+ctx.imageSmoothingEnabled = true;
+ctx.drawImage(image, 0, 0, canvasX, canvasY);
+handleLoadedTexture(texture, canvas);
+srd_shape_global_3drgl.drawScene();
+}
+image.src = filename;
+}  	   
+// ****** points object 369 ******
+this.flags[369] = 64;
+this.prog[369]  = gl.createProgram();
+gl.attachShader(this.prog[369], this.getShader( gl, "srd_shape_global_3dvshader369" ));
+gl.attachShader(this.prog[369], this.getShader( gl, "srd_shape_global_3dfshader369" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[369], 0, "aPos");
+gl.bindAttribLocation(this.prog[369], 1, "aCol");
+gl.linkProgram(this.prog[369]);
+this.offsets[369]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087,
+0.007033864, 0.0110325, -0.0426656,
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301,
+-0.03327011, 0.03841099, -0.236864,
+-0.1399952, -0.01054767, 0.01746511,
+-0.1553602, -0.01634355, -0.06917679,
+-0.08752096, -0.01378099, -0.1156733,
+-0.0892901, 0.08458719, -0.09783427,
+-0.0199366, 0.08845101, -0.06710657,
+-0.004873137, 0.03804675, 0.01656726,
+-0.09417444, 0.1015926, 0.0891407,
+-0.0883795, 0.1075088, 0.1117426,
+-0.1301225, 0.1160764, -0.001737236,
+-0.1246175, -0.003654234, -0.0005078361,
+-0.04021478, 0.08391441, 0.04506655,
+-0.01463911, 0.1001435, 0.09276654,
+-0.06819715, 0.09116033, 0.1977186,
+0.04802516, -0.01405814, -0.2370292,
+0.04809806, -0.1319457, 0.01708304,
+0.04889651, -0.1481737, -0.06959169,
+0.0231575, -0.08521444, -0.1158982,
+0.1135743, -0.04634437, -0.09824634,
+0.08861881, 0.0183878, -0.06732709,
+0.03672429, 0.01119917, 0.01648276,
+0.1316182, -0.0441372, 0.08868205,
+0.1346873, -0.03646173, 0.1112895,
+0.1593616, -0.07076082, -0.002325268,
+0.04799455, -0.1150605, -0.0008584645,
+0.09315851, -0.002166612, 0.04479563,
+0.09755013, 0.02773499, 0.09253865,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[369] = v;
+this.buf[369] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[369]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[369], gl.STATIC_DRAW);
+this.mvMatLoc[369] = gl.getUniformLocation(this.prog[369],"mvMatrix");
+this.prMatLoc[369] = gl.getUniformLocation(this.prog[369],"prMatrix");
+// ****** lines object 370 ******
+this.flags[370] = 128;
+this.prog[370]  = gl.createProgram();
+gl.attachShader(this.prog[370], this.getShader( gl, "srd_shape_global_3dvshader370" ));
+gl.attachShader(this.prog[370], this.getShader( gl, "srd_shape_global_3dfshader370" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[370], 0, "aPos");
+gl.bindAttribLocation(this.prog[370], 1, "aCol");
+gl.linkProgram(this.prog[370]);
+this.offsets[370]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03327011, 0.03841099, -0.236864
+]);
+this.values[370] = v;
+this.buf[370] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[370]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[370], gl.STATIC_DRAW);
+this.mvMatLoc[370] = gl.getUniformLocation(this.prog[370],"mvMatrix");
+this.prMatLoc[370] = gl.getUniformLocation(this.prog[370],"prMatrix");
+// ****** lines object 371 ******
+this.flags[371] = 128;
+this.prog[371]  = gl.createProgram();
+gl.attachShader(this.prog[371], this.getShader( gl, "srd_shape_global_3dvshader371" ));
+gl.attachShader(this.prog[371], this.getShader( gl, "srd_shape_global_3dfshader371" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[371], 0, "aPos");
+gl.bindAttribLocation(this.prog[371], 1, "aCol");
+gl.linkProgram(this.prog[371]);
+this.offsets[371]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867
+]);
+this.values[371] = v;
+this.buf[371] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[371]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[371], gl.STATIC_DRAW);
+this.mvMatLoc[371] = gl.getUniformLocation(this.prog[371],"mvMatrix");
+this.prMatLoc[371] = gl.getUniformLocation(this.prog[371],"prMatrix");
+// ****** lines object 372 ******
+this.flags[372] = 128;
+this.prog[372]  = gl.createProgram();
+gl.attachShader(this.prog[372], this.getShader( gl, "srd_shape_global_3dvshader372" ));
+gl.attachShader(this.prog[372], this.getShader( gl, "srd_shape_global_3dfshader372" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[372], 0, "aPos");
+gl.bindAttribLocation(this.prog[372], 1, "aCol");
+gl.linkProgram(this.prog[372]);
+this.offsets[372]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[372] = v;
+this.buf[372] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[372]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[372], gl.STATIC_DRAW);
+this.mvMatLoc[372] = gl.getUniformLocation(this.prog[372],"mvMatrix");
+this.prMatLoc[372] = gl.getUniformLocation(this.prog[372],"prMatrix");
+// ****** lines object 373 ******
+this.flags[373] = 128;
+this.prog[373]  = gl.createProgram();
+gl.attachShader(this.prog[373], this.getShader( gl, "srd_shape_global_3dvshader373" ));
+gl.attachShader(this.prog[373], this.getShader( gl, "srd_shape_global_3dfshader373" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[373], 0, "aPos");
+gl.bindAttribLocation(this.prog[373], 1, "aCol");
+gl.linkProgram(this.prog[373]);
+this.offsets[373]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[373] = v;
+this.buf[373] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[373]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[373], gl.STATIC_DRAW);
+this.mvMatLoc[373] = gl.getUniformLocation(this.prog[373],"mvMatrix");
+this.prMatLoc[373] = gl.getUniformLocation(this.prog[373],"prMatrix");
+// ****** lines object 374 ******
+this.flags[374] = 128;
+this.prog[374]  = gl.createProgram();
+gl.attachShader(this.prog[374], this.getShader( gl, "srd_shape_global_3dvshader374" ));
+gl.attachShader(this.prog[374], this.getShader( gl, "srd_shape_global_3dfshader374" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[374], 0, "aPos");
+gl.bindAttribLocation(this.prog[374], 1, "aCol");
+gl.linkProgram(this.prog[374]);
+this.offsets[374]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[374] = v;
+this.buf[374] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[374]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[374], gl.STATIC_DRAW);
+this.mvMatLoc[374] = gl.getUniformLocation(this.prog[374],"mvMatrix");
+this.prMatLoc[374] = gl.getUniformLocation(this.prog[374],"prMatrix");
+// ****** lines object 375 ******
+this.flags[375] = 128;
+this.prog[375]  = gl.createProgram();
+gl.attachShader(this.prog[375], this.getShader( gl, "srd_shape_global_3dvshader375" ));
+gl.attachShader(this.prog[375], this.getShader( gl, "srd_shape_global_3dfshader375" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[375], 0, "aPos");
+gl.bindAttribLocation(this.prog[375], 1, "aCol");
+gl.linkProgram(this.prog[375]);
+this.offsets[375]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[375] = v;
+this.buf[375] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[375]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[375], gl.STATIC_DRAW);
+this.mvMatLoc[375] = gl.getUniformLocation(this.prog[375],"mvMatrix");
+this.prMatLoc[375] = gl.getUniformLocation(this.prog[375],"prMatrix");
+// ****** lines object 376 ******
+this.flags[376] = 128;
+this.prog[376]  = gl.createProgram();
+gl.attachShader(this.prog[376], this.getShader( gl, "srd_shape_global_3dvshader376" ));
+gl.attachShader(this.prog[376], this.getShader( gl, "srd_shape_global_3dfshader376" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[376], 0, "aPos");
+gl.bindAttribLocation(this.prog[376], 1, "aCol");
+gl.linkProgram(this.prog[376]);
+this.offsets[376]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366
+]);
+this.values[376] = v;
+this.buf[376] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[376]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[376], gl.STATIC_DRAW);
+this.mvMatLoc[376] = gl.getUniformLocation(this.prog[376],"mvMatrix");
+this.prMatLoc[376] = gl.getUniformLocation(this.prog[376],"prMatrix");
+// ****** lines object 377 ******
+this.flags[377] = 128;
+this.prog[377]  = gl.createProgram();
+gl.attachShader(this.prog[377], this.getShader( gl, "srd_shape_global_3dvshader377" ));
+gl.attachShader(this.prog[377], this.getShader( gl, "srd_shape_global_3dfshader377" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[377], 0, "aPos");
+gl.bindAttribLocation(this.prog[377], 1, "aCol");
+gl.linkProgram(this.prog[377]);
+this.offsets[377]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[377] = v;
+this.buf[377] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[377]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[377], gl.STATIC_DRAW);
+this.mvMatLoc[377] = gl.getUniformLocation(this.prog[377],"mvMatrix");
+this.prMatLoc[377] = gl.getUniformLocation(this.prog[377],"prMatrix");
+// ****** lines object 378 ******
+this.flags[378] = 128;
+this.prog[378]  = gl.createProgram();
+gl.attachShader(this.prog[378], this.getShader( gl, "srd_shape_global_3dvshader378" ));
+gl.attachShader(this.prog[378], this.getShader( gl, "srd_shape_global_3dfshader378" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[378], 0, "aPos");
+gl.bindAttribLocation(this.prog[378], 1, "aCol");
+gl.linkProgram(this.prog[378]);
+this.offsets[378]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[378] = v;
+this.buf[378] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[378]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[378], gl.STATIC_DRAW);
+this.mvMatLoc[378] = gl.getUniformLocation(this.prog[378],"mvMatrix");
+this.prMatLoc[378] = gl.getUniformLocation(this.prog[378],"prMatrix");
+// ****** lines object 379 ******
+this.flags[379] = 128;
+this.prog[379]  = gl.createProgram();
+gl.attachShader(this.prog[379], this.getShader( gl, "srd_shape_global_3dvshader379" ));
+gl.attachShader(this.prog[379], this.getShader( gl, "srd_shape_global_3dfshader379" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[379], 0, "aPos");
+gl.bindAttribLocation(this.prog[379], 1, "aCol");
+gl.linkProgram(this.prog[379]);
+this.offsets[379]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087
+]);
+this.values[379] = v;
+this.buf[379] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[379]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[379], gl.STATIC_DRAW);
+this.mvMatLoc[379] = gl.getUniformLocation(this.prog[379],"mvMatrix");
+this.prMatLoc[379] = gl.getUniformLocation(this.prog[379],"prMatrix");
+// ****** lines object 380 ******
+this.flags[380] = 128;
+this.prog[380]  = gl.createProgram();
+gl.attachShader(this.prog[380], this.getShader( gl, "srd_shape_global_3dvshader380" ));
+gl.attachShader(this.prog[380], this.getShader( gl, "srd_shape_global_3dfshader380" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[380], 0, "aPos");
+gl.bindAttribLocation(this.prog[380], 1, "aCol");
+gl.linkProgram(this.prog[380]);
+this.offsets[380]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.1553602, -0.01634355, -0.06917679
+]);
+this.values[380] = v;
+this.buf[380] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[380]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[380], gl.STATIC_DRAW);
+this.mvMatLoc[380] = gl.getUniformLocation(this.prog[380],"mvMatrix");
+this.prMatLoc[380] = gl.getUniformLocation(this.prog[380],"prMatrix");
+// ****** lines object 381 ******
+this.flags[381] = 128;
+this.prog[381]  = gl.createProgram();
+gl.attachShader(this.prog[381], this.getShader( gl, "srd_shape_global_3dvshader381" ));
+gl.attachShader(this.prog[381], this.getShader( gl, "srd_shape_global_3dfshader381" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[381], 0, "aPos");
+gl.bindAttribLocation(this.prog[381], 1, "aCol");
+gl.linkProgram(this.prog[381]);
+this.offsets[381]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[381] = v;
+this.buf[381] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[381]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[381], gl.STATIC_DRAW);
+this.mvMatLoc[381] = gl.getUniformLocation(this.prog[381],"mvMatrix");
+this.prMatLoc[381] = gl.getUniformLocation(this.prog[381],"prMatrix");
+// ****** lines object 382 ******
+this.flags[382] = 128;
+this.prog[382]  = gl.createProgram();
+gl.attachShader(this.prog[382], this.getShader( gl, "srd_shape_global_3dvshader382" ));
+gl.attachShader(this.prog[382], this.getShader( gl, "srd_shape_global_3dfshader382" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[382], 0, "aPos");
+gl.bindAttribLocation(this.prog[382], 1, "aCol");
+gl.linkProgram(this.prog[382]);
+this.offsets[382]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.1399952, -0.01054767, 0.01746511
+]);
+this.values[382] = v;
+this.buf[382] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[382]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[382], gl.STATIC_DRAW);
+this.mvMatLoc[382] = gl.getUniformLocation(this.prog[382],"mvMatrix");
+this.prMatLoc[382] = gl.getUniformLocation(this.prog[382],"prMatrix");
+// ****** lines object 383 ******
+this.flags[383] = 128;
+this.prog[383]  = gl.createProgram();
+gl.attachShader(this.prog[383], this.getShader( gl, "srd_shape_global_3dvshader383" ));
+gl.attachShader(this.prog[383], this.getShader( gl, "srd_shape_global_3dfshader383" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[383], 0, "aPos");
+gl.bindAttribLocation(this.prog[383], 1, "aCol");
+gl.linkProgram(this.prog[383]);
+this.offsets[383]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[383] = v;
+this.buf[383] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[383]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[383], gl.STATIC_DRAW);
+this.mvMatLoc[383] = gl.getUniformLocation(this.prog[383],"mvMatrix");
+this.prMatLoc[383] = gl.getUniformLocation(this.prog[383],"prMatrix");
+// ****** lines object 384 ******
+this.flags[384] = 128;
+this.prog[384]  = gl.createProgram();
+gl.attachShader(this.prog[384], this.getShader( gl, "srd_shape_global_3dvshader384" ));
+gl.attachShader(this.prog[384], this.getShader( gl, "srd_shape_global_3dfshader384" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[384], 0, "aPos");
+gl.bindAttribLocation(this.prog[384], 1, "aCol");
+gl.linkProgram(this.prog[384]);
+this.offsets[384]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.1553602, -0.01634355, -0.06917679
+]);
+this.values[384] = v;
+this.buf[384] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[384]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[384], gl.STATIC_DRAW);
+this.mvMatLoc[384] = gl.getUniformLocation(this.prog[384],"mvMatrix");
+this.prMatLoc[384] = gl.getUniformLocation(this.prog[384],"prMatrix");
+// ****** lines object 385 ******
+this.flags[385] = 128;
+this.prog[385]  = gl.createProgram();
+gl.attachShader(this.prog[385], this.getShader( gl, "srd_shape_global_3dvshader385" ));
+gl.attachShader(this.prog[385], this.getShader( gl, "srd_shape_global_3dfshader385" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[385], 0, "aPos");
+gl.bindAttribLocation(this.prog[385], 1, "aCol");
+gl.linkProgram(this.prog[385]);
+this.offsets[385]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[385] = v;
+this.buf[385] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[385]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[385], gl.STATIC_DRAW);
+this.mvMatLoc[385] = gl.getUniformLocation(this.prog[385],"mvMatrix");
+this.prMatLoc[385] = gl.getUniformLocation(this.prog[385],"prMatrix");
+// ****** lines object 386 ******
+this.flags[386] = 128;
+this.prog[386]  = gl.createProgram();
+gl.attachShader(this.prog[386], this.getShader( gl, "srd_shape_global_3dvshader386" ));
+gl.attachShader(this.prog[386], this.getShader( gl, "srd_shape_global_3dfshader386" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[386], 0, "aPos");
+gl.bindAttribLocation(this.prog[386], 1, "aCol");
+gl.linkProgram(this.prog[386]);
+this.offsets[386]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[386] = v;
+this.buf[386] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[386]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[386], gl.STATIC_DRAW);
+this.mvMatLoc[386] = gl.getUniformLocation(this.prog[386],"mvMatrix");
+this.prMatLoc[386] = gl.getUniformLocation(this.prog[386],"prMatrix");
+// ****** lines object 387 ******
+this.flags[387] = 128;
+this.prog[387]  = gl.createProgram();
+gl.attachShader(this.prog[387], this.getShader( gl, "srd_shape_global_3dvshader387" ));
+gl.attachShader(this.prog[387], this.getShader( gl, "srd_shape_global_3dfshader387" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[387], 0, "aPos");
+gl.bindAttribLocation(this.prog[387], 1, "aCol");
+gl.linkProgram(this.prog[387]);
+this.offsets[387]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.09417444, 0.1015926, 0.0891407
+]);
+this.values[387] = v;
+this.buf[387] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[387]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[387], gl.STATIC_DRAW);
+this.mvMatLoc[387] = gl.getUniformLocation(this.prog[387],"mvMatrix");
+this.prMatLoc[387] = gl.getUniformLocation(this.prog[387],"prMatrix");
+// ****** lines object 388 ******
+this.flags[388] = 128;
+this.prog[388]  = gl.createProgram();
+gl.attachShader(this.prog[388], this.getShader( gl, "srd_shape_global_3dvshader388" ));
+gl.attachShader(this.prog[388], this.getShader( gl, "srd_shape_global_3dfshader388" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[388], 0, "aPos");
+gl.bindAttribLocation(this.prog[388], 1, "aCol");
+gl.linkProgram(this.prog[388]);
+this.offsets[388]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[388] = v;
+this.buf[388] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[388]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[388], gl.STATIC_DRAW);
+this.mvMatLoc[388] = gl.getUniformLocation(this.prog[388],"mvMatrix");
+this.prMatLoc[388] = gl.getUniformLocation(this.prog[388],"prMatrix");
+// ****** lines object 389 ******
+this.flags[389] = 128;
+this.prog[389]  = gl.createProgram();
+gl.attachShader(this.prog[389], this.getShader( gl, "srd_shape_global_3dvshader389" ));
+gl.attachShader(this.prog[389], this.getShader( gl, "srd_shape_global_3dfshader389" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[389], 0, "aPos");
+gl.bindAttribLocation(this.prog[389], 1, "aCol");
+gl.linkProgram(this.prog[389]);
+this.offsets[389]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1553602, -0.01634355, -0.06917679,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[389] = v;
+this.buf[389] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[389]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[389], gl.STATIC_DRAW);
+this.mvMatLoc[389] = gl.getUniformLocation(this.prog[389],"mvMatrix");
+this.prMatLoc[389] = gl.getUniformLocation(this.prog[389],"prMatrix");
+// ****** lines object 390 ******
+this.flags[390] = 128;
+this.prog[390]  = gl.createProgram();
+gl.attachShader(this.prog[390], this.getShader( gl, "srd_shape_global_3dvshader390" ));
+gl.attachShader(this.prog[390], this.getShader( gl, "srd_shape_global_3dfshader390" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[390], 0, "aPos");
+gl.bindAttribLocation(this.prog[390], 1, "aCol");
+gl.linkProgram(this.prog[390]);
+this.offsets[390]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1553602, -0.01634355, -0.06917679,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[390] = v;
+this.buf[390] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[390]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[390], gl.STATIC_DRAW);
+this.mvMatLoc[390] = gl.getUniformLocation(this.prog[390],"mvMatrix");
+this.prMatLoc[390] = gl.getUniformLocation(this.prog[390],"prMatrix");
+// ****** lines object 391 ******
+this.flags[391] = 128;
+this.prog[391]  = gl.createProgram();
+gl.attachShader(this.prog[391], this.getShader( gl, "srd_shape_global_3dvshader391" ));
+gl.attachShader(this.prog[391], this.getShader( gl, "srd_shape_global_3dfshader391" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[391], 0, "aPos");
+gl.bindAttribLocation(this.prog[391], 1, "aCol");
+gl.linkProgram(this.prog[391]);
+this.offsets[391]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08752096, -0.01378099, -0.1156733,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[391] = v;
+this.buf[391] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[391]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[391], gl.STATIC_DRAW);
+this.mvMatLoc[391] = gl.getUniformLocation(this.prog[391],"mvMatrix");
+this.prMatLoc[391] = gl.getUniformLocation(this.prog[391],"prMatrix");
+// ****** lines object 392 ******
+this.flags[392] = 128;
+this.prog[392]  = gl.createProgram();
+gl.attachShader(this.prog[392], this.getShader( gl, "srd_shape_global_3dvshader392" ));
+gl.attachShader(this.prog[392], this.getShader( gl, "srd_shape_global_3dfshader392" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[392], 0, "aPos");
+gl.bindAttribLocation(this.prog[392], 1, "aCol");
+gl.linkProgram(this.prog[392]);
+this.offsets[392]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[392] = v;
+this.buf[392] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[392]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[392], gl.STATIC_DRAW);
+this.mvMatLoc[392] = gl.getUniformLocation(this.prog[392],"mvMatrix");
+this.prMatLoc[392] = gl.getUniformLocation(this.prog[392],"prMatrix");
+// ****** lines object 393 ******
+this.flags[393] = 128;
+this.prog[393]  = gl.createProgram();
+gl.attachShader(this.prog[393], this.getShader( gl, "srd_shape_global_3dvshader393" ));
+gl.attachShader(this.prog[393], this.getShader( gl, "srd_shape_global_3dfshader393" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[393], 0, "aPos");
+gl.bindAttribLocation(this.prog[393], 1, "aCol");
+gl.linkProgram(this.prog[393]);
+this.offsets[393]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[393] = v;
+this.buf[393] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[393]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[393], gl.STATIC_DRAW);
+this.mvMatLoc[393] = gl.getUniformLocation(this.prog[393],"mvMatrix");
+this.prMatLoc[393] = gl.getUniformLocation(this.prog[393],"prMatrix");
+// ****** lines object 394 ******
+this.flags[394] = 128;
+this.prog[394]  = gl.createProgram();
+gl.attachShader(this.prog[394], this.getShader( gl, "srd_shape_global_3dvshader394" ));
+gl.attachShader(this.prog[394], this.getShader( gl, "srd_shape_global_3dfshader394" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[394], 0, "aPos");
+gl.bindAttribLocation(this.prog[394], 1, "aCol");
+gl.linkProgram(this.prog[394]);
+this.offsets[394]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.1246175, -0.003654234, -0.0005078361
+]);
+this.values[394] = v;
+this.buf[394] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[394]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[394], gl.STATIC_DRAW);
+this.mvMatLoc[394] = gl.getUniformLocation(this.prog[394],"mvMatrix");
+this.prMatLoc[394] = gl.getUniformLocation(this.prog[394],"prMatrix");
+// ****** lines object 395 ******
+this.flags[395] = 128;
+this.prog[395]  = gl.createProgram();
+gl.attachShader(this.prog[395], this.getShader( gl, "srd_shape_global_3dvshader395" ));
+gl.attachShader(this.prog[395], this.getShader( gl, "srd_shape_global_3dfshader395" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[395], 0, "aPos");
+gl.bindAttribLocation(this.prog[395], 1, "aCol");
+gl.linkProgram(this.prog[395]);
+this.offsets[395]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0199366, 0.08845101, -0.06710657,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[395] = v;
+this.buf[395] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[395]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[395], gl.STATIC_DRAW);
+this.mvMatLoc[395] = gl.getUniformLocation(this.prog[395],"mvMatrix");
+this.prMatLoc[395] = gl.getUniformLocation(this.prog[395],"prMatrix");
+// ****** lines object 396 ******
+this.flags[396] = 128;
+this.prog[396]  = gl.createProgram();
+gl.attachShader(this.prog[396], this.getShader( gl, "srd_shape_global_3dvshader396" ));
+gl.attachShader(this.prog[396], this.getShader( gl, "srd_shape_global_3dfshader396" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[396], 0, "aPos");
+gl.bindAttribLocation(this.prog[396], 1, "aCol");
+gl.linkProgram(this.prog[396]);
+this.offsets[396]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.007033864, 0.0110325, -0.0426656,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[396] = v;
+this.buf[396] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[396]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[396], gl.STATIC_DRAW);
+this.mvMatLoc[396] = gl.getUniformLocation(this.prog[396],"mvMatrix");
+this.prMatLoc[396] = gl.getUniformLocation(this.prog[396],"prMatrix");
+// ****** lines object 397 ******
+this.flags[397] = 128;
+this.prog[397]  = gl.createProgram();
+gl.attachShader(this.prog[397], this.getShader( gl, "srd_shape_global_3dvshader397" ));
+gl.attachShader(this.prog[397], this.getShader( gl, "srd_shape_global_3dfshader397" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[397], 0, "aPos");
+gl.bindAttribLocation(this.prog[397], 1, "aCol");
+gl.linkProgram(this.prog[397]);
+this.offsets[397]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.004873137, 0.03804675, 0.01656726,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[397] = v;
+this.buf[397] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[397]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[397], gl.STATIC_DRAW);
+this.mvMatLoc[397] = gl.getUniformLocation(this.prog[397],"mvMatrix");
+this.prMatLoc[397] = gl.getUniformLocation(this.prog[397],"prMatrix");
+// ****** lines object 398 ******
+this.flags[398] = 128;
+this.prog[398]  = gl.createProgram();
+gl.attachShader(this.prog[398], this.getShader( gl, "srd_shape_global_3dvshader398" ));
+gl.attachShader(this.prog[398], this.getShader( gl, "srd_shape_global_3dfshader398" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[398], 0, "aPos");
+gl.bindAttribLocation(this.prog[398], 1, "aCol");
+gl.linkProgram(this.prog[398]);
+this.offsets[398]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.004873137, 0.03804675, 0.01656726,
+-0.04021478, 0.08391441, 0.04506655
+]);
+this.values[398] = v;
+this.buf[398] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[398]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[398], gl.STATIC_DRAW);
+this.mvMatLoc[398] = gl.getUniformLocation(this.prog[398],"mvMatrix");
+this.prMatLoc[398] = gl.getUniformLocation(this.prog[398],"prMatrix");
+// ****** lines object 399 ******
+this.flags[399] = 128;
+this.prog[399]  = gl.createProgram();
+gl.attachShader(this.prog[399], this.getShader( gl, "srd_shape_global_3dvshader399" ));
+gl.attachShader(this.prog[399], this.getShader( gl, "srd_shape_global_3dfshader399" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[399], 0, "aPos");
+gl.bindAttribLocation(this.prog[399], 1, "aCol");
+gl.linkProgram(this.prog[399]);
+this.offsets[399]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+-0.09417444, 0.1015926, 0.0891407
+]);
+this.values[399] = v;
+this.buf[399] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[399]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[399], gl.STATIC_DRAW);
+this.mvMatLoc[399] = gl.getUniformLocation(this.prog[399],"mvMatrix");
+this.prMatLoc[399] = gl.getUniformLocation(this.prog[399],"prMatrix");
+// ****** lines object 400 ******
+this.flags[400] = 128;
+this.prog[400]  = gl.createProgram();
+gl.attachShader(this.prog[400], this.getShader( gl, "srd_shape_global_3dvshader400" ));
+gl.attachShader(this.prog[400], this.getShader( gl, "srd_shape_global_3dfshader400" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[400], 0, "aPos");
+gl.bindAttribLocation(this.prog[400], 1, "aCol");
+gl.linkProgram(this.prog[400]);
+this.offsets[400]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.09417444, 0.1015926, 0.0891407,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[400] = v;
+this.buf[400] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[400]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[400], gl.STATIC_DRAW);
+this.mvMatLoc[400] = gl.getUniformLocation(this.prog[400],"mvMatrix");
+this.prMatLoc[400] = gl.getUniformLocation(this.prog[400],"prMatrix");
+// ****** lines object 401 ******
+this.flags[401] = 128;
+this.prog[401]  = gl.createProgram();
+gl.attachShader(this.prog[401], this.getShader( gl, "srd_shape_global_3dvshader401" ));
+gl.attachShader(this.prog[401], this.getShader( gl, "srd_shape_global_3dfshader401" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[401], 0, "aPos");
+gl.bindAttribLocation(this.prog[401], 1, "aCol");
+gl.linkProgram(this.prog[401]);
+this.offsets[401]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1301225, 0.1160764, -0.001737236,
+-0.1246175, -0.003654234, -0.0005078361
+]);
+this.values[401] = v;
+this.buf[401] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[401]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[401], gl.STATIC_DRAW);
+this.mvMatLoc[401] = gl.getUniformLocation(this.prog[401],"mvMatrix");
+this.prMatLoc[401] = gl.getUniformLocation(this.prog[401],"prMatrix");
+// ****** lines object 402 ******
+this.flags[402] = 128;
+this.prog[402]  = gl.createProgram();
+gl.attachShader(this.prog[402], this.getShader( gl, "srd_shape_global_3dvshader402" ));
+gl.attachShader(this.prog[402], this.getShader( gl, "srd_shape_global_3dfshader402" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[402], 0, "aPos");
+gl.bindAttribLocation(this.prog[402], 1, "aCol");
+gl.linkProgram(this.prog[402]);
+this.offsets[402]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.000128291, -0.0009894678, 0.2512301,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[402] = v;
+this.buf[402] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[402]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[402], gl.STATIC_DRAW);
+this.mvMatLoc[402] = gl.getUniformLocation(this.prog[402],"mvMatrix");
+this.prMatLoc[402] = gl.getUniformLocation(this.prog[402],"prMatrix");
+// ****** lines object 403 ******
+this.flags[403] = 128;
+this.prog[403]  = gl.createProgram();
+gl.attachShader(this.prog[403], this.getShader( gl, "srd_shape_global_3dvshader403" ));
+gl.attachShader(this.prog[403], this.getShader( gl, "srd_shape_global_3dfshader403" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[403], 0, "aPos");
+gl.bindAttribLocation(this.prog[403], 1, "aCol");
+gl.linkProgram(this.prog[403]);
+this.offsets[403]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[403] = v;
+this.buf[403] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[403]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[403], gl.STATIC_DRAW);
+this.mvMatLoc[403] = gl.getUniformLocation(this.prog[403],"mvMatrix");
+this.prMatLoc[403] = gl.getUniformLocation(this.prog[403],"prMatrix");
+// ****** lines object 404 ******
+this.flags[404] = 128;
+this.prog[404]  = gl.createProgram();
+gl.attachShader(this.prog[404], this.getShader( gl, "srd_shape_global_3dvshader404" ));
+gl.attachShader(this.prog[404], this.getShader( gl, "srd_shape_global_3dfshader404" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[404], 0, "aPos");
+gl.bindAttribLocation(this.prog[404], 1, "aCol");
+gl.linkProgram(this.prog[404]);
+this.offsets[404]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[404] = v;
+this.buf[404] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[404]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[404], gl.STATIC_DRAW);
+this.mvMatLoc[404] = gl.getUniformLocation(this.prog[404],"mvMatrix");
+this.prMatLoc[404] = gl.getUniformLocation(this.prog[404],"prMatrix");
+// ****** lines object 405 ******
+this.flags[405] = 128;
+this.prog[405]  = gl.createProgram();
+gl.attachShader(this.prog[405], this.getShader( gl, "srd_shape_global_3dvshader405" ));
+gl.attachShader(this.prog[405], this.getShader( gl, "srd_shape_global_3dfshader405" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[405], 0, "aPos");
+gl.bindAttribLocation(this.prog[405], 1, "aCol");
+gl.linkProgram(this.prog[405]);
+this.offsets[405]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[405] = v;
+this.buf[405] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[405]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[405], gl.STATIC_DRAW);
+this.mvMatLoc[405] = gl.getUniformLocation(this.prog[405],"mvMatrix");
+this.prMatLoc[405] = gl.getUniformLocation(this.prog[405],"prMatrix");
+// ****** lines object 406 ******
+this.flags[406] = 128;
+this.prog[406]  = gl.createProgram();
+gl.attachShader(this.prog[406], this.getShader( gl, "srd_shape_global_3dvshader406" ));
+gl.attachShader(this.prog[406], this.getShader( gl, "srd_shape_global_3dfshader406" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[406], 0, "aPos");
+gl.bindAttribLocation(this.prog[406], 1, "aCol");
+gl.linkProgram(this.prog[406]);
+this.offsets[406]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.01463911, 0.1001435, 0.09276654,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[406] = v;
+this.buf[406] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[406]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[406], gl.STATIC_DRAW);
+this.mvMatLoc[406] = gl.getUniformLocation(this.prog[406],"mvMatrix");
+this.prMatLoc[406] = gl.getUniformLocation(this.prog[406],"prMatrix");
+// ****** lines object 407 ******
+this.flags[407] = 128;
+this.prog[407]  = gl.createProgram();
+gl.attachShader(this.prog[407], this.getShader( gl, "srd_shape_global_3dvshader407" ));
+gl.attachShader(this.prog[407], this.getShader( gl, "srd_shape_global_3dfshader407" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[407], 0, "aPos");
+gl.bindAttribLocation(this.prog[407], 1, "aCol");
+gl.linkProgram(this.prog[407]);
+this.offsets[407]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724
+]);
+this.values[407] = v;
+this.buf[407] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[407]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[407], gl.STATIC_DRAW);
+this.mvMatLoc[407] = gl.getUniformLocation(this.prog[407],"mvMatrix");
+this.prMatLoc[407] = gl.getUniformLocation(this.prog[407],"prMatrix");
+// ****** lines object 408 ******
+this.flags[408] = 128;
+this.prog[408]  = gl.createProgram();
+gl.attachShader(this.prog[408], this.getShader( gl, "srd_shape_global_3dvshader408" ));
+gl.attachShader(this.prog[408], this.getShader( gl, "srd_shape_global_3dfshader408" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[408], 0, "aPos");
+gl.bindAttribLocation(this.prog[408], 1, "aCol");
+gl.linkProgram(this.prog[408]);
+this.offsets[408]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.04802516, -0.01405814, -0.2370292
+]);
+this.values[408] = v;
+this.buf[408] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[408]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[408], gl.STATIC_DRAW);
+this.mvMatLoc[408] = gl.getUniformLocation(this.prog[408],"mvMatrix");
+this.prMatLoc[408] = gl.getUniformLocation(this.prog[408],"prMatrix");
+// ****** lines object 409 ******
+this.flags[409] = 128;
+this.prog[409]  = gl.createProgram();
+gl.attachShader(this.prog[409], this.getShader( gl, "srd_shape_global_3dvshader409" ));
+gl.attachShader(this.prog[409], this.getShader( gl, "srd_shape_global_3dfshader409" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[409], 0, "aPos");
+gl.bindAttribLocation(this.prog[409], 1, "aCol");
+gl.linkProgram(this.prog[409]);
+this.offsets[409]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867
+]);
+this.values[409] = v;
+this.buf[409] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[409]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[409], gl.STATIC_DRAW);
+this.mvMatLoc[409] = gl.getUniformLocation(this.prog[409],"mvMatrix");
+this.prMatLoc[409] = gl.getUniformLocation(this.prog[409],"prMatrix");
+// ****** lines object 410 ******
+this.flags[410] = 128;
+this.prog[410]  = gl.createProgram();
+gl.attachShader(this.prog[410], this.getShader( gl, "srd_shape_global_3dvshader410" ));
+gl.attachShader(this.prog[410], this.getShader( gl, "srd_shape_global_3dfshader410" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[410], 0, "aPos");
+gl.bindAttribLocation(this.prog[410], 1, "aCol");
+gl.linkProgram(this.prog[410]);
+this.offsets[410]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[410] = v;
+this.buf[410] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[410]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[410], gl.STATIC_DRAW);
+this.mvMatLoc[410] = gl.getUniformLocation(this.prog[410],"mvMatrix");
+this.prMatLoc[410] = gl.getUniformLocation(this.prog[410],"prMatrix");
+// ****** lines object 411 ******
+this.flags[411] = 128;
+this.prog[411]  = gl.createProgram();
+gl.attachShader(this.prog[411], this.getShader( gl, "srd_shape_global_3dvshader411" ));
+gl.attachShader(this.prog[411], this.getShader( gl, "srd_shape_global_3dfshader411" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[411], 0, "aPos");
+gl.bindAttribLocation(this.prog[411], 1, "aCol");
+gl.linkProgram(this.prog[411]);
+this.offsets[411]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[411] = v;
+this.buf[411] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[411]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[411], gl.STATIC_DRAW);
+this.mvMatLoc[411] = gl.getUniformLocation(this.prog[411],"mvMatrix");
+this.prMatLoc[411] = gl.getUniformLocation(this.prog[411],"prMatrix");
+// ****** lines object 412 ******
+this.flags[412] = 128;
+this.prog[412]  = gl.createProgram();
+gl.attachShader(this.prog[412], this.getShader( gl, "srd_shape_global_3dvshader412" ));
+gl.attachShader(this.prog[412], this.getShader( gl, "srd_shape_global_3dfshader412" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[412], 0, "aPos");
+gl.bindAttribLocation(this.prog[412], 1, "aCol");
+gl.linkProgram(this.prog[412]);
+this.offsets[412]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[412] = v;
+this.buf[412] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[412]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[412], gl.STATIC_DRAW);
+this.mvMatLoc[412] = gl.getUniformLocation(this.prog[412],"mvMatrix");
+this.prMatLoc[412] = gl.getUniformLocation(this.prog[412],"prMatrix");
+// ****** lines object 413 ******
+this.flags[413] = 128;
+this.prog[413]  = gl.createProgram();
+gl.attachShader(this.prog[413], this.getShader( gl, "srd_shape_global_3dvshader413" ));
+gl.attachShader(this.prog[413], this.getShader( gl, "srd_shape_global_3dfshader413" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[413], 0, "aPos");
+gl.bindAttribLocation(this.prog[413], 1, "aCol");
+gl.linkProgram(this.prog[413]);
+this.offsets[413]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[413] = v;
+this.buf[413] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[413]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[413], gl.STATIC_DRAW);
+this.mvMatLoc[413] = gl.getUniformLocation(this.prog[413],"mvMatrix");
+this.prMatLoc[413] = gl.getUniformLocation(this.prog[413],"prMatrix");
+// ****** lines object 414 ******
+this.flags[414] = 128;
+this.prog[414]  = gl.createProgram();
+gl.attachShader(this.prog[414], this.getShader( gl, "srd_shape_global_3dvshader414" ));
+gl.attachShader(this.prog[414], this.getShader( gl, "srd_shape_global_3dfshader414" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[414], 0, "aPos");
+gl.bindAttribLocation(this.prog[414], 1, "aCol");
+gl.linkProgram(this.prog[414]);
+this.offsets[414]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366
+]);
+this.values[414] = v;
+this.buf[414] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[414]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[414], gl.STATIC_DRAW);
+this.mvMatLoc[414] = gl.getUniformLocation(this.prog[414],"mvMatrix");
+this.prMatLoc[414] = gl.getUniformLocation(this.prog[414],"prMatrix");
+// ****** lines object 415 ******
+this.flags[415] = 128;
+this.prog[415]  = gl.createProgram();
+gl.attachShader(this.prog[415], this.getShader( gl, "srd_shape_global_3dvshader415" ));
+gl.attachShader(this.prog[415], this.getShader( gl, "srd_shape_global_3dfshader415" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[415], 0, "aPos");
+gl.bindAttribLocation(this.prog[415], 1, "aCol");
+gl.linkProgram(this.prog[415]);
+this.offsets[415]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[415] = v;
+this.buf[415] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[415]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[415], gl.STATIC_DRAW);
+this.mvMatLoc[415] = gl.getUniformLocation(this.prog[415],"mvMatrix");
+this.prMatLoc[415] = gl.getUniformLocation(this.prog[415],"prMatrix");
+// ****** lines object 416 ******
+this.flags[416] = 128;
+this.prog[416]  = gl.createProgram();
+gl.attachShader(this.prog[416], this.getShader( gl, "srd_shape_global_3dvshader416" ));
+gl.attachShader(this.prog[416], this.getShader( gl, "srd_shape_global_3dfshader416" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[416], 0, "aPos");
+gl.bindAttribLocation(this.prog[416], 1, "aCol");
+gl.linkProgram(this.prog[416]);
+this.offsets[416]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[416] = v;
+this.buf[416] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[416]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[416], gl.STATIC_DRAW);
+this.mvMatLoc[416] = gl.getUniformLocation(this.prog[416],"mvMatrix");
+this.prMatLoc[416] = gl.getUniformLocation(this.prog[416],"prMatrix");
+// ****** lines object 417 ******
+this.flags[417] = 128;
+this.prog[417]  = gl.createProgram();
+gl.attachShader(this.prog[417], this.getShader( gl, "srd_shape_global_3dvshader417" ));
+gl.attachShader(this.prog[417], this.getShader( gl, "srd_shape_global_3dfshader417" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[417], 0, "aPos");
+gl.bindAttribLocation(this.prog[417], 1, "aCol");
+gl.linkProgram(this.prog[417]);
+this.offsets[417]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087
+]);
+this.values[417] = v;
+this.buf[417] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[417]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[417], gl.STATIC_DRAW);
+this.mvMatLoc[417] = gl.getUniformLocation(this.prog[417],"mvMatrix");
+this.prMatLoc[417] = gl.getUniformLocation(this.prog[417],"prMatrix");
+// ****** lines object 418 ******
+this.flags[418] = 128;
+this.prog[418]  = gl.createProgram();
+gl.attachShader(this.prog[418], this.getShader( gl, "srd_shape_global_3dvshader418" ));
+gl.attachShader(this.prog[418], this.getShader( gl, "srd_shape_global_3dfshader418" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[418], 0, "aPos");
+gl.bindAttribLocation(this.prog[418], 1, "aCol");
+gl.linkProgram(this.prog[418]);
+this.offsets[418]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.04889651, -0.1481737, -0.06959169
+]);
+this.values[418] = v;
+this.buf[418] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[418]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[418], gl.STATIC_DRAW);
+this.mvMatLoc[418] = gl.getUniformLocation(this.prog[418],"mvMatrix");
+this.prMatLoc[418] = gl.getUniformLocation(this.prog[418],"prMatrix");
+// ****** lines object 419 ******
+this.flags[419] = 128;
+this.prog[419]  = gl.createProgram();
+gl.attachShader(this.prog[419], this.getShader( gl, "srd_shape_global_3dvshader419" ));
+gl.attachShader(this.prog[419], this.getShader( gl, "srd_shape_global_3dfshader419" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[419], 0, "aPos");
+gl.bindAttribLocation(this.prog[419], 1, "aCol");
+gl.linkProgram(this.prog[419]);
+this.offsets[419]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[419] = v;
+this.buf[419] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[419]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[419], gl.STATIC_DRAW);
+this.mvMatLoc[419] = gl.getUniformLocation(this.prog[419],"mvMatrix");
+this.prMatLoc[419] = gl.getUniformLocation(this.prog[419],"prMatrix");
+// ****** lines object 420 ******
+this.flags[420] = 128;
+this.prog[420]  = gl.createProgram();
+gl.attachShader(this.prog[420], this.getShader( gl, "srd_shape_global_3dvshader420" ));
+gl.attachShader(this.prog[420], this.getShader( gl, "srd_shape_global_3dfshader420" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[420], 0, "aPos");
+gl.bindAttribLocation(this.prog[420], 1, "aCol");
+gl.linkProgram(this.prog[420]);
+this.offsets[420]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+0.04809806, -0.1319457, 0.01708304
+]);
+this.values[420] = v;
+this.buf[420] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[420]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[420], gl.STATIC_DRAW);
+this.mvMatLoc[420] = gl.getUniformLocation(this.prog[420],"mvMatrix");
+this.prMatLoc[420] = gl.getUniformLocation(this.prog[420],"prMatrix");
+// ****** lines object 421 ******
+this.flags[421] = 128;
+this.prog[421]  = gl.createProgram();
+gl.attachShader(this.prog[421], this.getShader( gl, "srd_shape_global_3dvshader421" ));
+gl.attachShader(this.prog[421], this.getShader( gl, "srd_shape_global_3dfshader421" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[421], 0, "aPos");
+gl.bindAttribLocation(this.prog[421], 1, "aCol");
+gl.linkProgram(this.prog[421]);
+this.offsets[421]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[421] = v;
+this.buf[421] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[421]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[421], gl.STATIC_DRAW);
+this.mvMatLoc[421] = gl.getUniformLocation(this.prog[421],"mvMatrix");
+this.prMatLoc[421] = gl.getUniformLocation(this.prog[421],"prMatrix");
+// ****** lines object 422 ******
+this.flags[422] = 128;
+this.prog[422]  = gl.createProgram();
+gl.attachShader(this.prog[422], this.getShader( gl, "srd_shape_global_3dvshader422" ));
+gl.attachShader(this.prog[422], this.getShader( gl, "srd_shape_global_3dfshader422" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[422], 0, "aPos");
+gl.bindAttribLocation(this.prog[422], 1, "aCol");
+gl.linkProgram(this.prog[422]);
+this.offsets[422]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.04889651, -0.1481737, -0.06959169
+]);
+this.values[422] = v;
+this.buf[422] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[422]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[422], gl.STATIC_DRAW);
+this.mvMatLoc[422] = gl.getUniformLocation(this.prog[422],"mvMatrix");
+this.prMatLoc[422] = gl.getUniformLocation(this.prog[422],"prMatrix");
+// ****** lines object 423 ******
+this.flags[423] = 128;
+this.prog[423]  = gl.createProgram();
+gl.attachShader(this.prog[423], this.getShader( gl, "srd_shape_global_3dvshader423" ));
+gl.attachShader(this.prog[423], this.getShader( gl, "srd_shape_global_3dfshader423" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[423], 0, "aPos");
+gl.bindAttribLocation(this.prog[423], 1, "aCol");
+gl.linkProgram(this.prog[423]);
+this.offsets[423]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[423] = v;
+this.buf[423] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[423]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[423], gl.STATIC_DRAW);
+this.mvMatLoc[423] = gl.getUniformLocation(this.prog[423],"mvMatrix");
+this.prMatLoc[423] = gl.getUniformLocation(this.prog[423],"prMatrix");
+// ****** lines object 424 ******
+this.flags[424] = 128;
+this.prog[424]  = gl.createProgram();
+gl.attachShader(this.prog[424], this.getShader( gl, "srd_shape_global_3dvshader424" ));
+gl.attachShader(this.prog[424], this.getShader( gl, "srd_shape_global_3dfshader424" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[424], 0, "aPos");
+gl.bindAttribLocation(this.prog[424], 1, "aCol");
+gl.linkProgram(this.prog[424]);
+this.offsets[424]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[424] = v;
+this.buf[424] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[424]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[424], gl.STATIC_DRAW);
+this.mvMatLoc[424] = gl.getUniformLocation(this.prog[424],"mvMatrix");
+this.prMatLoc[424] = gl.getUniformLocation(this.prog[424],"prMatrix");
+// ****** lines object 425 ******
+this.flags[425] = 128;
+this.prog[425]  = gl.createProgram();
+gl.attachShader(this.prog[425], this.getShader( gl, "srd_shape_global_3dvshader425" ));
+gl.attachShader(this.prog[425], this.getShader( gl, "srd_shape_global_3dfshader425" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[425], 0, "aPos");
+gl.bindAttribLocation(this.prog[425], 1, "aCol");
+gl.linkProgram(this.prog[425]);
+this.offsets[425]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1316182, -0.0441372, 0.08868205
+]);
+this.values[425] = v;
+this.buf[425] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[425]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[425], gl.STATIC_DRAW);
+this.mvMatLoc[425] = gl.getUniformLocation(this.prog[425],"mvMatrix");
+this.prMatLoc[425] = gl.getUniformLocation(this.prog[425],"prMatrix");
+// ****** lines object 426 ******
+this.flags[426] = 128;
+this.prog[426]  = gl.createProgram();
+gl.attachShader(this.prog[426], this.getShader( gl, "srd_shape_global_3dvshader426" ));
+gl.attachShader(this.prog[426], this.getShader( gl, "srd_shape_global_3dfshader426" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[426], 0, "aPos");
+gl.bindAttribLocation(this.prog[426], 1, "aCol");
+gl.linkProgram(this.prog[426]);
+this.offsets[426]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[426] = v;
+this.buf[426] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[426]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[426], gl.STATIC_DRAW);
+this.mvMatLoc[426] = gl.getUniformLocation(this.prog[426],"mvMatrix");
+this.prMatLoc[426] = gl.getUniformLocation(this.prog[426],"prMatrix");
+// ****** lines object 427 ******
+this.flags[427] = 128;
+this.prog[427]  = gl.createProgram();
+gl.attachShader(this.prog[427], this.getShader( gl, "srd_shape_global_3dvshader427" ));
+gl.attachShader(this.prog[427], this.getShader( gl, "srd_shape_global_3dfshader427" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[427], 0, "aPos");
+gl.bindAttribLocation(this.prog[427], 1, "aCol");
+gl.linkProgram(this.prog[427]);
+this.offsets[427]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04889651, -0.1481737, -0.06959169,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[427] = v;
+this.buf[427] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[427]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[427], gl.STATIC_DRAW);
+this.mvMatLoc[427] = gl.getUniformLocation(this.prog[427],"mvMatrix");
+this.prMatLoc[427] = gl.getUniformLocation(this.prog[427],"prMatrix");
+// ****** lines object 428 ******
+this.flags[428] = 128;
+this.prog[428]  = gl.createProgram();
+gl.attachShader(this.prog[428], this.getShader( gl, "srd_shape_global_3dvshader428" ));
+gl.attachShader(this.prog[428], this.getShader( gl, "srd_shape_global_3dfshader428" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[428], 0, "aPos");
+gl.bindAttribLocation(this.prog[428], 1, "aCol");
+gl.linkProgram(this.prog[428]);
+this.offsets[428]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04889651, -0.1481737, -0.06959169,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[428] = v;
+this.buf[428] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[428]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[428], gl.STATIC_DRAW);
+this.mvMatLoc[428] = gl.getUniformLocation(this.prog[428],"mvMatrix");
+this.prMatLoc[428] = gl.getUniformLocation(this.prog[428],"prMatrix");
+// ****** lines object 429 ******
+this.flags[429] = 128;
+this.prog[429]  = gl.createProgram();
+gl.attachShader(this.prog[429], this.getShader( gl, "srd_shape_global_3dvshader429" ));
+gl.attachShader(this.prog[429], this.getShader( gl, "srd_shape_global_3dfshader429" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[429], 0, "aPos");
+gl.bindAttribLocation(this.prog[429], 1, "aCol");
+gl.linkProgram(this.prog[429]);
+this.offsets[429]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.0231575, -0.08521444, -0.1158982,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[429] = v;
+this.buf[429] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[429]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[429], gl.STATIC_DRAW);
+this.mvMatLoc[429] = gl.getUniformLocation(this.prog[429],"mvMatrix");
+this.prMatLoc[429] = gl.getUniformLocation(this.prog[429],"prMatrix");
+// ****** lines object 430 ******
+this.flags[430] = 128;
+this.prog[430]  = gl.createProgram();
+gl.attachShader(this.prog[430], this.getShader( gl, "srd_shape_global_3dvshader430" ));
+gl.attachShader(this.prog[430], this.getShader( gl, "srd_shape_global_3dfshader430" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[430], 0, "aPos");
+gl.bindAttribLocation(this.prog[430], 1, "aCol");
+gl.linkProgram(this.prog[430]);
+this.offsets[430]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[430] = v;
+this.buf[430] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[430]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[430], gl.STATIC_DRAW);
+this.mvMatLoc[430] = gl.getUniformLocation(this.prog[430],"mvMatrix");
+this.prMatLoc[430] = gl.getUniformLocation(this.prog[430],"prMatrix");
+// ****** lines object 431 ******
+this.flags[431] = 128;
+this.prog[431]  = gl.createProgram();
+gl.attachShader(this.prog[431], this.getShader( gl, "srd_shape_global_3dvshader431" ));
+gl.attachShader(this.prog[431], this.getShader( gl, "srd_shape_global_3dfshader431" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[431], 0, "aPos");
+gl.bindAttribLocation(this.prog[431], 1, "aCol");
+gl.linkProgram(this.prog[431]);
+this.offsets[431]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[431] = v;
+this.buf[431] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[431]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[431], gl.STATIC_DRAW);
+this.mvMatLoc[431] = gl.getUniformLocation(this.prog[431],"mvMatrix");
+this.prMatLoc[431] = gl.getUniformLocation(this.prog[431],"prMatrix");
+// ****** lines object 432 ******
+this.flags[432] = 128;
+this.prog[432]  = gl.createProgram();
+gl.attachShader(this.prog[432], this.getShader( gl, "srd_shape_global_3dvshader432" ));
+gl.attachShader(this.prog[432], this.getShader( gl, "srd_shape_global_3dfshader432" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[432], 0, "aPos");
+gl.bindAttribLocation(this.prog[432], 1, "aCol");
+gl.linkProgram(this.prog[432]);
+this.offsets[432]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.04799455, -0.1150605, -0.0008584645
+]);
+this.values[432] = v;
+this.buf[432] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[432]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[432], gl.STATIC_DRAW);
+this.mvMatLoc[432] = gl.getUniformLocation(this.prog[432],"mvMatrix");
+this.prMatLoc[432] = gl.getUniformLocation(this.prog[432],"prMatrix");
+// ****** lines object 433 ******
+this.flags[433] = 128;
+this.prog[433]  = gl.createProgram();
+gl.attachShader(this.prog[433], this.getShader( gl, "srd_shape_global_3dvshader433" ));
+gl.attachShader(this.prog[433], this.getShader( gl, "srd_shape_global_3dfshader433" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[433], 0, "aPos");
+gl.bindAttribLocation(this.prog[433], 1, "aCol");
+gl.linkProgram(this.prog[433]);
+this.offsets[433]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.08861881, 0.0183878, -0.06732709,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[433] = v;
+this.buf[433] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[433]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[433], gl.STATIC_DRAW);
+this.mvMatLoc[433] = gl.getUniformLocation(this.prog[433],"mvMatrix");
+this.prMatLoc[433] = gl.getUniformLocation(this.prog[433],"prMatrix");
+// ****** lines object 434 ******
+this.flags[434] = 128;
+this.prog[434]  = gl.createProgram();
+gl.attachShader(this.prog[434], this.getShader( gl, "srd_shape_global_3dvshader434" ));
+gl.attachShader(this.prog[434], this.getShader( gl, "srd_shape_global_3dfshader434" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[434], 0, "aPos");
+gl.bindAttribLocation(this.prog[434], 1, "aCol");
+gl.linkProgram(this.prog[434]);
+this.offsets[434]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.007033864, 0.0110325, -0.0426656,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[434] = v;
+this.buf[434] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[434]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[434], gl.STATIC_DRAW);
+this.mvMatLoc[434] = gl.getUniformLocation(this.prog[434],"mvMatrix");
+this.prMatLoc[434] = gl.getUniformLocation(this.prog[434],"prMatrix");
+// ****** lines object 435 ******
+this.flags[435] = 128;
+this.prog[435]  = gl.createProgram();
+gl.attachShader(this.prog[435], this.getShader( gl, "srd_shape_global_3dvshader435" ));
+gl.attachShader(this.prog[435], this.getShader( gl, "srd_shape_global_3dfshader435" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[435], 0, "aPos");
+gl.bindAttribLocation(this.prog[435], 1, "aCol");
+gl.linkProgram(this.prog[435]);
+this.offsets[435]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.03672429, 0.01119917, 0.01648276,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[435] = v;
+this.buf[435] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[435]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[435], gl.STATIC_DRAW);
+this.mvMatLoc[435] = gl.getUniformLocation(this.prog[435],"mvMatrix");
+this.prMatLoc[435] = gl.getUniformLocation(this.prog[435],"prMatrix");
+// ****** lines object 436 ******
+this.flags[436] = 128;
+this.prog[436]  = gl.createProgram();
+gl.attachShader(this.prog[436], this.getShader( gl, "srd_shape_global_3dvshader436" ));
+gl.attachShader(this.prog[436], this.getShader( gl, "srd_shape_global_3dfshader436" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[436], 0, "aPos");
+gl.bindAttribLocation(this.prog[436], 1, "aCol");
+gl.linkProgram(this.prog[436]);
+this.offsets[436]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.03672429, 0.01119917, 0.01648276,
+0.09315851, -0.002166612, 0.04479563
+]);
+this.values[436] = v;
+this.buf[436] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[436]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[436], gl.STATIC_DRAW);
+this.mvMatLoc[436] = gl.getUniformLocation(this.prog[436],"mvMatrix");
+this.prMatLoc[436] = gl.getUniformLocation(this.prog[436],"prMatrix");
+// ****** lines object 437 ******
+this.flags[437] = 128;
+this.prog[437]  = gl.createProgram();
+gl.attachShader(this.prog[437], this.getShader( gl, "srd_shape_global_3dvshader437" ));
+gl.attachShader(this.prog[437], this.getShader( gl, "srd_shape_global_3dfshader437" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[437], 0, "aPos");
+gl.bindAttribLocation(this.prog[437], 1, "aCol");
+gl.linkProgram(this.prog[437]);
+this.offsets[437]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.1316182, -0.0441372, 0.08868205
+]);
+this.values[437] = v;
+this.buf[437] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[437]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[437], gl.STATIC_DRAW);
+this.mvMatLoc[437] = gl.getUniformLocation(this.prog[437],"mvMatrix");
+this.prMatLoc[437] = gl.getUniformLocation(this.prog[437],"prMatrix");
+// ****** lines object 438 ******
+this.flags[438] = 128;
+this.prog[438]  = gl.createProgram();
+gl.attachShader(this.prog[438], this.getShader( gl, "srd_shape_global_3dvshader438" ));
+gl.attachShader(this.prog[438], this.getShader( gl, "srd_shape_global_3dfshader438" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[438], 0, "aPos");
+gl.bindAttribLocation(this.prog[438], 1, "aCol");
+gl.linkProgram(this.prog[438]);
+this.offsets[438]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1316182, -0.0441372, 0.08868205,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[438] = v;
+this.buf[438] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[438]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[438], gl.STATIC_DRAW);
+this.mvMatLoc[438] = gl.getUniformLocation(this.prog[438],"mvMatrix");
+this.prMatLoc[438] = gl.getUniformLocation(this.prog[438],"prMatrix");
+// ****** lines object 439 ******
+this.flags[439] = 128;
+this.prog[439]  = gl.createProgram();
+gl.attachShader(this.prog[439], this.getShader( gl, "srd_shape_global_3dvshader439" ));
+gl.attachShader(this.prog[439], this.getShader( gl, "srd_shape_global_3dfshader439" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[439], 0, "aPos");
+gl.bindAttribLocation(this.prog[439], 1, "aCol");
+gl.linkProgram(this.prog[439]);
+this.offsets[439]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1593616, -0.07076082, -0.002325268,
+0.04799455, -0.1150605, -0.0008584645
+]);
+this.values[439] = v;
+this.buf[439] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[439]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[439], gl.STATIC_DRAW);
+this.mvMatLoc[439] = gl.getUniformLocation(this.prog[439],"mvMatrix");
+this.prMatLoc[439] = gl.getUniformLocation(this.prog[439],"prMatrix");
+// ****** lines object 440 ******
+this.flags[440] = 128;
+this.prog[440]  = gl.createProgram();
+gl.attachShader(this.prog[440], this.getShader( gl, "srd_shape_global_3dvshader440" ));
+gl.attachShader(this.prog[440], this.getShader( gl, "srd_shape_global_3dfshader440" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[440], 0, "aPos");
+gl.bindAttribLocation(this.prog[440], 1, "aCol");
+gl.linkProgram(this.prog[440]);
+this.offsets[440]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.000128291, -0.0009894678, 0.2512301,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[440] = v;
+this.buf[440] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[440]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[440], gl.STATIC_DRAW);
+this.mvMatLoc[440] = gl.getUniformLocation(this.prog[440],"mvMatrix");
+this.prMatLoc[440] = gl.getUniformLocation(this.prog[440],"prMatrix");
+// ****** lines object 441 ******
+this.flags[441] = 128;
+this.prog[441]  = gl.createProgram();
+gl.attachShader(this.prog[441], this.getShader( gl, "srd_shape_global_3dvshader441" ));
+gl.attachShader(this.prog[441], this.getShader( gl, "srd_shape_global_3dfshader441" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[441], 0, "aPos");
+gl.bindAttribLocation(this.prog[441], 1, "aCol");
+gl.linkProgram(this.prog[441]);
+this.offsets[441]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[441] = v;
+this.buf[441] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[441]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[441], gl.STATIC_DRAW);
+this.mvMatLoc[441] = gl.getUniformLocation(this.prog[441],"mvMatrix");
+this.prMatLoc[441] = gl.getUniformLocation(this.prog[441],"prMatrix");
+// ****** lines object 442 ******
+this.flags[442] = 128;
+this.prog[442]  = gl.createProgram();
+gl.attachShader(this.prog[442], this.getShader( gl, "srd_shape_global_3dvshader442" ));
+gl.attachShader(this.prog[442], this.getShader( gl, "srd_shape_global_3dfshader442" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[442], 0, "aPos");
+gl.bindAttribLocation(this.prog[442], 1, "aCol");
+gl.linkProgram(this.prog[442]);
+this.offsets[442]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[442] = v;
+this.buf[442] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[442]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[442], gl.STATIC_DRAW);
+this.mvMatLoc[442] = gl.getUniformLocation(this.prog[442],"mvMatrix");
+this.prMatLoc[442] = gl.getUniformLocation(this.prog[442],"prMatrix");
+// ****** lines object 443 ******
+this.flags[443] = 128;
+this.prog[443]  = gl.createProgram();
+gl.attachShader(this.prog[443], this.getShader( gl, "srd_shape_global_3dvshader443" ));
+gl.attachShader(this.prog[443], this.getShader( gl, "srd_shape_global_3dfshader443" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[443], 0, "aPos");
+gl.bindAttribLocation(this.prog[443], 1, "aCol");
+gl.linkProgram(this.prog[443]);
+this.offsets[443]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[443] = v;
+this.buf[443] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[443]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[443], gl.STATIC_DRAW);
+this.mvMatLoc[443] = gl.getUniformLocation(this.prog[443],"mvMatrix");
+this.prMatLoc[443] = gl.getUniformLocation(this.prog[443],"prMatrix");
+// ****** lines object 444 ******
+this.flags[444] = 128;
+this.prog[444]  = gl.createProgram();
+gl.attachShader(this.prog[444], this.getShader( gl, "srd_shape_global_3dvshader444" ));
+gl.attachShader(this.prog[444], this.getShader( gl, "srd_shape_global_3dfshader444" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[444], 0, "aPos");
+gl.bindAttribLocation(this.prog[444], 1, "aCol");
+gl.linkProgram(this.prog[444]);
+this.offsets[444]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.09755013, 0.02773499, 0.09253865,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[444] = v;
+this.buf[444] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[444]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[444], gl.STATIC_DRAW);
+this.mvMatLoc[444] = gl.getUniformLocation(this.prog[444],"mvMatrix");
+this.prMatLoc[444] = gl.getUniformLocation(this.prog[444],"prMatrix");
+// ****** lines object 445 ******
+this.flags[445] = 128;
+this.prog[445]  = gl.createProgram();
+gl.attachShader(this.prog[445], this.getShader( gl, "srd_shape_global_3dvshader445" ));
+gl.attachShader(this.prog[445], this.getShader( gl, "srd_shape_global_3dfshader445" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[445], 0, "aPos");
+gl.bindAttribLocation(this.prog[445], 1, "aCol");
+gl.linkProgram(this.prog[445]);
+this.offsets[445]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724
+]);
+this.values[445] = v;
+this.buf[445] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[445]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[445], gl.STATIC_DRAW);
+this.mvMatLoc[445] = gl.getUniformLocation(this.prog[445],"mvMatrix");
+this.prMatLoc[445] = gl.getUniformLocation(this.prog[445],"prMatrix");
+// ****** points object 446 ******
+this.flags[446] = 64;
+this.prog[446]  = gl.createProgram();
+gl.attachShader(this.prog[446], this.getShader( gl, "srd_shape_global_3dvshader446" ));
+gl.attachShader(this.prog[446], this.getShader( gl, "srd_shape_global_3dfshader446" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[446], 0, "aPos");
+gl.bindAttribLocation(this.prog[446], 1, "aCol");
+gl.linkProgram(this.prog[446]);
+this.offsets[446]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087,
+0.007033864, 0.0110325, -0.0426656,
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301,
+-0.03327011, 0.03841099, -0.236864,
+-0.1399952, -0.01054767, 0.01746511,
+-0.1553602, -0.01634355, -0.06917679,
+-0.08752096, -0.01378099, -0.1156733,
+-0.0892901, 0.08458719, -0.09783427,
+-0.0199366, 0.08845101, -0.06710657,
+-0.004873137, 0.03804675, 0.01656726,
+-0.09417444, 0.1015926, 0.0891407,
+-0.0883795, 0.1075088, 0.1117426,
+-0.1301225, 0.1160764, -0.001737236,
+-0.1246175, -0.003654234, -0.0005078361,
+-0.04021478, 0.08391441, 0.04506655,
+-0.01463911, 0.1001435, 0.09276654,
+-0.06819715, 0.09116033, 0.1977186,
+0.04802516, -0.01405814, -0.2370292,
+0.04809806, -0.1319457, 0.01708304,
+0.04889651, -0.1481737, -0.06959169,
+0.0231575, -0.08521444, -0.1158982,
+0.1135743, -0.04634437, -0.09824634,
+0.08861881, 0.0183878, -0.06732709,
+0.03672429, 0.01119917, 0.01648276,
+0.1316182, -0.0441372, 0.08868205,
+0.1346873, -0.03646173, 0.1112895,
+0.1593616, -0.07076082, -0.002325268,
+0.04799455, -0.1150605, -0.0008584645,
+0.09315851, -0.002166612, 0.04479563,
+0.09755013, 0.02773499, 0.09253865,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[446] = v;
+this.buf[446] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[446]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[446], gl.STATIC_DRAW);
+this.mvMatLoc[446] = gl.getUniformLocation(this.prog[446],"mvMatrix");
+this.prMatLoc[446] = gl.getUniformLocation(this.prog[446],"prMatrix");
+// ****** lines object 447 ******
+this.flags[447] = 128;
+this.prog[447]  = gl.createProgram();
+gl.attachShader(this.prog[447], this.getShader( gl, "srd_shape_global_3dvshader447" ));
+gl.attachShader(this.prog[447], this.getShader( gl, "srd_shape_global_3dfshader447" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[447], 0, "aPos");
+gl.bindAttribLocation(this.prog[447], 1, "aCol");
+gl.linkProgram(this.prog[447]);
+this.offsets[447]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03327011, 0.03841099, -0.236864
+]);
+this.values[447] = v;
+this.buf[447] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[447]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[447], gl.STATIC_DRAW);
+this.mvMatLoc[447] = gl.getUniformLocation(this.prog[447],"mvMatrix");
+this.prMatLoc[447] = gl.getUniformLocation(this.prog[447],"prMatrix");
+// ****** lines object 448 ******
+this.flags[448] = 128;
+this.prog[448]  = gl.createProgram();
+gl.attachShader(this.prog[448], this.getShader( gl, "srd_shape_global_3dvshader448" ));
+gl.attachShader(this.prog[448], this.getShader( gl, "srd_shape_global_3dfshader448" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[448], 0, "aPos");
+gl.bindAttribLocation(this.prog[448], 1, "aCol");
+gl.linkProgram(this.prog[448]);
+this.offsets[448]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867
+]);
+this.values[448] = v;
+this.buf[448] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[448]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[448], gl.STATIC_DRAW);
+this.mvMatLoc[448] = gl.getUniformLocation(this.prog[448],"mvMatrix");
+this.prMatLoc[448] = gl.getUniformLocation(this.prog[448],"prMatrix");
+// ****** lines object 449 ******
+this.flags[449] = 128;
+this.prog[449]  = gl.createProgram();
+gl.attachShader(this.prog[449], this.getShader( gl, "srd_shape_global_3dvshader449" ));
+gl.attachShader(this.prog[449], this.getShader( gl, "srd_shape_global_3dfshader449" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[449], 0, "aPos");
+gl.bindAttribLocation(this.prog[449], 1, "aCol");
+gl.linkProgram(this.prog[449]);
+this.offsets[449]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[449] = v;
+this.buf[449] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[449]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[449], gl.STATIC_DRAW);
+this.mvMatLoc[449] = gl.getUniformLocation(this.prog[449],"mvMatrix");
+this.prMatLoc[449] = gl.getUniformLocation(this.prog[449],"prMatrix");
+// ****** lines object 450 ******
+this.flags[450] = 128;
+this.prog[450]  = gl.createProgram();
+gl.attachShader(this.prog[450], this.getShader( gl, "srd_shape_global_3dvshader450" ));
+gl.attachShader(this.prog[450], this.getShader( gl, "srd_shape_global_3dfshader450" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[450], 0, "aPos");
+gl.bindAttribLocation(this.prog[450], 1, "aCol");
+gl.linkProgram(this.prog[450]);
+this.offsets[450]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[450] = v;
+this.buf[450] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[450]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[450], gl.STATIC_DRAW);
+this.mvMatLoc[450] = gl.getUniformLocation(this.prog[450],"mvMatrix");
+this.prMatLoc[450] = gl.getUniformLocation(this.prog[450],"prMatrix");
+// ****** lines object 451 ******
+this.flags[451] = 128;
+this.prog[451]  = gl.createProgram();
+gl.attachShader(this.prog[451], this.getShader( gl, "srd_shape_global_3dvshader451" ));
+gl.attachShader(this.prog[451], this.getShader( gl, "srd_shape_global_3dfshader451" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[451], 0, "aPos");
+gl.bindAttribLocation(this.prog[451], 1, "aCol");
+gl.linkProgram(this.prog[451]);
+this.offsets[451]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[451] = v;
+this.buf[451] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[451]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[451], gl.STATIC_DRAW);
+this.mvMatLoc[451] = gl.getUniformLocation(this.prog[451],"mvMatrix");
+this.prMatLoc[451] = gl.getUniformLocation(this.prog[451],"prMatrix");
+// ****** lines object 452 ******
+this.flags[452] = 128;
+this.prog[452]  = gl.createProgram();
+gl.attachShader(this.prog[452], this.getShader( gl, "srd_shape_global_3dvshader452" ));
+gl.attachShader(this.prog[452], this.getShader( gl, "srd_shape_global_3dfshader452" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[452], 0, "aPos");
+gl.bindAttribLocation(this.prog[452], 1, "aCol");
+gl.linkProgram(this.prog[452]);
+this.offsets[452]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[452] = v;
+this.buf[452] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[452]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[452], gl.STATIC_DRAW);
+this.mvMatLoc[452] = gl.getUniformLocation(this.prog[452],"mvMatrix");
+this.prMatLoc[452] = gl.getUniformLocation(this.prog[452],"prMatrix");
+// ****** lines object 453 ******
+this.flags[453] = 128;
+this.prog[453]  = gl.createProgram();
+gl.attachShader(this.prog[453], this.getShader( gl, "srd_shape_global_3dvshader453" ));
+gl.attachShader(this.prog[453], this.getShader( gl, "srd_shape_global_3dfshader453" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[453], 0, "aPos");
+gl.bindAttribLocation(this.prog[453], 1, "aCol");
+gl.linkProgram(this.prog[453]);
+this.offsets[453]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366
+]);
+this.values[453] = v;
+this.buf[453] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[453]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[453], gl.STATIC_DRAW);
+this.mvMatLoc[453] = gl.getUniformLocation(this.prog[453],"mvMatrix");
+this.prMatLoc[453] = gl.getUniformLocation(this.prog[453],"prMatrix");
+// ****** lines object 454 ******
+this.flags[454] = 128;
+this.prog[454]  = gl.createProgram();
+gl.attachShader(this.prog[454], this.getShader( gl, "srd_shape_global_3dvshader454" ));
+gl.attachShader(this.prog[454], this.getShader( gl, "srd_shape_global_3dfshader454" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[454], 0, "aPos");
+gl.bindAttribLocation(this.prog[454], 1, "aCol");
+gl.linkProgram(this.prog[454]);
+this.offsets[454]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[454] = v;
+this.buf[454] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[454]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[454], gl.STATIC_DRAW);
+this.mvMatLoc[454] = gl.getUniformLocation(this.prog[454],"mvMatrix");
+this.prMatLoc[454] = gl.getUniformLocation(this.prog[454],"prMatrix");
+// ****** lines object 455 ******
+this.flags[455] = 128;
+this.prog[455]  = gl.createProgram();
+gl.attachShader(this.prog[455], this.getShader( gl, "srd_shape_global_3dvshader455" ));
+gl.attachShader(this.prog[455], this.getShader( gl, "srd_shape_global_3dfshader455" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[455], 0, "aPos");
+gl.bindAttribLocation(this.prog[455], 1, "aCol");
+gl.linkProgram(this.prog[455]);
+this.offsets[455]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[455] = v;
+this.buf[455] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[455]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[455], gl.STATIC_DRAW);
+this.mvMatLoc[455] = gl.getUniformLocation(this.prog[455],"mvMatrix");
+this.prMatLoc[455] = gl.getUniformLocation(this.prog[455],"prMatrix");
+// ****** lines object 456 ******
+this.flags[456] = 128;
+this.prog[456]  = gl.createProgram();
+gl.attachShader(this.prog[456], this.getShader( gl, "srd_shape_global_3dvshader456" ));
+gl.attachShader(this.prog[456], this.getShader( gl, "srd_shape_global_3dfshader456" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[456], 0, "aPos");
+gl.bindAttribLocation(this.prog[456], 1, "aCol");
+gl.linkProgram(this.prog[456]);
+this.offsets[456]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087
+]);
+this.values[456] = v;
+this.buf[456] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[456]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[456], gl.STATIC_DRAW);
+this.mvMatLoc[456] = gl.getUniformLocation(this.prog[456],"mvMatrix");
+this.prMatLoc[456] = gl.getUniformLocation(this.prog[456],"prMatrix");
+// ****** lines object 457 ******
+this.flags[457] = 128;
+this.prog[457]  = gl.createProgram();
+gl.attachShader(this.prog[457], this.getShader( gl, "srd_shape_global_3dvshader457" ));
+gl.attachShader(this.prog[457], this.getShader( gl, "srd_shape_global_3dfshader457" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[457], 0, "aPos");
+gl.bindAttribLocation(this.prog[457], 1, "aCol");
+gl.linkProgram(this.prog[457]);
+this.offsets[457]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.1553602, -0.01634355, -0.06917679
+]);
+this.values[457] = v;
+this.buf[457] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[457]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[457], gl.STATIC_DRAW);
+this.mvMatLoc[457] = gl.getUniformLocation(this.prog[457],"mvMatrix");
+this.prMatLoc[457] = gl.getUniformLocation(this.prog[457],"prMatrix");
+// ****** lines object 458 ******
+this.flags[458] = 128;
+this.prog[458]  = gl.createProgram();
+gl.attachShader(this.prog[458], this.getShader( gl, "srd_shape_global_3dvshader458" ));
+gl.attachShader(this.prog[458], this.getShader( gl, "srd_shape_global_3dfshader458" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[458], 0, "aPos");
+gl.bindAttribLocation(this.prog[458], 1, "aCol");
+gl.linkProgram(this.prog[458]);
+this.offsets[458]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[458] = v;
+this.buf[458] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[458]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[458], gl.STATIC_DRAW);
+this.mvMatLoc[458] = gl.getUniformLocation(this.prog[458],"mvMatrix");
+this.prMatLoc[458] = gl.getUniformLocation(this.prog[458],"prMatrix");
+// ****** lines object 459 ******
+this.flags[459] = 128;
+this.prog[459]  = gl.createProgram();
+gl.attachShader(this.prog[459], this.getShader( gl, "srd_shape_global_3dvshader459" ));
+gl.attachShader(this.prog[459], this.getShader( gl, "srd_shape_global_3dfshader459" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[459], 0, "aPos");
+gl.bindAttribLocation(this.prog[459], 1, "aCol");
+gl.linkProgram(this.prog[459]);
+this.offsets[459]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.1399952, -0.01054767, 0.01746511
+]);
+this.values[459] = v;
+this.buf[459] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[459]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[459], gl.STATIC_DRAW);
+this.mvMatLoc[459] = gl.getUniformLocation(this.prog[459],"mvMatrix");
+this.prMatLoc[459] = gl.getUniformLocation(this.prog[459],"prMatrix");
+// ****** lines object 460 ******
+this.flags[460] = 128;
+this.prog[460]  = gl.createProgram();
+gl.attachShader(this.prog[460], this.getShader( gl, "srd_shape_global_3dvshader460" ));
+gl.attachShader(this.prog[460], this.getShader( gl, "srd_shape_global_3dfshader460" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[460], 0, "aPos");
+gl.bindAttribLocation(this.prog[460], 1, "aCol");
+gl.linkProgram(this.prog[460]);
+this.offsets[460]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[460] = v;
+this.buf[460] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[460]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[460], gl.STATIC_DRAW);
+this.mvMatLoc[460] = gl.getUniformLocation(this.prog[460],"mvMatrix");
+this.prMatLoc[460] = gl.getUniformLocation(this.prog[460],"prMatrix");
+// ****** lines object 461 ******
+this.flags[461] = 128;
+this.prog[461]  = gl.createProgram();
+gl.attachShader(this.prog[461], this.getShader( gl, "srd_shape_global_3dvshader461" ));
+gl.attachShader(this.prog[461], this.getShader( gl, "srd_shape_global_3dfshader461" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[461], 0, "aPos");
+gl.bindAttribLocation(this.prog[461], 1, "aCol");
+gl.linkProgram(this.prog[461]);
+this.offsets[461]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.1553602, -0.01634355, -0.06917679
+]);
+this.values[461] = v;
+this.buf[461] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[461]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[461], gl.STATIC_DRAW);
+this.mvMatLoc[461] = gl.getUniformLocation(this.prog[461],"mvMatrix");
+this.prMatLoc[461] = gl.getUniformLocation(this.prog[461],"prMatrix");
+// ****** lines object 462 ******
+this.flags[462] = 128;
+this.prog[462]  = gl.createProgram();
+gl.attachShader(this.prog[462], this.getShader( gl, "srd_shape_global_3dvshader462" ));
+gl.attachShader(this.prog[462], this.getShader( gl, "srd_shape_global_3dfshader462" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[462], 0, "aPos");
+gl.bindAttribLocation(this.prog[462], 1, "aCol");
+gl.linkProgram(this.prog[462]);
+this.offsets[462]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[462] = v;
+this.buf[462] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[462]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[462], gl.STATIC_DRAW);
+this.mvMatLoc[462] = gl.getUniformLocation(this.prog[462],"mvMatrix");
+this.prMatLoc[462] = gl.getUniformLocation(this.prog[462],"prMatrix");
+// ****** lines object 463 ******
+this.flags[463] = 128;
+this.prog[463]  = gl.createProgram();
+gl.attachShader(this.prog[463], this.getShader( gl, "srd_shape_global_3dvshader463" ));
+gl.attachShader(this.prog[463], this.getShader( gl, "srd_shape_global_3dfshader463" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[463], 0, "aPos");
+gl.bindAttribLocation(this.prog[463], 1, "aCol");
+gl.linkProgram(this.prog[463]);
+this.offsets[463]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[463] = v;
+this.buf[463] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[463]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[463], gl.STATIC_DRAW);
+this.mvMatLoc[463] = gl.getUniformLocation(this.prog[463],"mvMatrix");
+this.prMatLoc[463] = gl.getUniformLocation(this.prog[463],"prMatrix");
+// ****** lines object 464 ******
+this.flags[464] = 128;
+this.prog[464]  = gl.createProgram();
+gl.attachShader(this.prog[464], this.getShader( gl, "srd_shape_global_3dvshader464" ));
+gl.attachShader(this.prog[464], this.getShader( gl, "srd_shape_global_3dfshader464" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[464], 0, "aPos");
+gl.bindAttribLocation(this.prog[464], 1, "aCol");
+gl.linkProgram(this.prog[464]);
+this.offsets[464]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.09417444, 0.1015926, 0.0891407
+]);
+this.values[464] = v;
+this.buf[464] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[464]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[464], gl.STATIC_DRAW);
+this.mvMatLoc[464] = gl.getUniformLocation(this.prog[464],"mvMatrix");
+this.prMatLoc[464] = gl.getUniformLocation(this.prog[464],"prMatrix");
+// ****** lines object 465 ******
+this.flags[465] = 128;
+this.prog[465]  = gl.createProgram();
+gl.attachShader(this.prog[465], this.getShader( gl, "srd_shape_global_3dvshader465" ));
+gl.attachShader(this.prog[465], this.getShader( gl, "srd_shape_global_3dfshader465" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[465], 0, "aPos");
+gl.bindAttribLocation(this.prog[465], 1, "aCol");
+gl.linkProgram(this.prog[465]);
+this.offsets[465]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[465] = v;
+this.buf[465] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[465]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[465], gl.STATIC_DRAW);
+this.mvMatLoc[465] = gl.getUniformLocation(this.prog[465],"mvMatrix");
+this.prMatLoc[465] = gl.getUniformLocation(this.prog[465],"prMatrix");
+// ****** lines object 466 ******
+this.flags[466] = 128;
+this.prog[466]  = gl.createProgram();
+gl.attachShader(this.prog[466], this.getShader( gl, "srd_shape_global_3dvshader466" ));
+gl.attachShader(this.prog[466], this.getShader( gl, "srd_shape_global_3dfshader466" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[466], 0, "aPos");
+gl.bindAttribLocation(this.prog[466], 1, "aCol");
+gl.linkProgram(this.prog[466]);
+this.offsets[466]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1553602, -0.01634355, -0.06917679,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[466] = v;
+this.buf[466] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[466]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[466], gl.STATIC_DRAW);
+this.mvMatLoc[466] = gl.getUniformLocation(this.prog[466],"mvMatrix");
+this.prMatLoc[466] = gl.getUniformLocation(this.prog[466],"prMatrix");
+// ****** lines object 467 ******
+this.flags[467] = 128;
+this.prog[467]  = gl.createProgram();
+gl.attachShader(this.prog[467], this.getShader( gl, "srd_shape_global_3dvshader467" ));
+gl.attachShader(this.prog[467], this.getShader( gl, "srd_shape_global_3dfshader467" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[467], 0, "aPos");
+gl.bindAttribLocation(this.prog[467], 1, "aCol");
+gl.linkProgram(this.prog[467]);
+this.offsets[467]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1553602, -0.01634355, -0.06917679,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[467] = v;
+this.buf[467] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[467]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[467], gl.STATIC_DRAW);
+this.mvMatLoc[467] = gl.getUniformLocation(this.prog[467],"mvMatrix");
+this.prMatLoc[467] = gl.getUniformLocation(this.prog[467],"prMatrix");
+// ****** lines object 468 ******
+this.flags[468] = 128;
+this.prog[468]  = gl.createProgram();
+gl.attachShader(this.prog[468], this.getShader( gl, "srd_shape_global_3dvshader468" ));
+gl.attachShader(this.prog[468], this.getShader( gl, "srd_shape_global_3dfshader468" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[468], 0, "aPos");
+gl.bindAttribLocation(this.prog[468], 1, "aCol");
+gl.linkProgram(this.prog[468]);
+this.offsets[468]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08752096, -0.01378099, -0.1156733,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[468] = v;
+this.buf[468] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[468]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[468], gl.STATIC_DRAW);
+this.mvMatLoc[468] = gl.getUniformLocation(this.prog[468],"mvMatrix");
+this.prMatLoc[468] = gl.getUniformLocation(this.prog[468],"prMatrix");
+// ****** lines object 469 ******
+this.flags[469] = 128;
+this.prog[469]  = gl.createProgram();
+gl.attachShader(this.prog[469], this.getShader( gl, "srd_shape_global_3dvshader469" ));
+gl.attachShader(this.prog[469], this.getShader( gl, "srd_shape_global_3dfshader469" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[469], 0, "aPos");
+gl.bindAttribLocation(this.prog[469], 1, "aCol");
+gl.linkProgram(this.prog[469]);
+this.offsets[469]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[469] = v;
+this.buf[469] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[469]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[469], gl.STATIC_DRAW);
+this.mvMatLoc[469] = gl.getUniformLocation(this.prog[469],"mvMatrix");
+this.prMatLoc[469] = gl.getUniformLocation(this.prog[469],"prMatrix");
+// ****** lines object 470 ******
+this.flags[470] = 128;
+this.prog[470]  = gl.createProgram();
+gl.attachShader(this.prog[470], this.getShader( gl, "srd_shape_global_3dvshader470" ));
+gl.attachShader(this.prog[470], this.getShader( gl, "srd_shape_global_3dfshader470" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[470], 0, "aPos");
+gl.bindAttribLocation(this.prog[470], 1, "aCol");
+gl.linkProgram(this.prog[470]);
+this.offsets[470]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[470] = v;
+this.buf[470] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[470]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[470], gl.STATIC_DRAW);
+this.mvMatLoc[470] = gl.getUniformLocation(this.prog[470],"mvMatrix");
+this.prMatLoc[470] = gl.getUniformLocation(this.prog[470],"prMatrix");
+// ****** lines object 471 ******
+this.flags[471] = 128;
+this.prog[471]  = gl.createProgram();
+gl.attachShader(this.prog[471], this.getShader( gl, "srd_shape_global_3dvshader471" ));
+gl.attachShader(this.prog[471], this.getShader( gl, "srd_shape_global_3dfshader471" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[471], 0, "aPos");
+gl.bindAttribLocation(this.prog[471], 1, "aCol");
+gl.linkProgram(this.prog[471]);
+this.offsets[471]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.1246175, -0.003654234, -0.0005078361
+]);
+this.values[471] = v;
+this.buf[471] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[471]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[471], gl.STATIC_DRAW);
+this.mvMatLoc[471] = gl.getUniformLocation(this.prog[471],"mvMatrix");
+this.prMatLoc[471] = gl.getUniformLocation(this.prog[471],"prMatrix");
+// ****** lines object 472 ******
+this.flags[472] = 128;
+this.prog[472]  = gl.createProgram();
+gl.attachShader(this.prog[472], this.getShader( gl, "srd_shape_global_3dvshader472" ));
+gl.attachShader(this.prog[472], this.getShader( gl, "srd_shape_global_3dfshader472" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[472], 0, "aPos");
+gl.bindAttribLocation(this.prog[472], 1, "aCol");
+gl.linkProgram(this.prog[472]);
+this.offsets[472]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0199366, 0.08845101, -0.06710657,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[472] = v;
+this.buf[472] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[472]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[472], gl.STATIC_DRAW);
+this.mvMatLoc[472] = gl.getUniformLocation(this.prog[472],"mvMatrix");
+this.prMatLoc[472] = gl.getUniformLocation(this.prog[472],"prMatrix");
+// ****** lines object 473 ******
+this.flags[473] = 128;
+this.prog[473]  = gl.createProgram();
+gl.attachShader(this.prog[473], this.getShader( gl, "srd_shape_global_3dvshader473" ));
+gl.attachShader(this.prog[473], this.getShader( gl, "srd_shape_global_3dfshader473" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[473], 0, "aPos");
+gl.bindAttribLocation(this.prog[473], 1, "aCol");
+gl.linkProgram(this.prog[473]);
+this.offsets[473]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.007033864, 0.0110325, -0.0426656,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[473] = v;
+this.buf[473] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[473]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[473], gl.STATIC_DRAW);
+this.mvMatLoc[473] = gl.getUniformLocation(this.prog[473],"mvMatrix");
+this.prMatLoc[473] = gl.getUniformLocation(this.prog[473],"prMatrix");
+// ****** lines object 474 ******
+this.flags[474] = 128;
+this.prog[474]  = gl.createProgram();
+gl.attachShader(this.prog[474], this.getShader( gl, "srd_shape_global_3dvshader474" ));
+gl.attachShader(this.prog[474], this.getShader( gl, "srd_shape_global_3dfshader474" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[474], 0, "aPos");
+gl.bindAttribLocation(this.prog[474], 1, "aCol");
+gl.linkProgram(this.prog[474]);
+this.offsets[474]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.004873137, 0.03804675, 0.01656726,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[474] = v;
+this.buf[474] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[474]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[474], gl.STATIC_DRAW);
+this.mvMatLoc[474] = gl.getUniformLocation(this.prog[474],"mvMatrix");
+this.prMatLoc[474] = gl.getUniformLocation(this.prog[474],"prMatrix");
+// ****** lines object 475 ******
+this.flags[475] = 128;
+this.prog[475]  = gl.createProgram();
+gl.attachShader(this.prog[475], this.getShader( gl, "srd_shape_global_3dvshader475" ));
+gl.attachShader(this.prog[475], this.getShader( gl, "srd_shape_global_3dfshader475" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[475], 0, "aPos");
+gl.bindAttribLocation(this.prog[475], 1, "aCol");
+gl.linkProgram(this.prog[475]);
+this.offsets[475]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.004873137, 0.03804675, 0.01656726,
+-0.04021478, 0.08391441, 0.04506655
+]);
+this.values[475] = v;
+this.buf[475] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[475]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[475], gl.STATIC_DRAW);
+this.mvMatLoc[475] = gl.getUniformLocation(this.prog[475],"mvMatrix");
+this.prMatLoc[475] = gl.getUniformLocation(this.prog[475],"prMatrix");
+// ****** lines object 476 ******
+this.flags[476] = 128;
+this.prog[476]  = gl.createProgram();
+gl.attachShader(this.prog[476], this.getShader( gl, "srd_shape_global_3dvshader476" ));
+gl.attachShader(this.prog[476], this.getShader( gl, "srd_shape_global_3dfshader476" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[476], 0, "aPos");
+gl.bindAttribLocation(this.prog[476], 1, "aCol");
+gl.linkProgram(this.prog[476]);
+this.offsets[476]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+-0.09417444, 0.1015926, 0.0891407
+]);
+this.values[476] = v;
+this.buf[476] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[476]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[476], gl.STATIC_DRAW);
+this.mvMatLoc[476] = gl.getUniformLocation(this.prog[476],"mvMatrix");
+this.prMatLoc[476] = gl.getUniformLocation(this.prog[476],"prMatrix");
+// ****** lines object 477 ******
+this.flags[477] = 128;
+this.prog[477]  = gl.createProgram();
+gl.attachShader(this.prog[477], this.getShader( gl, "srd_shape_global_3dvshader477" ));
+gl.attachShader(this.prog[477], this.getShader( gl, "srd_shape_global_3dfshader477" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[477], 0, "aPos");
+gl.bindAttribLocation(this.prog[477], 1, "aCol");
+gl.linkProgram(this.prog[477]);
+this.offsets[477]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.09417444, 0.1015926, 0.0891407,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[477] = v;
+this.buf[477] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[477]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[477], gl.STATIC_DRAW);
+this.mvMatLoc[477] = gl.getUniformLocation(this.prog[477],"mvMatrix");
+this.prMatLoc[477] = gl.getUniformLocation(this.prog[477],"prMatrix");
+// ****** lines object 478 ******
+this.flags[478] = 128;
+this.prog[478]  = gl.createProgram();
+gl.attachShader(this.prog[478], this.getShader( gl, "srd_shape_global_3dvshader478" ));
+gl.attachShader(this.prog[478], this.getShader( gl, "srd_shape_global_3dfshader478" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[478], 0, "aPos");
+gl.bindAttribLocation(this.prog[478], 1, "aCol");
+gl.linkProgram(this.prog[478]);
+this.offsets[478]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1301225, 0.1160764, -0.001737236,
+-0.1246175, -0.003654234, -0.0005078361
+]);
+this.values[478] = v;
+this.buf[478] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[478]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[478], gl.STATIC_DRAW);
+this.mvMatLoc[478] = gl.getUniformLocation(this.prog[478],"mvMatrix");
+this.prMatLoc[478] = gl.getUniformLocation(this.prog[478],"prMatrix");
+// ****** lines object 479 ******
+this.flags[479] = 128;
+this.prog[479]  = gl.createProgram();
+gl.attachShader(this.prog[479], this.getShader( gl, "srd_shape_global_3dvshader479" ));
+gl.attachShader(this.prog[479], this.getShader( gl, "srd_shape_global_3dfshader479" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[479], 0, "aPos");
+gl.bindAttribLocation(this.prog[479], 1, "aCol");
+gl.linkProgram(this.prog[479]);
+this.offsets[479]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.000128291, -0.0009894678, 0.2512301,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[479] = v;
+this.buf[479] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[479]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[479], gl.STATIC_DRAW);
+this.mvMatLoc[479] = gl.getUniformLocation(this.prog[479],"mvMatrix");
+this.prMatLoc[479] = gl.getUniformLocation(this.prog[479],"prMatrix");
+// ****** lines object 480 ******
+this.flags[480] = 128;
+this.prog[480]  = gl.createProgram();
+gl.attachShader(this.prog[480], this.getShader( gl, "srd_shape_global_3dvshader480" ));
+gl.attachShader(this.prog[480], this.getShader( gl, "srd_shape_global_3dfshader480" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[480], 0, "aPos");
+gl.bindAttribLocation(this.prog[480], 1, "aCol");
+gl.linkProgram(this.prog[480]);
+this.offsets[480]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[480] = v;
+this.buf[480] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[480]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[480], gl.STATIC_DRAW);
+this.mvMatLoc[480] = gl.getUniformLocation(this.prog[480],"mvMatrix");
+this.prMatLoc[480] = gl.getUniformLocation(this.prog[480],"prMatrix");
+// ****** lines object 481 ******
+this.flags[481] = 128;
+this.prog[481]  = gl.createProgram();
+gl.attachShader(this.prog[481], this.getShader( gl, "srd_shape_global_3dvshader481" ));
+gl.attachShader(this.prog[481], this.getShader( gl, "srd_shape_global_3dfshader481" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[481], 0, "aPos");
+gl.bindAttribLocation(this.prog[481], 1, "aCol");
+gl.linkProgram(this.prog[481]);
+this.offsets[481]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[481] = v;
+this.buf[481] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[481]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[481], gl.STATIC_DRAW);
+this.mvMatLoc[481] = gl.getUniformLocation(this.prog[481],"mvMatrix");
+this.prMatLoc[481] = gl.getUniformLocation(this.prog[481],"prMatrix");
+// ****** lines object 482 ******
+this.flags[482] = 128;
+this.prog[482]  = gl.createProgram();
+gl.attachShader(this.prog[482], this.getShader( gl, "srd_shape_global_3dvshader482" ));
+gl.attachShader(this.prog[482], this.getShader( gl, "srd_shape_global_3dfshader482" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[482], 0, "aPos");
+gl.bindAttribLocation(this.prog[482], 1, "aCol");
+gl.linkProgram(this.prog[482]);
+this.offsets[482]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[482] = v;
+this.buf[482] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[482]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[482], gl.STATIC_DRAW);
+this.mvMatLoc[482] = gl.getUniformLocation(this.prog[482],"mvMatrix");
+this.prMatLoc[482] = gl.getUniformLocation(this.prog[482],"prMatrix");
+// ****** lines object 483 ******
+this.flags[483] = 128;
+this.prog[483]  = gl.createProgram();
+gl.attachShader(this.prog[483], this.getShader( gl, "srd_shape_global_3dvshader483" ));
+gl.attachShader(this.prog[483], this.getShader( gl, "srd_shape_global_3dfshader483" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[483], 0, "aPos");
+gl.bindAttribLocation(this.prog[483], 1, "aCol");
+gl.linkProgram(this.prog[483]);
+this.offsets[483]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.01463911, 0.1001435, 0.09276654,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[483] = v;
+this.buf[483] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[483]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[483], gl.STATIC_DRAW);
+this.mvMatLoc[483] = gl.getUniformLocation(this.prog[483],"mvMatrix");
+this.prMatLoc[483] = gl.getUniformLocation(this.prog[483],"prMatrix");
+// ****** lines object 484 ******
+this.flags[484] = 128;
+this.prog[484]  = gl.createProgram();
+gl.attachShader(this.prog[484], this.getShader( gl, "srd_shape_global_3dvshader484" ));
+gl.attachShader(this.prog[484], this.getShader( gl, "srd_shape_global_3dfshader484" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[484], 0, "aPos");
+gl.bindAttribLocation(this.prog[484], 1, "aCol");
+gl.linkProgram(this.prog[484]);
+this.offsets[484]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724
+]);
+this.values[484] = v;
+this.buf[484] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[484]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[484], gl.STATIC_DRAW);
+this.mvMatLoc[484] = gl.getUniformLocation(this.prog[484],"mvMatrix");
+this.prMatLoc[484] = gl.getUniformLocation(this.prog[484],"prMatrix");
+// ****** lines object 485 ******
+this.flags[485] = 128;
+this.prog[485]  = gl.createProgram();
+gl.attachShader(this.prog[485], this.getShader( gl, "srd_shape_global_3dvshader485" ));
+gl.attachShader(this.prog[485], this.getShader( gl, "srd_shape_global_3dfshader485" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[485], 0, "aPos");
+gl.bindAttribLocation(this.prog[485], 1, "aCol");
+gl.linkProgram(this.prog[485]);
+this.offsets[485]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.04802516, -0.01405814, -0.2370292
+]);
+this.values[485] = v;
+this.buf[485] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[485]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[485], gl.STATIC_DRAW);
+this.mvMatLoc[485] = gl.getUniformLocation(this.prog[485],"mvMatrix");
+this.prMatLoc[485] = gl.getUniformLocation(this.prog[485],"prMatrix");
+// ****** lines object 486 ******
+this.flags[486] = 128;
+this.prog[486]  = gl.createProgram();
+gl.attachShader(this.prog[486], this.getShader( gl, "srd_shape_global_3dvshader486" ));
+gl.attachShader(this.prog[486], this.getShader( gl, "srd_shape_global_3dfshader486" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[486], 0, "aPos");
+gl.bindAttribLocation(this.prog[486], 1, "aCol");
+gl.linkProgram(this.prog[486]);
+this.offsets[486]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867
+]);
+this.values[486] = v;
+this.buf[486] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[486]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[486], gl.STATIC_DRAW);
+this.mvMatLoc[486] = gl.getUniformLocation(this.prog[486],"mvMatrix");
+this.prMatLoc[486] = gl.getUniformLocation(this.prog[486],"prMatrix");
+// ****** lines object 487 ******
+this.flags[487] = 128;
+this.prog[487]  = gl.createProgram();
+gl.attachShader(this.prog[487], this.getShader( gl, "srd_shape_global_3dvshader487" ));
+gl.attachShader(this.prog[487], this.getShader( gl, "srd_shape_global_3dfshader487" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[487], 0, "aPos");
+gl.bindAttribLocation(this.prog[487], 1, "aCol");
+gl.linkProgram(this.prog[487]);
+this.offsets[487]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[487] = v;
+this.buf[487] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[487]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[487], gl.STATIC_DRAW);
+this.mvMatLoc[487] = gl.getUniformLocation(this.prog[487],"mvMatrix");
+this.prMatLoc[487] = gl.getUniformLocation(this.prog[487],"prMatrix");
+// ****** lines object 488 ******
+this.flags[488] = 128;
+this.prog[488]  = gl.createProgram();
+gl.attachShader(this.prog[488], this.getShader( gl, "srd_shape_global_3dvshader488" ));
+gl.attachShader(this.prog[488], this.getShader( gl, "srd_shape_global_3dfshader488" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[488], 0, "aPos");
+gl.bindAttribLocation(this.prog[488], 1, "aCol");
+gl.linkProgram(this.prog[488]);
+this.offsets[488]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[488] = v;
+this.buf[488] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[488]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[488], gl.STATIC_DRAW);
+this.mvMatLoc[488] = gl.getUniformLocation(this.prog[488],"mvMatrix");
+this.prMatLoc[488] = gl.getUniformLocation(this.prog[488],"prMatrix");
+// ****** lines object 489 ******
+this.flags[489] = 128;
+this.prog[489]  = gl.createProgram();
+gl.attachShader(this.prog[489], this.getShader( gl, "srd_shape_global_3dvshader489" ));
+gl.attachShader(this.prog[489], this.getShader( gl, "srd_shape_global_3dfshader489" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[489], 0, "aPos");
+gl.bindAttribLocation(this.prog[489], 1, "aCol");
+gl.linkProgram(this.prog[489]);
+this.offsets[489]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[489] = v;
+this.buf[489] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[489]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[489], gl.STATIC_DRAW);
+this.mvMatLoc[489] = gl.getUniformLocation(this.prog[489],"mvMatrix");
+this.prMatLoc[489] = gl.getUniformLocation(this.prog[489],"prMatrix");
+// ****** lines object 490 ******
+this.flags[490] = 128;
+this.prog[490]  = gl.createProgram();
+gl.attachShader(this.prog[490], this.getShader( gl, "srd_shape_global_3dvshader490" ));
+gl.attachShader(this.prog[490], this.getShader( gl, "srd_shape_global_3dfshader490" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[490], 0, "aPos");
+gl.bindAttribLocation(this.prog[490], 1, "aCol");
+gl.linkProgram(this.prog[490]);
+this.offsets[490]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[490] = v;
+this.buf[490] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[490]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[490], gl.STATIC_DRAW);
+this.mvMatLoc[490] = gl.getUniformLocation(this.prog[490],"mvMatrix");
+this.prMatLoc[490] = gl.getUniformLocation(this.prog[490],"prMatrix");
+// ****** lines object 491 ******
+this.flags[491] = 128;
+this.prog[491]  = gl.createProgram();
+gl.attachShader(this.prog[491], this.getShader( gl, "srd_shape_global_3dvshader491" ));
+gl.attachShader(this.prog[491], this.getShader( gl, "srd_shape_global_3dfshader491" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[491], 0, "aPos");
+gl.bindAttribLocation(this.prog[491], 1, "aCol");
+gl.linkProgram(this.prog[491]);
+this.offsets[491]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366
+]);
+this.values[491] = v;
+this.buf[491] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[491]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[491], gl.STATIC_DRAW);
+this.mvMatLoc[491] = gl.getUniformLocation(this.prog[491],"mvMatrix");
+this.prMatLoc[491] = gl.getUniformLocation(this.prog[491],"prMatrix");
+// ****** lines object 492 ******
+this.flags[492] = 128;
+this.prog[492]  = gl.createProgram();
+gl.attachShader(this.prog[492], this.getShader( gl, "srd_shape_global_3dvshader492" ));
+gl.attachShader(this.prog[492], this.getShader( gl, "srd_shape_global_3dfshader492" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[492], 0, "aPos");
+gl.bindAttribLocation(this.prog[492], 1, "aCol");
+gl.linkProgram(this.prog[492]);
+this.offsets[492]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[492] = v;
+this.buf[492] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[492]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[492], gl.STATIC_DRAW);
+this.mvMatLoc[492] = gl.getUniformLocation(this.prog[492],"mvMatrix");
+this.prMatLoc[492] = gl.getUniformLocation(this.prog[492],"prMatrix");
+// ****** lines object 493 ******
+this.flags[493] = 128;
+this.prog[493]  = gl.createProgram();
+gl.attachShader(this.prog[493], this.getShader( gl, "srd_shape_global_3dvshader493" ));
+gl.attachShader(this.prog[493], this.getShader( gl, "srd_shape_global_3dfshader493" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[493], 0, "aPos");
+gl.bindAttribLocation(this.prog[493], 1, "aCol");
+gl.linkProgram(this.prog[493]);
+this.offsets[493]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[493] = v;
+this.buf[493] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[493]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[493], gl.STATIC_DRAW);
+this.mvMatLoc[493] = gl.getUniformLocation(this.prog[493],"mvMatrix");
+this.prMatLoc[493] = gl.getUniformLocation(this.prog[493],"prMatrix");
+// ****** lines object 494 ******
+this.flags[494] = 128;
+this.prog[494]  = gl.createProgram();
+gl.attachShader(this.prog[494], this.getShader( gl, "srd_shape_global_3dvshader494" ));
+gl.attachShader(this.prog[494], this.getShader( gl, "srd_shape_global_3dfshader494" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[494], 0, "aPos");
+gl.bindAttribLocation(this.prog[494], 1, "aCol");
+gl.linkProgram(this.prog[494]);
+this.offsets[494]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087
+]);
+this.values[494] = v;
+this.buf[494] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[494]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[494], gl.STATIC_DRAW);
+this.mvMatLoc[494] = gl.getUniformLocation(this.prog[494],"mvMatrix");
+this.prMatLoc[494] = gl.getUniformLocation(this.prog[494],"prMatrix");
+// ****** lines object 495 ******
+this.flags[495] = 128;
+this.prog[495]  = gl.createProgram();
+gl.attachShader(this.prog[495], this.getShader( gl, "srd_shape_global_3dvshader495" ));
+gl.attachShader(this.prog[495], this.getShader( gl, "srd_shape_global_3dfshader495" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[495], 0, "aPos");
+gl.bindAttribLocation(this.prog[495], 1, "aCol");
+gl.linkProgram(this.prog[495]);
+this.offsets[495]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.04889651, -0.1481737, -0.06959169
+]);
+this.values[495] = v;
+this.buf[495] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[495]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[495], gl.STATIC_DRAW);
+this.mvMatLoc[495] = gl.getUniformLocation(this.prog[495],"mvMatrix");
+this.prMatLoc[495] = gl.getUniformLocation(this.prog[495],"prMatrix");
+// ****** lines object 496 ******
+this.flags[496] = 128;
+this.prog[496]  = gl.createProgram();
+gl.attachShader(this.prog[496], this.getShader( gl, "srd_shape_global_3dvshader496" ));
+gl.attachShader(this.prog[496], this.getShader( gl, "srd_shape_global_3dfshader496" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[496], 0, "aPos");
+gl.bindAttribLocation(this.prog[496], 1, "aCol");
+gl.linkProgram(this.prog[496]);
+this.offsets[496]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[496] = v;
+this.buf[496] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[496]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[496], gl.STATIC_DRAW);
+this.mvMatLoc[496] = gl.getUniformLocation(this.prog[496],"mvMatrix");
+this.prMatLoc[496] = gl.getUniformLocation(this.prog[496],"prMatrix");
+// ****** lines object 497 ******
+this.flags[497] = 128;
+this.prog[497]  = gl.createProgram();
+gl.attachShader(this.prog[497], this.getShader( gl, "srd_shape_global_3dvshader497" ));
+gl.attachShader(this.prog[497], this.getShader( gl, "srd_shape_global_3dfshader497" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[497], 0, "aPos");
+gl.bindAttribLocation(this.prog[497], 1, "aCol");
+gl.linkProgram(this.prog[497]);
+this.offsets[497]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+0.04809806, -0.1319457, 0.01708304
+]);
+this.values[497] = v;
+this.buf[497] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[497]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[497], gl.STATIC_DRAW);
+this.mvMatLoc[497] = gl.getUniformLocation(this.prog[497],"mvMatrix");
+this.prMatLoc[497] = gl.getUniformLocation(this.prog[497],"prMatrix");
+// ****** lines object 498 ******
+this.flags[498] = 128;
+this.prog[498]  = gl.createProgram();
+gl.attachShader(this.prog[498], this.getShader( gl, "srd_shape_global_3dvshader498" ));
+gl.attachShader(this.prog[498], this.getShader( gl, "srd_shape_global_3dfshader498" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[498], 0, "aPos");
+gl.bindAttribLocation(this.prog[498], 1, "aCol");
+gl.linkProgram(this.prog[498]);
+this.offsets[498]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[498] = v;
+this.buf[498] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[498]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[498], gl.STATIC_DRAW);
+this.mvMatLoc[498] = gl.getUniformLocation(this.prog[498],"mvMatrix");
+this.prMatLoc[498] = gl.getUniformLocation(this.prog[498],"prMatrix");
+// ****** lines object 499 ******
+this.flags[499] = 128;
+this.prog[499]  = gl.createProgram();
+gl.attachShader(this.prog[499], this.getShader( gl, "srd_shape_global_3dvshader499" ));
+gl.attachShader(this.prog[499], this.getShader( gl, "srd_shape_global_3dfshader499" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[499], 0, "aPos");
+gl.bindAttribLocation(this.prog[499], 1, "aCol");
+gl.linkProgram(this.prog[499]);
+this.offsets[499]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.04889651, -0.1481737, -0.06959169
+]);
+this.values[499] = v;
+this.buf[499] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[499]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[499], gl.STATIC_DRAW);
+this.mvMatLoc[499] = gl.getUniformLocation(this.prog[499],"mvMatrix");
+this.prMatLoc[499] = gl.getUniformLocation(this.prog[499],"prMatrix");
+// ****** lines object 500 ******
+this.flags[500] = 128;
+this.prog[500]  = gl.createProgram();
+gl.attachShader(this.prog[500], this.getShader( gl, "srd_shape_global_3dvshader500" ));
+gl.attachShader(this.prog[500], this.getShader( gl, "srd_shape_global_3dfshader500" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[500], 0, "aPos");
+gl.bindAttribLocation(this.prog[500], 1, "aCol");
+gl.linkProgram(this.prog[500]);
+this.offsets[500]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[500] = v;
+this.buf[500] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[500]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[500], gl.STATIC_DRAW);
+this.mvMatLoc[500] = gl.getUniformLocation(this.prog[500],"mvMatrix");
+this.prMatLoc[500] = gl.getUniformLocation(this.prog[500],"prMatrix");
+// ****** lines object 501 ******
+this.flags[501] = 128;
+this.prog[501]  = gl.createProgram();
+gl.attachShader(this.prog[501], this.getShader( gl, "srd_shape_global_3dvshader501" ));
+gl.attachShader(this.prog[501], this.getShader( gl, "srd_shape_global_3dfshader501" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[501], 0, "aPos");
+gl.bindAttribLocation(this.prog[501], 1, "aCol");
+gl.linkProgram(this.prog[501]);
+this.offsets[501]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[501] = v;
+this.buf[501] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[501]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[501], gl.STATIC_DRAW);
+this.mvMatLoc[501] = gl.getUniformLocation(this.prog[501],"mvMatrix");
+this.prMatLoc[501] = gl.getUniformLocation(this.prog[501],"prMatrix");
+// ****** lines object 502 ******
+this.flags[502] = 128;
+this.prog[502]  = gl.createProgram();
+gl.attachShader(this.prog[502], this.getShader( gl, "srd_shape_global_3dvshader502" ));
+gl.attachShader(this.prog[502], this.getShader( gl, "srd_shape_global_3dfshader502" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[502], 0, "aPos");
+gl.bindAttribLocation(this.prog[502], 1, "aCol");
+gl.linkProgram(this.prog[502]);
+this.offsets[502]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1316182, -0.0441372, 0.08868205
+]);
+this.values[502] = v;
+this.buf[502] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[502]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[502], gl.STATIC_DRAW);
+this.mvMatLoc[502] = gl.getUniformLocation(this.prog[502],"mvMatrix");
+this.prMatLoc[502] = gl.getUniformLocation(this.prog[502],"prMatrix");
+// ****** lines object 503 ******
+this.flags[503] = 128;
+this.prog[503]  = gl.createProgram();
+gl.attachShader(this.prog[503], this.getShader( gl, "srd_shape_global_3dvshader503" ));
+gl.attachShader(this.prog[503], this.getShader( gl, "srd_shape_global_3dfshader503" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[503], 0, "aPos");
+gl.bindAttribLocation(this.prog[503], 1, "aCol");
+gl.linkProgram(this.prog[503]);
+this.offsets[503]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[503] = v;
+this.buf[503] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[503]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[503], gl.STATIC_DRAW);
+this.mvMatLoc[503] = gl.getUniformLocation(this.prog[503],"mvMatrix");
+this.prMatLoc[503] = gl.getUniformLocation(this.prog[503],"prMatrix");
+// ****** lines object 504 ******
+this.flags[504] = 128;
+this.prog[504]  = gl.createProgram();
+gl.attachShader(this.prog[504], this.getShader( gl, "srd_shape_global_3dvshader504" ));
+gl.attachShader(this.prog[504], this.getShader( gl, "srd_shape_global_3dfshader504" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[504], 0, "aPos");
+gl.bindAttribLocation(this.prog[504], 1, "aCol");
+gl.linkProgram(this.prog[504]);
+this.offsets[504]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04889651, -0.1481737, -0.06959169,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[504] = v;
+this.buf[504] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[504]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[504], gl.STATIC_DRAW);
+this.mvMatLoc[504] = gl.getUniformLocation(this.prog[504],"mvMatrix");
+this.prMatLoc[504] = gl.getUniformLocation(this.prog[504],"prMatrix");
+// ****** lines object 505 ******
+this.flags[505] = 128;
+this.prog[505]  = gl.createProgram();
+gl.attachShader(this.prog[505], this.getShader( gl, "srd_shape_global_3dvshader505" ));
+gl.attachShader(this.prog[505], this.getShader( gl, "srd_shape_global_3dfshader505" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[505], 0, "aPos");
+gl.bindAttribLocation(this.prog[505], 1, "aCol");
+gl.linkProgram(this.prog[505]);
+this.offsets[505]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04889651, -0.1481737, -0.06959169,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[505] = v;
+this.buf[505] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[505]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[505], gl.STATIC_DRAW);
+this.mvMatLoc[505] = gl.getUniformLocation(this.prog[505],"mvMatrix");
+this.prMatLoc[505] = gl.getUniformLocation(this.prog[505],"prMatrix");
+// ****** lines object 506 ******
+this.flags[506] = 128;
+this.prog[506]  = gl.createProgram();
+gl.attachShader(this.prog[506], this.getShader( gl, "srd_shape_global_3dvshader506" ));
+gl.attachShader(this.prog[506], this.getShader( gl, "srd_shape_global_3dfshader506" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[506], 0, "aPos");
+gl.bindAttribLocation(this.prog[506], 1, "aCol");
+gl.linkProgram(this.prog[506]);
+this.offsets[506]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.0231575, -0.08521444, -0.1158982,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[506] = v;
+this.buf[506] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[506]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[506], gl.STATIC_DRAW);
+this.mvMatLoc[506] = gl.getUniformLocation(this.prog[506],"mvMatrix");
+this.prMatLoc[506] = gl.getUniformLocation(this.prog[506],"prMatrix");
+// ****** lines object 507 ******
+this.flags[507] = 128;
+this.prog[507]  = gl.createProgram();
+gl.attachShader(this.prog[507], this.getShader( gl, "srd_shape_global_3dvshader507" ));
+gl.attachShader(this.prog[507], this.getShader( gl, "srd_shape_global_3dfshader507" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[507], 0, "aPos");
+gl.bindAttribLocation(this.prog[507], 1, "aCol");
+gl.linkProgram(this.prog[507]);
+this.offsets[507]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[507] = v;
+this.buf[507] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[507]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[507], gl.STATIC_DRAW);
+this.mvMatLoc[507] = gl.getUniformLocation(this.prog[507],"mvMatrix");
+this.prMatLoc[507] = gl.getUniformLocation(this.prog[507],"prMatrix");
+// ****** lines object 508 ******
+this.flags[508] = 128;
+this.prog[508]  = gl.createProgram();
+gl.attachShader(this.prog[508], this.getShader( gl, "srd_shape_global_3dvshader508" ));
+gl.attachShader(this.prog[508], this.getShader( gl, "srd_shape_global_3dfshader508" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[508], 0, "aPos");
+gl.bindAttribLocation(this.prog[508], 1, "aCol");
+gl.linkProgram(this.prog[508]);
+this.offsets[508]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[508] = v;
+this.buf[508] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[508]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[508], gl.STATIC_DRAW);
+this.mvMatLoc[508] = gl.getUniformLocation(this.prog[508],"mvMatrix");
+this.prMatLoc[508] = gl.getUniformLocation(this.prog[508],"prMatrix");
+// ****** lines object 509 ******
+this.flags[509] = 128;
+this.prog[509]  = gl.createProgram();
+gl.attachShader(this.prog[509], this.getShader( gl, "srd_shape_global_3dvshader509" ));
+gl.attachShader(this.prog[509], this.getShader( gl, "srd_shape_global_3dfshader509" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[509], 0, "aPos");
+gl.bindAttribLocation(this.prog[509], 1, "aCol");
+gl.linkProgram(this.prog[509]);
+this.offsets[509]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.04799455, -0.1150605, -0.0008584645
+]);
+this.values[509] = v;
+this.buf[509] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[509]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[509], gl.STATIC_DRAW);
+this.mvMatLoc[509] = gl.getUniformLocation(this.prog[509],"mvMatrix");
+this.prMatLoc[509] = gl.getUniformLocation(this.prog[509],"prMatrix");
+// ****** lines object 510 ******
+this.flags[510] = 128;
+this.prog[510]  = gl.createProgram();
+gl.attachShader(this.prog[510], this.getShader( gl, "srd_shape_global_3dvshader510" ));
+gl.attachShader(this.prog[510], this.getShader( gl, "srd_shape_global_3dfshader510" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[510], 0, "aPos");
+gl.bindAttribLocation(this.prog[510], 1, "aCol");
+gl.linkProgram(this.prog[510]);
+this.offsets[510]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.08861881, 0.0183878, -0.06732709,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[510] = v;
+this.buf[510] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[510]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[510], gl.STATIC_DRAW);
+this.mvMatLoc[510] = gl.getUniformLocation(this.prog[510],"mvMatrix");
+this.prMatLoc[510] = gl.getUniformLocation(this.prog[510],"prMatrix");
+// ****** lines object 511 ******
+this.flags[511] = 128;
+this.prog[511]  = gl.createProgram();
+gl.attachShader(this.prog[511], this.getShader( gl, "srd_shape_global_3dvshader511" ));
+gl.attachShader(this.prog[511], this.getShader( gl, "srd_shape_global_3dfshader511" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[511], 0, "aPos");
+gl.bindAttribLocation(this.prog[511], 1, "aCol");
+gl.linkProgram(this.prog[511]);
+this.offsets[511]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.007033864, 0.0110325, -0.0426656,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[511] = v;
+this.buf[511] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[511]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[511], gl.STATIC_DRAW);
+this.mvMatLoc[511] = gl.getUniformLocation(this.prog[511],"mvMatrix");
+this.prMatLoc[511] = gl.getUniformLocation(this.prog[511],"prMatrix");
+// ****** lines object 512 ******
+this.flags[512] = 128;
+this.prog[512]  = gl.createProgram();
+gl.attachShader(this.prog[512], this.getShader( gl, "srd_shape_global_3dvshader512" ));
+gl.attachShader(this.prog[512], this.getShader( gl, "srd_shape_global_3dfshader512" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[512], 0, "aPos");
+gl.bindAttribLocation(this.prog[512], 1, "aCol");
+gl.linkProgram(this.prog[512]);
+this.offsets[512]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.03672429, 0.01119917, 0.01648276,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[512] = v;
+this.buf[512] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[512]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[512], gl.STATIC_DRAW);
+this.mvMatLoc[512] = gl.getUniformLocation(this.prog[512],"mvMatrix");
+this.prMatLoc[512] = gl.getUniformLocation(this.prog[512],"prMatrix");
+// ****** lines object 513 ******
+this.flags[513] = 128;
+this.prog[513]  = gl.createProgram();
+gl.attachShader(this.prog[513], this.getShader( gl, "srd_shape_global_3dvshader513" ));
+gl.attachShader(this.prog[513], this.getShader( gl, "srd_shape_global_3dfshader513" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[513], 0, "aPos");
+gl.bindAttribLocation(this.prog[513], 1, "aCol");
+gl.linkProgram(this.prog[513]);
+this.offsets[513]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.03672429, 0.01119917, 0.01648276,
+0.09315851, -0.002166612, 0.04479563
+]);
+this.values[513] = v;
+this.buf[513] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[513]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[513], gl.STATIC_DRAW);
+this.mvMatLoc[513] = gl.getUniformLocation(this.prog[513],"mvMatrix");
+this.prMatLoc[513] = gl.getUniformLocation(this.prog[513],"prMatrix");
+// ****** lines object 514 ******
+this.flags[514] = 128;
+this.prog[514]  = gl.createProgram();
+gl.attachShader(this.prog[514], this.getShader( gl, "srd_shape_global_3dvshader514" ));
+gl.attachShader(this.prog[514], this.getShader( gl, "srd_shape_global_3dfshader514" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[514], 0, "aPos");
+gl.bindAttribLocation(this.prog[514], 1, "aCol");
+gl.linkProgram(this.prog[514]);
+this.offsets[514]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.1316182, -0.0441372, 0.08868205
+]);
+this.values[514] = v;
+this.buf[514] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[514]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[514], gl.STATIC_DRAW);
+this.mvMatLoc[514] = gl.getUniformLocation(this.prog[514],"mvMatrix");
+this.prMatLoc[514] = gl.getUniformLocation(this.prog[514],"prMatrix");
+// ****** lines object 515 ******
+this.flags[515] = 128;
+this.prog[515]  = gl.createProgram();
+gl.attachShader(this.prog[515], this.getShader( gl, "srd_shape_global_3dvshader515" ));
+gl.attachShader(this.prog[515], this.getShader( gl, "srd_shape_global_3dfshader515" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[515], 0, "aPos");
+gl.bindAttribLocation(this.prog[515], 1, "aCol");
+gl.linkProgram(this.prog[515]);
+this.offsets[515]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1316182, -0.0441372, 0.08868205,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[515] = v;
+this.buf[515] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[515]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[515], gl.STATIC_DRAW);
+this.mvMatLoc[515] = gl.getUniformLocation(this.prog[515],"mvMatrix");
+this.prMatLoc[515] = gl.getUniformLocation(this.prog[515],"prMatrix");
+// ****** lines object 516 ******
+this.flags[516] = 128;
+this.prog[516]  = gl.createProgram();
+gl.attachShader(this.prog[516], this.getShader( gl, "srd_shape_global_3dvshader516" ));
+gl.attachShader(this.prog[516], this.getShader( gl, "srd_shape_global_3dfshader516" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[516], 0, "aPos");
+gl.bindAttribLocation(this.prog[516], 1, "aCol");
+gl.linkProgram(this.prog[516]);
+this.offsets[516]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1593616, -0.07076082, -0.002325268,
+0.04799455, -0.1150605, -0.0008584645
+]);
+this.values[516] = v;
+this.buf[516] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[516]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[516], gl.STATIC_DRAW);
+this.mvMatLoc[516] = gl.getUniformLocation(this.prog[516],"mvMatrix");
+this.prMatLoc[516] = gl.getUniformLocation(this.prog[516],"prMatrix");
+// ****** lines object 517 ******
+this.flags[517] = 128;
+this.prog[517]  = gl.createProgram();
+gl.attachShader(this.prog[517], this.getShader( gl, "srd_shape_global_3dvshader517" ));
+gl.attachShader(this.prog[517], this.getShader( gl, "srd_shape_global_3dfshader517" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[517], 0, "aPos");
+gl.bindAttribLocation(this.prog[517], 1, "aCol");
+gl.linkProgram(this.prog[517]);
+this.offsets[517]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.000128291, -0.0009894678, 0.2512301,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[517] = v;
+this.buf[517] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[517]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[517], gl.STATIC_DRAW);
+this.mvMatLoc[517] = gl.getUniformLocation(this.prog[517],"mvMatrix");
+this.prMatLoc[517] = gl.getUniformLocation(this.prog[517],"prMatrix");
+// ****** lines object 518 ******
+this.flags[518] = 128;
+this.prog[518]  = gl.createProgram();
+gl.attachShader(this.prog[518], this.getShader( gl, "srd_shape_global_3dvshader518" ));
+gl.attachShader(this.prog[518], this.getShader( gl, "srd_shape_global_3dfshader518" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[518], 0, "aPos");
+gl.bindAttribLocation(this.prog[518], 1, "aCol");
+gl.linkProgram(this.prog[518]);
+this.offsets[518]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[518] = v;
+this.buf[518] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[518]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[518], gl.STATIC_DRAW);
+this.mvMatLoc[518] = gl.getUniformLocation(this.prog[518],"mvMatrix");
+this.prMatLoc[518] = gl.getUniformLocation(this.prog[518],"prMatrix");
+// ****** lines object 519 ******
+this.flags[519] = 128;
+this.prog[519]  = gl.createProgram();
+gl.attachShader(this.prog[519], this.getShader( gl, "srd_shape_global_3dvshader519" ));
+gl.attachShader(this.prog[519], this.getShader( gl, "srd_shape_global_3dfshader519" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[519], 0, "aPos");
+gl.bindAttribLocation(this.prog[519], 1, "aCol");
+gl.linkProgram(this.prog[519]);
+this.offsets[519]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[519] = v;
+this.buf[519] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[519]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[519], gl.STATIC_DRAW);
+this.mvMatLoc[519] = gl.getUniformLocation(this.prog[519],"mvMatrix");
+this.prMatLoc[519] = gl.getUniformLocation(this.prog[519],"prMatrix");
+// ****** lines object 520 ******
+this.flags[520] = 128;
+this.prog[520]  = gl.createProgram();
+gl.attachShader(this.prog[520], this.getShader( gl, "srd_shape_global_3dvshader520" ));
+gl.attachShader(this.prog[520], this.getShader( gl, "srd_shape_global_3dfshader520" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[520], 0, "aPos");
+gl.bindAttribLocation(this.prog[520], 1, "aCol");
+gl.linkProgram(this.prog[520]);
+this.offsets[520]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[520] = v;
+this.buf[520] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[520]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[520], gl.STATIC_DRAW);
+this.mvMatLoc[520] = gl.getUniformLocation(this.prog[520],"mvMatrix");
+this.prMatLoc[520] = gl.getUniformLocation(this.prog[520],"prMatrix");
+// ****** lines object 521 ******
+this.flags[521] = 128;
+this.prog[521]  = gl.createProgram();
+gl.attachShader(this.prog[521], this.getShader( gl, "srd_shape_global_3dvshader521" ));
+gl.attachShader(this.prog[521], this.getShader( gl, "srd_shape_global_3dfshader521" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[521], 0, "aPos");
+gl.bindAttribLocation(this.prog[521], 1, "aCol");
+gl.linkProgram(this.prog[521]);
+this.offsets[521]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.09755013, 0.02773499, 0.09253865,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[521] = v;
+this.buf[521] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[521]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[521], gl.STATIC_DRAW);
+this.mvMatLoc[521] = gl.getUniformLocation(this.prog[521],"mvMatrix");
+this.prMatLoc[521] = gl.getUniformLocation(this.prog[521],"prMatrix");
+// ****** lines object 522 ******
+this.flags[522] = 128;
+this.prog[522]  = gl.createProgram();
+gl.attachShader(this.prog[522], this.getShader( gl, "srd_shape_global_3dvshader522" ));
+gl.attachShader(this.prog[522], this.getShader( gl, "srd_shape_global_3dfshader522" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[522], 0, "aPos");
+gl.bindAttribLocation(this.prog[522], 1, "aCol");
+gl.linkProgram(this.prog[522]);
+this.offsets[522]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724
+]);
+this.values[522] = v;
+this.buf[522] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[522]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[522], gl.STATIC_DRAW);
+this.mvMatLoc[522] = gl.getUniformLocation(this.prog[522],"mvMatrix");
+this.prMatLoc[522] = gl.getUniformLocation(this.prog[522],"prMatrix");
+// ****** points object 523 ******
+this.flags[523] = 64;
+this.prog[523]  = gl.createProgram();
+gl.attachShader(this.prog[523], this.getShader( gl, "srd_shape_global_3dvshader523" ));
+gl.attachShader(this.prog[523], this.getShader( gl, "srd_shape_global_3dfshader523" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[523], 0, "aPos");
+gl.bindAttribLocation(this.prog[523], 1, "aCol");
+gl.linkProgram(this.prog[523]);
+this.offsets[523]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087,
+0.007033864, 0.0110325, -0.0426656,
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301,
+-0.03327011, 0.03841099, -0.236864,
+-0.1399952, -0.01054767, 0.01746511,
+-0.1553602, -0.01634355, -0.06917679,
+-0.08752096, -0.01378099, -0.1156733,
+-0.0892901, 0.08458719, -0.09783427,
+-0.0199366, 0.08845101, -0.06710657,
+-0.004873137, 0.03804675, 0.01656726,
+-0.09417444, 0.1015926, 0.0891407,
+-0.0883795, 0.1075088, 0.1117426,
+-0.1301225, 0.1160764, -0.001737236,
+-0.1246175, -0.003654234, -0.0005078361,
+-0.04021478, 0.08391441, 0.04506655,
+-0.01463911, 0.1001435, 0.09276654,
+-0.06819715, 0.09116033, 0.1977186,
+0.04802516, -0.01405814, -0.2370292,
+0.04809806, -0.1319457, 0.01708304,
+0.04889651, -0.1481737, -0.06959169,
+0.0231575, -0.08521444, -0.1158982,
+0.1135743, -0.04634437, -0.09824634,
+0.08861881, 0.0183878, -0.06732709,
+0.03672429, 0.01119917, 0.01648276,
+0.1316182, -0.0441372, 0.08868205,
+0.1346873, -0.03646173, 0.1112895,
+0.1593616, -0.07076082, -0.002325268,
+0.04799455, -0.1150605, -0.0008584645,
+0.09315851, -0.002166612, 0.04479563,
+0.09755013, 0.02773499, 0.09253865,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[523] = v;
+this.buf[523] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[523]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[523], gl.STATIC_DRAW);
+this.mvMatLoc[523] = gl.getUniformLocation(this.prog[523],"mvMatrix");
+this.prMatLoc[523] = gl.getUniformLocation(this.prog[523],"prMatrix");
+// ****** lines object 524 ******
+this.flags[524] = 128;
+this.prog[524]  = gl.createProgram();
+gl.attachShader(this.prog[524], this.getShader( gl, "srd_shape_global_3dvshader524" ));
+gl.attachShader(this.prog[524], this.getShader( gl, "srd_shape_global_3dfshader524" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[524], 0, "aPos");
+gl.bindAttribLocation(this.prog[524], 1, "aCol");
+gl.linkProgram(this.prog[524]);
+this.offsets[524]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03327011, 0.03841099, -0.236864
+]);
+this.values[524] = v;
+this.buf[524] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[524]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[524], gl.STATIC_DRAW);
+this.mvMatLoc[524] = gl.getUniformLocation(this.prog[524],"mvMatrix");
+this.prMatLoc[524] = gl.getUniformLocation(this.prog[524],"prMatrix");
+// ****** lines object 525 ******
+this.flags[525] = 128;
+this.prog[525]  = gl.createProgram();
+gl.attachShader(this.prog[525], this.getShader( gl, "srd_shape_global_3dvshader525" ));
+gl.attachShader(this.prog[525], this.getShader( gl, "srd_shape_global_3dfshader525" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[525], 0, "aPos");
+gl.bindAttribLocation(this.prog[525], 1, "aCol");
+gl.linkProgram(this.prog[525]);
+this.offsets[525]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867
+]);
+this.values[525] = v;
+this.buf[525] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[525]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[525], gl.STATIC_DRAW);
+this.mvMatLoc[525] = gl.getUniformLocation(this.prog[525],"mvMatrix");
+this.prMatLoc[525] = gl.getUniformLocation(this.prog[525],"prMatrix");
+// ****** lines object 526 ******
+this.flags[526] = 128;
+this.prog[526]  = gl.createProgram();
+gl.attachShader(this.prog[526], this.getShader( gl, "srd_shape_global_3dvshader526" ));
+gl.attachShader(this.prog[526], this.getShader( gl, "srd_shape_global_3dfshader526" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[526], 0, "aPos");
+gl.bindAttribLocation(this.prog[526], 1, "aCol");
+gl.linkProgram(this.prog[526]);
+this.offsets[526]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[526] = v;
+this.buf[526] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[526]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[526], gl.STATIC_DRAW);
+this.mvMatLoc[526] = gl.getUniformLocation(this.prog[526],"mvMatrix");
+this.prMatLoc[526] = gl.getUniformLocation(this.prog[526],"prMatrix");
+// ****** lines object 527 ******
+this.flags[527] = 128;
+this.prog[527]  = gl.createProgram();
+gl.attachShader(this.prog[527], this.getShader( gl, "srd_shape_global_3dvshader527" ));
+gl.attachShader(this.prog[527], this.getShader( gl, "srd_shape_global_3dfshader527" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[527], 0, "aPos");
+gl.bindAttribLocation(this.prog[527], 1, "aCol");
+gl.linkProgram(this.prog[527]);
+this.offsets[527]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[527] = v;
+this.buf[527] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[527]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[527], gl.STATIC_DRAW);
+this.mvMatLoc[527] = gl.getUniformLocation(this.prog[527],"mvMatrix");
+this.prMatLoc[527] = gl.getUniformLocation(this.prog[527],"prMatrix");
+// ****** lines object 528 ******
+this.flags[528] = 128;
+this.prog[528]  = gl.createProgram();
+gl.attachShader(this.prog[528], this.getShader( gl, "srd_shape_global_3dvshader528" ));
+gl.attachShader(this.prog[528], this.getShader( gl, "srd_shape_global_3dfshader528" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[528], 0, "aPos");
+gl.bindAttribLocation(this.prog[528], 1, "aCol");
+gl.linkProgram(this.prog[528]);
+this.offsets[528]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[528] = v;
+this.buf[528] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[528]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[528], gl.STATIC_DRAW);
+this.mvMatLoc[528] = gl.getUniformLocation(this.prog[528],"mvMatrix");
+this.prMatLoc[528] = gl.getUniformLocation(this.prog[528],"prMatrix");
+// ****** lines object 529 ******
+this.flags[529] = 128;
+this.prog[529]  = gl.createProgram();
+gl.attachShader(this.prog[529], this.getShader( gl, "srd_shape_global_3dvshader529" ));
+gl.attachShader(this.prog[529], this.getShader( gl, "srd_shape_global_3dfshader529" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[529], 0, "aPos");
+gl.bindAttribLocation(this.prog[529], 1, "aCol");
+gl.linkProgram(this.prog[529]);
+this.offsets[529]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03327011, 0.03841099, -0.236864,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[529] = v;
+this.buf[529] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[529]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[529], gl.STATIC_DRAW);
+this.mvMatLoc[529] = gl.getUniformLocation(this.prog[529],"mvMatrix");
+this.prMatLoc[529] = gl.getUniformLocation(this.prog[529],"prMatrix");
+// ****** lines object 530 ******
+this.flags[530] = 128;
+this.prog[530]  = gl.createProgram();
+gl.attachShader(this.prog[530], this.getShader( gl, "srd_shape_global_3dvshader530" ));
+gl.attachShader(this.prog[530], this.getShader( gl, "srd_shape_global_3dfshader530" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[530], 0, "aPos");
+gl.bindAttribLocation(this.prog[530], 1, "aCol");
+gl.linkProgram(this.prog[530]);
+this.offsets[530]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366
+]);
+this.values[530] = v;
+this.buf[530] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[530]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[530], gl.STATIC_DRAW);
+this.mvMatLoc[530] = gl.getUniformLocation(this.prog[530],"mvMatrix");
+this.prMatLoc[530] = gl.getUniformLocation(this.prog[530],"prMatrix");
+// ****** lines object 531 ******
+this.flags[531] = 128;
+this.prog[531]  = gl.createProgram();
+gl.attachShader(this.prog[531], this.getShader( gl, "srd_shape_global_3dvshader531" ));
+gl.attachShader(this.prog[531], this.getShader( gl, "srd_shape_global_3dfshader531" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[531], 0, "aPos");
+gl.bindAttribLocation(this.prog[531], 1, "aCol");
+gl.linkProgram(this.prog[531]);
+this.offsets[531]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[531] = v;
+this.buf[531] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[531]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[531], gl.STATIC_DRAW);
+this.mvMatLoc[531] = gl.getUniformLocation(this.prog[531],"mvMatrix");
+this.prMatLoc[531] = gl.getUniformLocation(this.prog[531],"prMatrix");
+// ****** lines object 532 ******
+this.flags[532] = 128;
+this.prog[532]  = gl.createProgram();
+gl.attachShader(this.prog[532], this.getShader( gl, "srd_shape_global_3dvshader532" ));
+gl.attachShader(this.prog[532], this.getShader( gl, "srd_shape_global_3dfshader532" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[532], 0, "aPos");
+gl.bindAttribLocation(this.prog[532], 1, "aCol");
+gl.linkProgram(this.prog[532]);
+this.offsets[532]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[532] = v;
+this.buf[532] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[532]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[532], gl.STATIC_DRAW);
+this.mvMatLoc[532] = gl.getUniformLocation(this.prog[532],"mvMatrix");
+this.prMatLoc[532] = gl.getUniformLocation(this.prog[532],"prMatrix");
+// ****** lines object 533 ******
+this.flags[533] = 128;
+this.prog[533]  = gl.createProgram();
+gl.attachShader(this.prog[533], this.getShader( gl, "srd_shape_global_3dvshader533" ));
+gl.attachShader(this.prog[533], this.getShader( gl, "srd_shape_global_3dfshader533" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[533], 0, "aPos");
+gl.bindAttribLocation(this.prog[533], 1, "aCol");
+gl.linkProgram(this.prog[533]);
+this.offsets[533]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087
+]);
+this.values[533] = v;
+this.buf[533] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[533]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[533], gl.STATIC_DRAW);
+this.mvMatLoc[533] = gl.getUniformLocation(this.prog[533],"mvMatrix");
+this.prMatLoc[533] = gl.getUniformLocation(this.prog[533],"prMatrix");
+// ****** lines object 534 ******
+this.flags[534] = 128;
+this.prog[534]  = gl.createProgram();
+gl.attachShader(this.prog[534], this.getShader( gl, "srd_shape_global_3dvshader534" ));
+gl.attachShader(this.prog[534], this.getShader( gl, "srd_shape_global_3dfshader534" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[534], 0, "aPos");
+gl.bindAttribLocation(this.prog[534], 1, "aCol");
+gl.linkProgram(this.prog[534]);
+this.offsets[534]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.1553602, -0.01634355, -0.06917679
+]);
+this.values[534] = v;
+this.buf[534] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[534]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[534], gl.STATIC_DRAW);
+this.mvMatLoc[534] = gl.getUniformLocation(this.prog[534],"mvMatrix");
+this.prMatLoc[534] = gl.getUniformLocation(this.prog[534],"prMatrix");
+// ****** lines object 535 ******
+this.flags[535] = 128;
+this.prog[535]  = gl.createProgram();
+gl.attachShader(this.prog[535], this.getShader( gl, "srd_shape_global_3dvshader535" ));
+gl.attachShader(this.prog[535], this.getShader( gl, "srd_shape_global_3dfshader535" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[535], 0, "aPos");
+gl.bindAttribLocation(this.prog[535], 1, "aCol");
+gl.linkProgram(this.prog[535]);
+this.offsets[535]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[535] = v;
+this.buf[535] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[535]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[535], gl.STATIC_DRAW);
+this.mvMatLoc[535] = gl.getUniformLocation(this.prog[535],"mvMatrix");
+this.prMatLoc[535] = gl.getUniformLocation(this.prog[535],"prMatrix");
+// ****** lines object 536 ******
+this.flags[536] = 128;
+this.prog[536]  = gl.createProgram();
+gl.attachShader(this.prog[536], this.getShader( gl, "srd_shape_global_3dvshader536" ));
+gl.attachShader(this.prog[536], this.getShader( gl, "srd_shape_global_3dfshader536" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[536], 0, "aPos");
+gl.bindAttribLocation(this.prog[536], 1, "aCol");
+gl.linkProgram(this.prog[536]);
+this.offsets[536]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.1399952, -0.01054767, 0.01746511
+]);
+this.values[536] = v;
+this.buf[536] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[536]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[536], gl.STATIC_DRAW);
+this.mvMatLoc[536] = gl.getUniformLocation(this.prog[536],"mvMatrix");
+this.prMatLoc[536] = gl.getUniformLocation(this.prog[536],"prMatrix");
+// ****** lines object 537 ******
+this.flags[537] = 128;
+this.prog[537]  = gl.createProgram();
+gl.attachShader(this.prog[537], this.getShader( gl, "srd_shape_global_3dvshader537" ));
+gl.attachShader(this.prog[537], this.getShader( gl, "srd_shape_global_3dfshader537" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[537], 0, "aPos");
+gl.bindAttribLocation(this.prog[537], 1, "aCol");
+gl.linkProgram(this.prog[537]);
+this.offsets[537]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[537] = v;
+this.buf[537] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[537]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[537], gl.STATIC_DRAW);
+this.mvMatLoc[537] = gl.getUniformLocation(this.prog[537],"mvMatrix");
+this.prMatLoc[537] = gl.getUniformLocation(this.prog[537],"prMatrix");
+// ****** lines object 538 ******
+this.flags[538] = 128;
+this.prog[538]  = gl.createProgram();
+gl.attachShader(this.prog[538], this.getShader( gl, "srd_shape_global_3dvshader538" ));
+gl.attachShader(this.prog[538], this.getShader( gl, "srd_shape_global_3dfshader538" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[538], 0, "aPos");
+gl.bindAttribLocation(this.prog[538], 1, "aCol");
+gl.linkProgram(this.prog[538]);
+this.offsets[538]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.1553602, -0.01634355, -0.06917679
+]);
+this.values[538] = v;
+this.buf[538] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[538]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[538], gl.STATIC_DRAW);
+this.mvMatLoc[538] = gl.getUniformLocation(this.prog[538],"mvMatrix");
+this.prMatLoc[538] = gl.getUniformLocation(this.prog[538],"prMatrix");
+// ****** lines object 539 ******
+this.flags[539] = 128;
+this.prog[539]  = gl.createProgram();
+gl.attachShader(this.prog[539], this.getShader( gl, "srd_shape_global_3dvshader539" ));
+gl.attachShader(this.prog[539], this.getShader( gl, "srd_shape_global_3dfshader539" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[539], 0, "aPos");
+gl.bindAttribLocation(this.prog[539], 1, "aCol");
+gl.linkProgram(this.prog[539]);
+this.offsets[539]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[539] = v;
+this.buf[539] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[539]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[539], gl.STATIC_DRAW);
+this.mvMatLoc[539] = gl.getUniformLocation(this.prog[539],"mvMatrix");
+this.prMatLoc[539] = gl.getUniformLocation(this.prog[539],"prMatrix");
+// ****** lines object 540 ******
+this.flags[540] = 128;
+this.prog[540]  = gl.createProgram();
+gl.attachShader(this.prog[540], this.getShader( gl, "srd_shape_global_3dvshader540" ));
+gl.attachShader(this.prog[540], this.getShader( gl, "srd_shape_global_3dfshader540" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[540], 0, "aPos");
+gl.bindAttribLocation(this.prog[540], 1, "aCol");
+gl.linkProgram(this.prog[540]);
+this.offsets[540]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[540] = v;
+this.buf[540] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[540]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[540], gl.STATIC_DRAW);
+this.mvMatLoc[540] = gl.getUniformLocation(this.prog[540],"mvMatrix");
+this.prMatLoc[540] = gl.getUniformLocation(this.prog[540],"prMatrix");
+// ****** lines object 541 ******
+this.flags[541] = 128;
+this.prog[541]  = gl.createProgram();
+gl.attachShader(this.prog[541], this.getShader( gl, "srd_shape_global_3dvshader541" ));
+gl.attachShader(this.prog[541], this.getShader( gl, "srd_shape_global_3dfshader541" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[541], 0, "aPos");
+gl.bindAttribLocation(this.prog[541], 1, "aCol");
+gl.linkProgram(this.prog[541]);
+this.offsets[541]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.09417444, 0.1015926, 0.0891407
+]);
+this.values[541] = v;
+this.buf[541] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[541]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[541], gl.STATIC_DRAW);
+this.mvMatLoc[541] = gl.getUniformLocation(this.prog[541],"mvMatrix");
+this.prMatLoc[541] = gl.getUniformLocation(this.prog[541],"prMatrix");
+// ****** lines object 542 ******
+this.flags[542] = 128;
+this.prog[542]  = gl.createProgram();
+gl.attachShader(this.prog[542], this.getShader( gl, "srd_shape_global_3dvshader542" ));
+gl.attachShader(this.prog[542], this.getShader( gl, "srd_shape_global_3dfshader542" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[542], 0, "aPos");
+gl.bindAttribLocation(this.prog[542], 1, "aCol");
+gl.linkProgram(this.prog[542]);
+this.offsets[542]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[542] = v;
+this.buf[542] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[542]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[542], gl.STATIC_DRAW);
+this.mvMatLoc[542] = gl.getUniformLocation(this.prog[542],"mvMatrix");
+this.prMatLoc[542] = gl.getUniformLocation(this.prog[542],"prMatrix");
+// ****** lines object 543 ******
+this.flags[543] = 128;
+this.prog[543]  = gl.createProgram();
+gl.attachShader(this.prog[543], this.getShader( gl, "srd_shape_global_3dvshader543" ));
+gl.attachShader(this.prog[543], this.getShader( gl, "srd_shape_global_3dfshader543" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[543], 0, "aPos");
+gl.bindAttribLocation(this.prog[543], 1, "aCol");
+gl.linkProgram(this.prog[543]);
+this.offsets[543]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1553602, -0.01634355, -0.06917679,
+-0.08752096, -0.01378099, -0.1156733
+]);
+this.values[543] = v;
+this.buf[543] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[543]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[543], gl.STATIC_DRAW);
+this.mvMatLoc[543] = gl.getUniformLocation(this.prog[543],"mvMatrix");
+this.prMatLoc[543] = gl.getUniformLocation(this.prog[543],"prMatrix");
+// ****** lines object 544 ******
+this.flags[544] = 128;
+this.prog[544]  = gl.createProgram();
+gl.attachShader(this.prog[544], this.getShader( gl, "srd_shape_global_3dvshader544" ));
+gl.attachShader(this.prog[544], this.getShader( gl, "srd_shape_global_3dfshader544" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[544], 0, "aPos");
+gl.bindAttribLocation(this.prog[544], 1, "aCol");
+gl.linkProgram(this.prog[544]);
+this.offsets[544]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1553602, -0.01634355, -0.06917679,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[544] = v;
+this.buf[544] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[544]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[544], gl.STATIC_DRAW);
+this.mvMatLoc[544] = gl.getUniformLocation(this.prog[544],"mvMatrix");
+this.prMatLoc[544] = gl.getUniformLocation(this.prog[544],"prMatrix");
+// ****** lines object 545 ******
+this.flags[545] = 128;
+this.prog[545]  = gl.createProgram();
+gl.attachShader(this.prog[545], this.getShader( gl, "srd_shape_global_3dvshader545" ));
+gl.attachShader(this.prog[545], this.getShader( gl, "srd_shape_global_3dfshader545" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[545], 0, "aPos");
+gl.bindAttribLocation(this.prog[545], 1, "aCol");
+gl.linkProgram(this.prog[545]);
+this.offsets[545]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08752096, -0.01378099, -0.1156733,
+-0.0892901, 0.08458719, -0.09783427
+]);
+this.values[545] = v;
+this.buf[545] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[545]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[545], gl.STATIC_DRAW);
+this.mvMatLoc[545] = gl.getUniformLocation(this.prog[545],"mvMatrix");
+this.prMatLoc[545] = gl.getUniformLocation(this.prog[545],"prMatrix");
+// ****** lines object 546 ******
+this.flags[546] = 128;
+this.prog[546]  = gl.createProgram();
+gl.attachShader(this.prog[546], this.getShader( gl, "srd_shape_global_3dvshader546" ));
+gl.attachShader(this.prog[546], this.getShader( gl, "srd_shape_global_3dfshader546" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[546], 0, "aPos");
+gl.bindAttribLocation(this.prog[546], 1, "aCol");
+gl.linkProgram(this.prog[546]);
+this.offsets[546]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.0199366, 0.08845101, -0.06710657
+]);
+this.values[546] = v;
+this.buf[546] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[546]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[546], gl.STATIC_DRAW);
+this.mvMatLoc[546] = gl.getUniformLocation(this.prog[546],"mvMatrix");
+this.prMatLoc[546] = gl.getUniformLocation(this.prog[546],"prMatrix");
+// ****** lines object 547 ******
+this.flags[547] = 128;
+this.prog[547]  = gl.createProgram();
+gl.attachShader(this.prog[547], this.getShader( gl, "srd_shape_global_3dvshader547" ));
+gl.attachShader(this.prog[547], this.getShader( gl, "srd_shape_global_3dfshader547" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[547], 0, "aPos");
+gl.bindAttribLocation(this.prog[547], 1, "aCol");
+gl.linkProgram(this.prog[547]);
+this.offsets[547]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[547] = v;
+this.buf[547] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[547]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[547], gl.STATIC_DRAW);
+this.mvMatLoc[547] = gl.getUniformLocation(this.prog[547],"mvMatrix");
+this.prMatLoc[547] = gl.getUniformLocation(this.prog[547],"prMatrix");
+// ****** lines object 548 ******
+this.flags[548] = 128;
+this.prog[548]  = gl.createProgram();
+gl.attachShader(this.prog[548], this.getShader( gl, "srd_shape_global_3dvshader548" ));
+gl.attachShader(this.prog[548], this.getShader( gl, "srd_shape_global_3dfshader548" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[548], 0, "aPos");
+gl.bindAttribLocation(this.prog[548], 1, "aCol");
+gl.linkProgram(this.prog[548]);
+this.offsets[548]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0892901, 0.08458719, -0.09783427,
+-0.1246175, -0.003654234, -0.0005078361
+]);
+this.values[548] = v;
+this.buf[548] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[548]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[548], gl.STATIC_DRAW);
+this.mvMatLoc[548] = gl.getUniformLocation(this.prog[548],"mvMatrix");
+this.prMatLoc[548] = gl.getUniformLocation(this.prog[548],"prMatrix");
+// ****** lines object 549 ******
+this.flags[549] = 128;
+this.prog[549]  = gl.createProgram();
+gl.attachShader(this.prog[549], this.getShader( gl, "srd_shape_global_3dvshader549" ));
+gl.attachShader(this.prog[549], this.getShader( gl, "srd_shape_global_3dfshader549" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[549], 0, "aPos");
+gl.bindAttribLocation(this.prog[549], 1, "aCol");
+gl.linkProgram(this.prog[549]);
+this.offsets[549]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.0199366, 0.08845101, -0.06710657,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[549] = v;
+this.buf[549] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[549]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[549], gl.STATIC_DRAW);
+this.mvMatLoc[549] = gl.getUniformLocation(this.prog[549],"mvMatrix");
+this.prMatLoc[549] = gl.getUniformLocation(this.prog[549],"prMatrix");
+// ****** lines object 550 ******
+this.flags[550] = 128;
+this.prog[550]  = gl.createProgram();
+gl.attachShader(this.prog[550], this.getShader( gl, "srd_shape_global_3dvshader550" ));
+gl.attachShader(this.prog[550], this.getShader( gl, "srd_shape_global_3dfshader550" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[550], 0, "aPos");
+gl.bindAttribLocation(this.prog[550], 1, "aCol");
+gl.linkProgram(this.prog[550]);
+this.offsets[550]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.007033864, 0.0110325, -0.0426656,
+-0.004873137, 0.03804675, 0.01656726
+]);
+this.values[550] = v;
+this.buf[550] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[550]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[550], gl.STATIC_DRAW);
+this.mvMatLoc[550] = gl.getUniformLocation(this.prog[550],"mvMatrix");
+this.prMatLoc[550] = gl.getUniformLocation(this.prog[550],"prMatrix");
+// ****** lines object 551 ******
+this.flags[551] = 128;
+this.prog[551]  = gl.createProgram();
+gl.attachShader(this.prog[551], this.getShader( gl, "srd_shape_global_3dvshader551" ));
+gl.attachShader(this.prog[551], this.getShader( gl, "srd_shape_global_3dfshader551" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[551], 0, "aPos");
+gl.bindAttribLocation(this.prog[551], 1, "aCol");
+gl.linkProgram(this.prog[551]);
+this.offsets[551]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.004873137, 0.03804675, 0.01656726,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[551] = v;
+this.buf[551] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[551]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[551], gl.STATIC_DRAW);
+this.mvMatLoc[551] = gl.getUniformLocation(this.prog[551],"mvMatrix");
+this.prMatLoc[551] = gl.getUniformLocation(this.prog[551],"prMatrix");
+// ****** lines object 552 ******
+this.flags[552] = 128;
+this.prog[552]  = gl.createProgram();
+gl.attachShader(this.prog[552], this.getShader( gl, "srd_shape_global_3dvshader552" ));
+gl.attachShader(this.prog[552], this.getShader( gl, "srd_shape_global_3dfshader552" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[552], 0, "aPos");
+gl.bindAttribLocation(this.prog[552], 1, "aCol");
+gl.linkProgram(this.prog[552]);
+this.offsets[552]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.004873137, 0.03804675, 0.01656726,
+-0.04021478, 0.08391441, 0.04506655
+]);
+this.values[552] = v;
+this.buf[552] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[552]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[552], gl.STATIC_DRAW);
+this.mvMatLoc[552] = gl.getUniformLocation(this.prog[552],"mvMatrix");
+this.prMatLoc[552] = gl.getUniformLocation(this.prog[552],"prMatrix");
+// ****** lines object 553 ******
+this.flags[553] = 128;
+this.prog[553]  = gl.createProgram();
+gl.attachShader(this.prog[553], this.getShader( gl, "srd_shape_global_3dvshader553" ));
+gl.attachShader(this.prog[553], this.getShader( gl, "srd_shape_global_3dfshader553" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[553], 0, "aPos");
+gl.bindAttribLocation(this.prog[553], 1, "aCol");
+gl.linkProgram(this.prog[553]);
+this.offsets[553]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+-0.09417444, 0.1015926, 0.0891407
+]);
+this.values[553] = v;
+this.buf[553] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[553]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[553], gl.STATIC_DRAW);
+this.mvMatLoc[553] = gl.getUniformLocation(this.prog[553],"mvMatrix");
+this.prMatLoc[553] = gl.getUniformLocation(this.prog[553],"prMatrix");
+// ****** lines object 554 ******
+this.flags[554] = 128;
+this.prog[554]  = gl.createProgram();
+gl.attachShader(this.prog[554], this.getShader( gl, "srd_shape_global_3dvshader554" ));
+gl.attachShader(this.prog[554], this.getShader( gl, "srd_shape_global_3dfshader554" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[554], 0, "aPos");
+gl.bindAttribLocation(this.prog[554], 1, "aCol");
+gl.linkProgram(this.prog[554]);
+this.offsets[554]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.09417444, 0.1015926, 0.0891407,
+-0.1301225, 0.1160764, -0.001737236
+]);
+this.values[554] = v;
+this.buf[554] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[554]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[554], gl.STATIC_DRAW);
+this.mvMatLoc[554] = gl.getUniformLocation(this.prog[554],"mvMatrix");
+this.prMatLoc[554] = gl.getUniformLocation(this.prog[554],"prMatrix");
+// ****** lines object 555 ******
+this.flags[555] = 128;
+this.prog[555]  = gl.createProgram();
+gl.attachShader(this.prog[555], this.getShader( gl, "srd_shape_global_3dvshader555" ));
+gl.attachShader(this.prog[555], this.getShader( gl, "srd_shape_global_3dfshader555" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[555], 0, "aPos");
+gl.bindAttribLocation(this.prog[555], 1, "aCol");
+gl.linkProgram(this.prog[555]);
+this.offsets[555]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1301225, 0.1160764, -0.001737236,
+-0.1246175, -0.003654234, -0.0005078361
+]);
+this.values[555] = v;
+this.buf[555] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[555]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[555], gl.STATIC_DRAW);
+this.mvMatLoc[555] = gl.getUniformLocation(this.prog[555],"mvMatrix");
+this.prMatLoc[555] = gl.getUniformLocation(this.prog[555],"prMatrix");
+// ****** lines object 556 ******
+this.flags[556] = 128;
+this.prog[556]  = gl.createProgram();
+gl.attachShader(this.prog[556], this.getShader( gl, "srd_shape_global_3dvshader556" ));
+gl.attachShader(this.prog[556], this.getShader( gl, "srd_shape_global_3dfshader556" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[556], 0, "aPos");
+gl.bindAttribLocation(this.prog[556], 1, "aCol");
+gl.linkProgram(this.prog[556]);
+this.offsets[556]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.000128291, -0.0009894678, 0.2512301,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[556] = v;
+this.buf[556] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[556]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[556], gl.STATIC_DRAW);
+this.mvMatLoc[556] = gl.getUniformLocation(this.prog[556],"mvMatrix");
+this.prMatLoc[556] = gl.getUniformLocation(this.prog[556],"prMatrix");
+// ****** lines object 557 ******
+this.flags[557] = 128;
+this.prog[557]  = gl.createProgram();
+gl.attachShader(this.prog[557], this.getShader( gl, "srd_shape_global_3dvshader557" ));
+gl.attachShader(this.prog[557], this.getShader( gl, "srd_shape_global_3dfshader557" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[557], 0, "aPos");
+gl.bindAttribLocation(this.prog[557], 1, "aCol");
+gl.linkProgram(this.prog[557]);
+this.offsets[557]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[557] = v;
+this.buf[557] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[557]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[557], gl.STATIC_DRAW);
+this.mvMatLoc[557] = gl.getUniformLocation(this.prog[557],"mvMatrix");
+this.prMatLoc[557] = gl.getUniformLocation(this.prog[557],"prMatrix");
+// ****** lines object 558 ******
+this.flags[558] = 128;
+this.prog[558]  = gl.createProgram();
+gl.attachShader(this.prog[558], this.getShader( gl, "srd_shape_global_3dvshader558" ));
+gl.attachShader(this.prog[558], this.getShader( gl, "srd_shape_global_3dfshader558" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[558], 0, "aPos");
+gl.bindAttribLocation(this.prog[558], 1, "aCol");
+gl.linkProgram(this.prog[558]);
+this.offsets[558]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[558] = v;
+this.buf[558] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[558]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[558], gl.STATIC_DRAW);
+this.mvMatLoc[558] = gl.getUniformLocation(this.prog[558],"mvMatrix");
+this.prMatLoc[558] = gl.getUniformLocation(this.prog[558],"prMatrix");
+// ****** lines object 559 ******
+this.flags[559] = 128;
+this.prog[559]  = gl.createProgram();
+gl.attachShader(this.prog[559], this.getShader( gl, "srd_shape_global_3dvshader559" ));
+gl.attachShader(this.prog[559], this.getShader( gl, "srd_shape_global_3dfshader559" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[559], 0, "aPos");
+gl.bindAttribLocation(this.prog[559], 1, "aCol");
+gl.linkProgram(this.prog[559]);
+this.offsets[559]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.1399952, -0.01054767, 0.01746511,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[559] = v;
+this.buf[559] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[559]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[559], gl.STATIC_DRAW);
+this.mvMatLoc[559] = gl.getUniformLocation(this.prog[559],"mvMatrix");
+this.prMatLoc[559] = gl.getUniformLocation(this.prog[559],"prMatrix");
+// ****** lines object 560 ******
+this.flags[560] = 128;
+this.prog[560]  = gl.createProgram();
+gl.attachShader(this.prog[560], this.getShader( gl, "srd_shape_global_3dvshader560" ));
+gl.attachShader(this.prog[560], this.getShader( gl, "srd_shape_global_3dfshader560" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[560], 0, "aPos");
+gl.bindAttribLocation(this.prog[560], 1, "aCol");
+gl.linkProgram(this.prog[560]);
+this.offsets[560]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.01463911, 0.1001435, 0.09276654,
+-0.06819715, 0.09116033, 0.1977186
+]);
+this.values[560] = v;
+this.buf[560] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[560]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[560], gl.STATIC_DRAW);
+this.mvMatLoc[560] = gl.getUniformLocation(this.prog[560],"mvMatrix");
+this.prMatLoc[560] = gl.getUniformLocation(this.prog[560],"prMatrix");
+// ****** lines object 561 ******
+this.flags[561] = 128;
+this.prog[561]  = gl.createProgram();
+gl.attachShader(this.prog[561], this.getShader( gl, "srd_shape_global_3dvshader561" ));
+gl.attachShader(this.prog[561], this.getShader( gl, "srd_shape_global_3dfshader561" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[561], 0, "aPos");
+gl.bindAttribLocation(this.prog[561], 1, "aCol");
+gl.linkProgram(this.prog[561]);
+this.offsets[561]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724
+]);
+this.values[561] = v;
+this.buf[561] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[561]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[561], gl.STATIC_DRAW);
+this.mvMatLoc[561] = gl.getUniformLocation(this.prog[561],"mvMatrix");
+this.prMatLoc[561] = gl.getUniformLocation(this.prog[561],"prMatrix");
+// ****** lines object 562 ******
+this.flags[562] = 128;
+this.prog[562]  = gl.createProgram();
+gl.attachShader(this.prog[562], this.getShader( gl, "srd_shape_global_3dvshader562" ));
+gl.attachShader(this.prog[562], this.getShader( gl, "srd_shape_global_3dfshader562" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[562], 0, "aPos");
+gl.bindAttribLocation(this.prog[562], 1, "aCol");
+gl.linkProgram(this.prog[562]);
+this.offsets[562]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.04802516, -0.01405814, -0.2370292
+]);
+this.values[562] = v;
+this.buf[562] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[562]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[562], gl.STATIC_DRAW);
+this.mvMatLoc[562] = gl.getUniformLocation(this.prog[562],"mvMatrix");
+this.prMatLoc[562] = gl.getUniformLocation(this.prog[562],"prMatrix");
+// ****** lines object 563 ******
+this.flags[563] = 128;
+this.prog[563]  = gl.createProgram();
+gl.attachShader(this.prog[563], this.getShader( gl, "srd_shape_global_3dvshader563" ));
+gl.attachShader(this.prog[563], this.getShader( gl, "srd_shape_global_3dfshader563" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[563], 0, "aPos");
+gl.bindAttribLocation(this.prog[563], 1, "aCol");
+gl.linkProgram(this.prog[563]);
+this.offsets[563]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+-0.03950914, -0.06064176, -0.1821867
+]);
+this.values[563] = v;
+this.buf[563] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[563]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[563], gl.STATIC_DRAW);
+this.mvMatLoc[563] = gl.getUniformLocation(this.prog[563],"mvMatrix");
+this.prMatLoc[563] = gl.getUniformLocation(this.prog[563],"prMatrix");
+// ****** lines object 564 ******
+this.flags[564] = 128;
+this.prog[564]  = gl.createProgram();
+gl.attachShader(this.prog[564], this.getShader( gl, "srd_shape_global_3dvshader564" ));
+gl.attachShader(this.prog[564], this.getShader( gl, "srd_shape_global_3dfshader564" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[564], 0, "aPos");
+gl.bindAttribLocation(this.prog[564], 1, "aCol");
+gl.linkProgram(this.prog[564]);
+this.offsets[564]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.004437535, 0.007707702, -0.2644235,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[564] = v;
+this.buf[564] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[564]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[564], gl.STATIC_DRAW);
+this.mvMatLoc[564] = gl.getUniformLocation(this.prog[564],"mvMatrix");
+this.prMatLoc[564] = gl.getUniformLocation(this.prog[564],"prMatrix");
+// ****** lines object 565 ******
+this.flags[565] = 128;
+this.prog[565]  = gl.createProgram();
+gl.attachShader(this.prog[565], this.getShader( gl, "srd_shape_global_3dvshader565" ));
+gl.attachShader(this.prog[565], this.getShader( gl, "srd_shape_global_3dfshader565" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[565], 0, "aPos");
+gl.bindAttribLocation(this.prog[565], 1, "aCol");
+gl.linkProgram(this.prog[565]);
+this.offsets[565]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[565] = v;
+this.buf[565] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[565]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[565], gl.STATIC_DRAW);
+this.mvMatLoc[565] = gl.getUniformLocation(this.prog[565],"mvMatrix");
+this.prMatLoc[565] = gl.getUniformLocation(this.prog[565],"prMatrix");
+// ****** lines object 566 ******
+this.flags[566] = 128;
+this.prog[566]  = gl.createProgram();
+gl.attachShader(this.prog[566], this.getShader( gl, "srd_shape_global_3dvshader566" ));
+gl.attachShader(this.prog[566], this.getShader( gl, "srd_shape_global_3dfshader566" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[566], 0, "aPos");
+gl.bindAttribLocation(this.prog[566], 1, "aCol");
+gl.linkProgram(this.prog[566]);
+this.offsets[566]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[566] = v;
+this.buf[566] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[566]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[566], gl.STATIC_DRAW);
+this.mvMatLoc[566] = gl.getUniformLocation(this.prog[566],"mvMatrix");
+this.prMatLoc[566] = gl.getUniformLocation(this.prog[566],"prMatrix");
+// ****** lines object 567 ******
+this.flags[567] = 128;
+this.prog[567]  = gl.createProgram();
+gl.attachShader(this.prog[567], this.getShader( gl, "srd_shape_global_3dvshader567" ));
+gl.attachShader(this.prog[567], this.getShader( gl, "srd_shape_global_3dfshader567" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[567], 0, "aPos");
+gl.bindAttribLocation(this.prog[567], 1, "aCol");
+gl.linkProgram(this.prog[567]);
+this.offsets[567]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04802516, -0.01405814, -0.2370292,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[567] = v;
+this.buf[567] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[567]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[567], gl.STATIC_DRAW);
+this.mvMatLoc[567] = gl.getUniformLocation(this.prog[567],"mvMatrix");
+this.prMatLoc[567] = gl.getUniformLocation(this.prog[567],"prMatrix");
+// ****** lines object 568 ******
+this.flags[568] = 128;
+this.prog[568]  = gl.createProgram();
+gl.attachShader(this.prog[568], this.getShader( gl, "srd_shape_global_3dvshader568" ));
+gl.attachShader(this.prog[568], this.getShader( gl, "srd_shape_global_3dfshader568" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[568], 0, "aPos");
+gl.bindAttribLocation(this.prog[568], 1, "aCol");
+gl.linkProgram(this.prog[568]);
+this.offsets[568]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+-0.07567828, -0.116951, -0.09671366
+]);
+this.values[568] = v;
+this.buf[568] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[568]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[568], gl.STATIC_DRAW);
+this.mvMatLoc[568] = gl.getUniformLocation(this.prog[568],"mvMatrix");
+this.prMatLoc[568] = gl.getUniformLocation(this.prog[568],"prMatrix");
+// ****** lines object 569 ******
+this.flags[569] = 128;
+this.prog[569]  = gl.createProgram();
+gl.attachShader(this.prog[569], this.getShader( gl, "srd_shape_global_3dvshader569" ));
+gl.attachShader(this.prog[569], this.getShader( gl, "srd_shape_global_3dfshader569" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[569], 0, "aPos");
+gl.bindAttribLocation(this.prog[569], 1, "aCol");
+gl.linkProgram(this.prog[569]);
+this.offsets[569]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[569] = v;
+this.buf[569] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[569]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[569], gl.STATIC_DRAW);
+this.mvMatLoc[569] = gl.getUniformLocation(this.prog[569],"mvMatrix");
+this.prMatLoc[569] = gl.getUniformLocation(this.prog[569],"prMatrix");
+// ****** lines object 570 ******
+this.flags[570] = 128;
+this.prog[570]  = gl.createProgram();
+gl.attachShader(this.prog[570], this.getShader( gl, "srd_shape_global_3dvshader570" ));
+gl.attachShader(this.prog[570], this.getShader( gl, "srd_shape_global_3dfshader570" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[570], 0, "aPos");
+gl.bindAttribLocation(this.prog[570], 1, "aCol");
+gl.linkProgram(this.prog[570]);
+this.offsets[570]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.03950914, -0.06064176, -0.1821867,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[570] = v;
+this.buf[570] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[570]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[570], gl.STATIC_DRAW);
+this.mvMatLoc[570] = gl.getUniformLocation(this.prog[570],"mvMatrix");
+this.prMatLoc[570] = gl.getUniformLocation(this.prog[570],"prMatrix");
+// ****** lines object 571 ******
+this.flags[571] = 128;
+this.prog[571]  = gl.createProgram();
+gl.attachShader(this.prog[571], this.getShader( gl, "srd_shape_global_3dvshader571" ));
+gl.attachShader(this.prog[571], this.getShader( gl, "srd_shape_global_3dfshader571" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[571], 0, "aPos");
+gl.bindAttribLocation(this.prog[571], 1, "aCol");
+gl.linkProgram(this.prog[571]);
+this.offsets[571]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+-0.08239188, -0.1280867, 0.1364087
+]);
+this.values[571] = v;
+this.buf[571] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[571]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[571], gl.STATIC_DRAW);
+this.mvMatLoc[571] = gl.getUniformLocation(this.prog[571],"mvMatrix");
+this.prMatLoc[571] = gl.getUniformLocation(this.prog[571],"prMatrix");
+// ****** lines object 572 ******
+this.flags[572] = 128;
+this.prog[572]  = gl.createProgram();
+gl.attachShader(this.prog[572], this.getShader( gl, "srd_shape_global_3dvshader572" ));
+gl.attachShader(this.prog[572], this.getShader( gl, "srd_shape_global_3dfshader572" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[572], 0, "aPos");
+gl.bindAttribLocation(this.prog[572], 1, "aCol");
+gl.linkProgram(this.prog[572]);
+this.offsets[572]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.04889651, -0.1481737, -0.06959169
+]);
+this.values[572] = v;
+this.buf[572] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[572]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[572], gl.STATIC_DRAW);
+this.mvMatLoc[572] = gl.getUniformLocation(this.prog[572],"mvMatrix");
+this.prMatLoc[572] = gl.getUniformLocation(this.prog[572],"prMatrix");
+// ****** lines object 573 ******
+this.flags[573] = 128;
+this.prog[573]  = gl.createProgram();
+gl.attachShader(this.prog[573], this.getShader( gl, "srd_shape_global_3dvshader573" ));
+gl.attachShader(this.prog[573], this.getShader( gl, "srd_shape_global_3dfshader573" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[573], 0, "aPos");
+gl.bindAttribLocation(this.prog[573], 1, "aCol");
+gl.linkProgram(this.prog[573]);
+this.offsets[573]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.07567828, -0.116951, -0.09671366,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[573] = v;
+this.buf[573] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[573]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[573], gl.STATIC_DRAW);
+this.mvMatLoc[573] = gl.getUniformLocation(this.prog[573],"mvMatrix");
+this.prMatLoc[573] = gl.getUniformLocation(this.prog[573],"prMatrix");
+// ****** lines object 574 ******
+this.flags[574] = 128;
+this.prog[574]  = gl.createProgram();
+gl.attachShader(this.prog[574], this.getShader( gl, "srd_shape_global_3dvshader574" ));
+gl.attachShader(this.prog[574], this.getShader( gl, "srd_shape_global_3dfshader574" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[574], 0, "aPos");
+gl.bindAttribLocation(this.prog[574], 1, "aCol");
+gl.linkProgram(this.prog[574]);
+this.offsets[574]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+0.04809806, -0.1319457, 0.01708304
+]);
+this.values[574] = v;
+this.buf[574] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[574]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[574], gl.STATIC_DRAW);
+this.mvMatLoc[574] = gl.getUniformLocation(this.prog[574],"mvMatrix");
+this.prMatLoc[574] = gl.getUniformLocation(this.prog[574],"prMatrix");
+// ****** lines object 575 ******
+this.flags[575] = 128;
+this.prog[575]  = gl.createProgram();
+gl.attachShader(this.prog[575], this.getShader( gl, "srd_shape_global_3dvshader575" ));
+gl.attachShader(this.prog[575], this.getShader( gl, "srd_shape_global_3dfshader575" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[575], 0, "aPos");
+gl.bindAttribLocation(this.prog[575], 1, "aCol");
+gl.linkProgram(this.prog[575]);
+this.offsets[575]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[575] = v;
+this.buf[575] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[575]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[575], gl.STATIC_DRAW);
+this.mvMatLoc[575] = gl.getUniformLocation(this.prog[575],"mvMatrix");
+this.prMatLoc[575] = gl.getUniformLocation(this.prog[575],"prMatrix");
+// ****** lines object 576 ******
+this.flags[576] = 128;
+this.prog[576]  = gl.createProgram();
+gl.attachShader(this.prog[576], this.getShader( gl, "srd_shape_global_3dvshader576" ));
+gl.attachShader(this.prog[576], this.getShader( gl, "srd_shape_global_3dfshader576" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[576], 0, "aPos");
+gl.bindAttribLocation(this.prog[576], 1, "aCol");
+gl.linkProgram(this.prog[576]);
+this.offsets[576]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.04889651, -0.1481737, -0.06959169
+]);
+this.values[576] = v;
+this.buf[576] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[576]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[576], gl.STATIC_DRAW);
+this.mvMatLoc[576] = gl.getUniformLocation(this.prog[576],"mvMatrix");
+this.prMatLoc[576] = gl.getUniformLocation(this.prog[576],"prMatrix");
+// ****** lines object 577 ******
+this.flags[577] = 128;
+this.prog[577]  = gl.createProgram();
+gl.attachShader(this.prog[577], this.getShader( gl, "srd_shape_global_3dvshader577" ));
+gl.attachShader(this.prog[577], this.getShader( gl, "srd_shape_global_3dfshader577" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[577], 0, "aPos");
+gl.bindAttribLocation(this.prog[577], 1, "aCol");
+gl.linkProgram(this.prog[577]);
+this.offsets[577]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[577] = v;
+this.buf[577] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[577]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[577], gl.STATIC_DRAW);
+this.mvMatLoc[577] = gl.getUniformLocation(this.prog[577],"mvMatrix");
+this.prMatLoc[577] = gl.getUniformLocation(this.prog[577],"prMatrix");
+// ****** lines object 578 ******
+this.flags[578] = 128;
+this.prog[578]  = gl.createProgram();
+gl.attachShader(this.prog[578], this.getShader( gl, "srd_shape_global_3dvshader578" ));
+gl.attachShader(this.prog[578], this.getShader( gl, "srd_shape_global_3dfshader578" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[578], 0, "aPos");
+gl.bindAttribLocation(this.prog[578], 1, "aCol");
+gl.linkProgram(this.prog[578]);
+this.offsets[578]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[578] = v;
+this.buf[578] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[578]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[578], gl.STATIC_DRAW);
+this.mvMatLoc[578] = gl.getUniformLocation(this.prog[578],"mvMatrix");
+this.prMatLoc[578] = gl.getUniformLocation(this.prog[578],"prMatrix");
+// ****** lines object 579 ******
+this.flags[579] = 128;
+this.prog[579]  = gl.createProgram();
+gl.attachShader(this.prog[579], this.getShader( gl, "srd_shape_global_3dvshader579" ));
+gl.attachShader(this.prog[579], this.getShader( gl, "srd_shape_global_3dfshader579" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[579], 0, "aPos");
+gl.bindAttribLocation(this.prog[579], 1, "aCol");
+gl.linkProgram(this.prog[579]);
+this.offsets[579]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1316182, -0.0441372, 0.08868205
+]);
+this.values[579] = v;
+this.buf[579] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[579]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[579], gl.STATIC_DRAW);
+this.mvMatLoc[579] = gl.getUniformLocation(this.prog[579],"mvMatrix");
+this.prMatLoc[579] = gl.getUniformLocation(this.prog[579],"prMatrix");
+// ****** lines object 580 ******
+this.flags[580] = 128;
+this.prog[580]  = gl.createProgram();
+gl.attachShader(this.prog[580], this.getShader( gl, "srd_shape_global_3dvshader580" ));
+gl.attachShader(this.prog[580], this.getShader( gl, "srd_shape_global_3dfshader580" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[580], 0, "aPos");
+gl.bindAttribLocation(this.prog[580], 1, "aCol");
+gl.linkProgram(this.prog[580]);
+this.offsets[580]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[580] = v;
+this.buf[580] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[580]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[580], gl.STATIC_DRAW);
+this.mvMatLoc[580] = gl.getUniformLocation(this.prog[580],"mvMatrix");
+this.prMatLoc[580] = gl.getUniformLocation(this.prog[580],"prMatrix");
+// ****** lines object 581 ******
+this.flags[581] = 128;
+this.prog[581]  = gl.createProgram();
+gl.attachShader(this.prog[581], this.getShader( gl, "srd_shape_global_3dvshader581" ));
+gl.attachShader(this.prog[581], this.getShader( gl, "srd_shape_global_3dfshader581" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[581], 0, "aPos");
+gl.bindAttribLocation(this.prog[581], 1, "aCol");
+gl.linkProgram(this.prog[581]);
+this.offsets[581]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04889651, -0.1481737, -0.06959169,
+0.0231575, -0.08521444, -0.1158982
+]);
+this.values[581] = v;
+this.buf[581] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[581]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[581], gl.STATIC_DRAW);
+this.mvMatLoc[581] = gl.getUniformLocation(this.prog[581],"mvMatrix");
+this.prMatLoc[581] = gl.getUniformLocation(this.prog[581],"prMatrix");
+// ****** lines object 582 ******
+this.flags[582] = 128;
+this.prog[582]  = gl.createProgram();
+gl.attachShader(this.prog[582], this.getShader( gl, "srd_shape_global_3dvshader582" ));
+gl.attachShader(this.prog[582], this.getShader( gl, "srd_shape_global_3dfshader582" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[582], 0, "aPos");
+gl.bindAttribLocation(this.prog[582], 1, "aCol");
+gl.linkProgram(this.prog[582]);
+this.offsets[582]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04889651, -0.1481737, -0.06959169,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[582] = v;
+this.buf[582] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[582]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[582], gl.STATIC_DRAW);
+this.mvMatLoc[582] = gl.getUniformLocation(this.prog[582],"mvMatrix");
+this.prMatLoc[582] = gl.getUniformLocation(this.prog[582],"prMatrix");
+// ****** lines object 583 ******
+this.flags[583] = 128;
+this.prog[583]  = gl.createProgram();
+gl.attachShader(this.prog[583], this.getShader( gl, "srd_shape_global_3dvshader583" ));
+gl.attachShader(this.prog[583], this.getShader( gl, "srd_shape_global_3dfshader583" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[583], 0, "aPos");
+gl.bindAttribLocation(this.prog[583], 1, "aCol");
+gl.linkProgram(this.prog[583]);
+this.offsets[583]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.0231575, -0.08521444, -0.1158982,
+0.1135743, -0.04634437, -0.09824634
+]);
+this.values[583] = v;
+this.buf[583] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[583]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[583], gl.STATIC_DRAW);
+this.mvMatLoc[583] = gl.getUniformLocation(this.prog[583],"mvMatrix");
+this.prMatLoc[583] = gl.getUniformLocation(this.prog[583],"prMatrix");
+// ****** lines object 584 ******
+this.flags[584] = 128;
+this.prog[584]  = gl.createProgram();
+gl.attachShader(this.prog[584], this.getShader( gl, "srd_shape_global_3dvshader584" ));
+gl.attachShader(this.prog[584], this.getShader( gl, "srd_shape_global_3dfshader584" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[584], 0, "aPos");
+gl.bindAttribLocation(this.prog[584], 1, "aCol");
+gl.linkProgram(this.prog[584]);
+this.offsets[584]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.08861881, 0.0183878, -0.06732709
+]);
+this.values[584] = v;
+this.buf[584] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[584]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[584], gl.STATIC_DRAW);
+this.mvMatLoc[584] = gl.getUniformLocation(this.prog[584],"mvMatrix");
+this.prMatLoc[584] = gl.getUniformLocation(this.prog[584],"prMatrix");
+// ****** lines object 585 ******
+this.flags[585] = 128;
+this.prog[585]  = gl.createProgram();
+gl.attachShader(this.prog[585], this.getShader( gl, "srd_shape_global_3dvshader585" ));
+gl.attachShader(this.prog[585], this.getShader( gl, "srd_shape_global_3dfshader585" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[585], 0, "aPos");
+gl.bindAttribLocation(this.prog[585], 1, "aCol");
+gl.linkProgram(this.prog[585]);
+this.offsets[585]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[585] = v;
+this.buf[585] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[585]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[585], gl.STATIC_DRAW);
+this.mvMatLoc[585] = gl.getUniformLocation(this.prog[585],"mvMatrix");
+this.prMatLoc[585] = gl.getUniformLocation(this.prog[585],"prMatrix");
+// ****** lines object 586 ******
+this.flags[586] = 128;
+this.prog[586]  = gl.createProgram();
+gl.attachShader(this.prog[586], this.getShader( gl, "srd_shape_global_3dvshader586" ));
+gl.attachShader(this.prog[586], this.getShader( gl, "srd_shape_global_3dfshader586" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[586], 0, "aPos");
+gl.bindAttribLocation(this.prog[586], 1, "aCol");
+gl.linkProgram(this.prog[586]);
+this.offsets[586]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1135743, -0.04634437, -0.09824634,
+0.04799455, -0.1150605, -0.0008584645
+]);
+this.values[586] = v;
+this.buf[586] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[586]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[586], gl.STATIC_DRAW);
+this.mvMatLoc[586] = gl.getUniformLocation(this.prog[586],"mvMatrix");
+this.prMatLoc[586] = gl.getUniformLocation(this.prog[586],"prMatrix");
+// ****** lines object 587 ******
+this.flags[587] = 128;
+this.prog[587]  = gl.createProgram();
+gl.attachShader(this.prog[587], this.getShader( gl, "srd_shape_global_3dvshader587" ));
+gl.attachShader(this.prog[587], this.getShader( gl, "srd_shape_global_3dfshader587" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[587], 0, "aPos");
+gl.bindAttribLocation(this.prog[587], 1, "aCol");
+gl.linkProgram(this.prog[587]);
+this.offsets[587]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.08861881, 0.0183878, -0.06732709,
+0.007033864, 0.0110325, -0.0426656
+]);
+this.values[587] = v;
+this.buf[587] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[587]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[587], gl.STATIC_DRAW);
+this.mvMatLoc[587] = gl.getUniformLocation(this.prog[587],"mvMatrix");
+this.prMatLoc[587] = gl.getUniformLocation(this.prog[587],"prMatrix");
+// ****** lines object 588 ******
+this.flags[588] = 128;
+this.prog[588]  = gl.createProgram();
+gl.attachShader(this.prog[588], this.getShader( gl, "srd_shape_global_3dvshader588" ));
+gl.attachShader(this.prog[588], this.getShader( gl, "srd_shape_global_3dfshader588" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[588], 0, "aPos");
+gl.bindAttribLocation(this.prog[588], 1, "aCol");
+gl.linkProgram(this.prog[588]);
+this.offsets[588]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.007033864, 0.0110325, -0.0426656,
+0.03672429, 0.01119917, 0.01648276
+]);
+this.values[588] = v;
+this.buf[588] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[588]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[588], gl.STATIC_DRAW);
+this.mvMatLoc[588] = gl.getUniformLocation(this.prog[588],"mvMatrix");
+this.prMatLoc[588] = gl.getUniformLocation(this.prog[588],"prMatrix");
+// ****** lines object 589 ******
+this.flags[589] = 128;
+this.prog[589]  = gl.createProgram();
+gl.attachShader(this.prog[589], this.getShader( gl, "srd_shape_global_3dvshader589" ));
+gl.attachShader(this.prog[589], this.getShader( gl, "srd_shape_global_3dfshader589" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[589], 0, "aPos");
+gl.bindAttribLocation(this.prog[589], 1, "aCol");
+gl.linkProgram(this.prog[589]);
+this.offsets[589]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.03672429, 0.01119917, 0.01648276,
+0.04518335, 0.06974438, 0.08336254
+]);
+this.values[589] = v;
+this.buf[589] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[589]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[589], gl.STATIC_DRAW);
+this.mvMatLoc[589] = gl.getUniformLocation(this.prog[589],"mvMatrix");
+this.prMatLoc[589] = gl.getUniformLocation(this.prog[589],"prMatrix");
+// ****** lines object 590 ******
+this.flags[590] = 128;
+this.prog[590]  = gl.createProgram();
+gl.attachShader(this.prog[590], this.getShader( gl, "srd_shape_global_3dvshader590" ));
+gl.attachShader(this.prog[590], this.getShader( gl, "srd_shape_global_3dfshader590" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[590], 0, "aPos");
+gl.bindAttribLocation(this.prog[590], 1, "aCol");
+gl.linkProgram(this.prog[590]);
+this.offsets[590]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.03672429, 0.01119917, 0.01648276,
+0.09315851, -0.002166612, 0.04479563
+]);
+this.values[590] = v;
+this.buf[590] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[590]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[590], gl.STATIC_DRAW);
+this.mvMatLoc[590] = gl.getUniformLocation(this.prog[590],"mvMatrix");
+this.prMatLoc[590] = gl.getUniformLocation(this.prog[590],"prMatrix");
+// ****** lines object 591 ******
+this.flags[591] = 128;
+this.prog[591]  = gl.createProgram();
+gl.attachShader(this.prog[591], this.getShader( gl, "srd_shape_global_3dvshader591" ));
+gl.attachShader(this.prog[591], this.getShader( gl, "srd_shape_global_3dfshader591" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[591], 0, "aPos");
+gl.bindAttribLocation(this.prog[591], 1, "aCol");
+gl.linkProgram(this.prog[591]);
+this.offsets[591]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.1316182, -0.0441372, 0.08868205
+]);
+this.values[591] = v;
+this.buf[591] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[591]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[591], gl.STATIC_DRAW);
+this.mvMatLoc[591] = gl.getUniformLocation(this.prog[591],"mvMatrix");
+this.prMatLoc[591] = gl.getUniformLocation(this.prog[591],"prMatrix");
+// ****** lines object 592 ******
+this.flags[592] = 128;
+this.prog[592]  = gl.createProgram();
+gl.attachShader(this.prog[592], this.getShader( gl, "srd_shape_global_3dvshader592" ));
+gl.attachShader(this.prog[592], this.getShader( gl, "srd_shape_global_3dfshader592" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[592], 0, "aPos");
+gl.bindAttribLocation(this.prog[592], 1, "aCol");
+gl.linkProgram(this.prog[592]);
+this.offsets[592]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1316182, -0.0441372, 0.08868205,
+0.1593616, -0.07076082, -0.002325268
+]);
+this.values[592] = v;
+this.buf[592] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[592]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[592], gl.STATIC_DRAW);
+this.mvMatLoc[592] = gl.getUniformLocation(this.prog[592],"mvMatrix");
+this.prMatLoc[592] = gl.getUniformLocation(this.prog[592],"prMatrix");
+// ****** lines object 593 ******
+this.flags[593] = 128;
+this.prog[593]  = gl.createProgram();
+gl.attachShader(this.prog[593], this.getShader( gl, "srd_shape_global_3dvshader593" ));
+gl.attachShader(this.prog[593], this.getShader( gl, "srd_shape_global_3dfshader593" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[593], 0, "aPos");
+gl.bindAttribLocation(this.prog[593], 1, "aCol");
+gl.linkProgram(this.prog[593]);
+this.offsets[593]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.1593616, -0.07076082, -0.002325268,
+0.04799455, -0.1150605, -0.0008584645
+]);
+this.values[593] = v;
+this.buf[593] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[593]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[593], gl.STATIC_DRAW);
+this.mvMatLoc[593] = gl.getUniformLocation(this.prog[593],"mvMatrix");
+this.prMatLoc[593] = gl.getUniformLocation(this.prog[593],"prMatrix");
+// ****** lines object 594 ******
+this.flags[594] = 128;
+this.prog[594]  = gl.createProgram();
+gl.attachShader(this.prog[594], this.getShader( gl, "srd_shape_global_3dvshader594" ));
+gl.attachShader(this.prog[594], this.getShader( gl, "srd_shape_global_3dfshader594" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[594], 0, "aPos");
+gl.bindAttribLocation(this.prog[594], 1, "aCol");
+gl.linkProgram(this.prog[594]);
+this.offsets[594]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.000128291, -0.0009894678, 0.2512301,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[594] = v;
+this.buf[594] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[594]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[594], gl.STATIC_DRAW);
+this.mvMatLoc[594] = gl.getUniformLocation(this.prog[594],"mvMatrix");
+this.prMatLoc[594] = gl.getUniformLocation(this.prog[594],"prMatrix");
+// ****** lines object 595 ******
+this.flags[595] = 128;
+this.prog[595]  = gl.createProgram();
+gl.attachShader(this.prog[595], this.getShader( gl, "srd_shape_global_3dvshader595" ));
+gl.attachShader(this.prog[595], this.getShader( gl, "srd_shape_global_3dfshader595" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[595], 0, "aPos");
+gl.bindAttribLocation(this.prog[595], 1, "aCol");
+gl.linkProgram(this.prog[595]);
+this.offsets[595]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+-0.08239188, -0.1280867, 0.1364087,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[595] = v;
+this.buf[595] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[595]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[595], gl.STATIC_DRAW);
+this.mvMatLoc[595] = gl.getUniformLocation(this.prog[595],"mvMatrix");
+this.prMatLoc[595] = gl.getUniformLocation(this.prog[595],"prMatrix");
+// ****** lines object 596 ******
+this.flags[596] = 128;
+this.prog[596]  = gl.createProgram();
+gl.attachShader(this.prog[596], this.getShader( gl, "srd_shape_global_3dvshader596" ));
+gl.attachShader(this.prog[596], this.getShader( gl, "srd_shape_global_3dfshader596" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[596], 0, "aPos");
+gl.bindAttribLocation(this.prog[596], 1, "aCol");
+gl.linkProgram(this.prog[596]);
+this.offsets[596]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04845515, 0.07458358, 0.1564724,
+-0.000128291, -0.0009894678, 0.2512301
+]);
+this.values[596] = v;
+this.buf[596] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[596]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[596], gl.STATIC_DRAW);
+this.mvMatLoc[596] = gl.getUniformLocation(this.prog[596],"mvMatrix");
+this.prMatLoc[596] = gl.getUniformLocation(this.prog[596],"prMatrix");
+// ****** lines object 597 ******
+this.flags[597] = 128;
+this.prog[597]  = gl.createProgram();
+gl.attachShader(this.prog[597], this.getShader( gl, "srd_shape_global_3dvshader597" ));
+gl.attachShader(this.prog[597], this.getShader( gl, "srd_shape_global_3dfshader597" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[597], 0, "aPos");
+gl.bindAttribLocation(this.prog[597], 1, "aCol");
+gl.linkProgram(this.prog[597]);
+this.offsets[597]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04809806, -0.1319457, 0.01708304,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[597] = v;
+this.buf[597] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[597]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[597], gl.STATIC_DRAW);
+this.mvMatLoc[597] = gl.getUniformLocation(this.prog[597],"mvMatrix");
+this.prMatLoc[597] = gl.getUniformLocation(this.prog[597],"prMatrix");
+// ****** lines object 598 ******
+this.flags[598] = 128;
+this.prog[598]  = gl.createProgram();
+gl.attachShader(this.prog[598], this.getShader( gl, "srd_shape_global_3dvshader598" ));
+gl.attachShader(this.prog[598], this.getShader( gl, "srd_shape_global_3dfshader598" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[598], 0, "aPos");
+gl.bindAttribLocation(this.prog[598], 1, "aCol");
+gl.linkProgram(this.prog[598]);
+this.offsets[598]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.09755013, 0.02773499, 0.09253865,
+0.1117241, -0.02496341, 0.1973531
+]);
+this.values[598] = v;
+this.buf[598] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[598]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[598], gl.STATIC_DRAW);
+this.mvMatLoc[598] = gl.getUniformLocation(this.prog[598],"mvMatrix");
+this.prMatLoc[598] = gl.getUniformLocation(this.prog[598],"prMatrix");
+// ****** lines object 599 ******
+this.flags[599] = 128;
+this.prog[599]  = gl.createProgram();
+gl.attachShader(this.prog[599], this.getShader( gl, "srd_shape_global_3dvshader599" ));
+gl.attachShader(this.prog[599], this.getShader( gl, "srd_shape_global_3dfshader599" ));
+//  Force aPos to location 0, aCol to location 1 
+gl.bindAttribLocation(this.prog[599], 0, "aPos");
+gl.bindAttribLocation(this.prog[599], 1, "aCol");
+gl.linkProgram(this.prog[599]);
+this.offsets[599]={vofs:0, cofs:-1, nofs:-1, radofs:-1, oofs:-1, tofs:-1, stride:3};
+var v=new Float32Array([
+0.04518335, 0.06974438, 0.08336254,
+0.04845515, 0.07458358, 0.1564724
+]);
+this.values[599] = v;
+this.buf[599] = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[599]);
+gl.bufferData(gl.ARRAY_BUFFER, this.values[599], gl.STATIC_DRAW);
+this.mvMatLoc[599] = gl.getUniformLocation(this.prog[599],"mvMatrix");
+this.prMatLoc[599] = gl.getUniformLocation(this.prog[599],"prMatrix");
+gl.enable(gl.DEPTH_TEST);
+gl.depthFunc(gl.LEQUAL);
+gl.clearDepth(1.0);
+gl.clearColor(1,1,1,1);
+var drag  = 0;
+this.drawScene = function() {
+gl.depthMask(true);
+gl.disable(gl.BLEND);
+gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+this.drawFns[363].call(this, 363)
+gl.flush ();
+}
+// ****** points object 369 *******
+this.drawFns[369] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 0, 0, 0 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.POINTS, 0, 36);
+}
+// ****** lines object 370 *******
+this.drawFns[370] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1568628, 0.8431373, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 371 *******
+this.drawFns[371] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 1, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 372 *******
+this.drawFns[372] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.007843138, 0.9921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 373 *******
+this.drawFns[373] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.07058824, 0.9294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 374 *******
+this.drawFns[374] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1215686, 0.8784314, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 375 *******
+this.drawFns[375] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1490196, 0.8509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 376 *******
+this.drawFns[376] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1843137, 0.8156863, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 377 *******
+this.drawFns[377] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2980392, 0.7019608, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 378 *******
+this.drawFns[378] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 379 *******
+this.drawFns[379] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 380 *******
+this.drawFns[380] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 381 *******
+this.drawFns[381] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5490196, 0.4509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 382 *******
+this.drawFns[382] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3372549, 0.6627451, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 383 *******
+this.drawFns[383] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2666667, 0.7333333, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 384 *******
+this.drawFns[384] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.8156863, 0.1843137, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 385 *******
+this.drawFns[385] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3333333, 0.6666667, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 386 *******
+this.drawFns[386] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2313726, 0.7686275, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 387 *******
+this.drawFns[387] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.6039216, 0.3960784, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 388 *******
+this.drawFns[388] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 389 *******
+this.drawFns[389] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.7960784, 0.2039216, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 390 *******
+this.drawFns[390] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 391 *******
+this.drawFns[391] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 392 *******
+this.drawFns[392] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.427451, 0.572549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 393 *******
+this.drawFns[393] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5450981, 0.454902, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 394 *******
+this.drawFns[394] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 395 *******
+this.drawFns[395] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2784314, 0.7215686, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 396 *******
+this.drawFns[396] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.282353, 0.7176471, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 397 *******
+this.drawFns[397] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 1, 0, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 398 *******
+this.drawFns[398] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 399 *******
+this.drawFns[399] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 400 *******
+this.drawFns[400] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5647059, 0.4352941, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 401 *******
+this.drawFns[401] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2941177, 0.7058824, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 402 *******
+this.drawFns[402] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2901961, 0.7098039, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 403 *******
+this.drawFns[403] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1411765, 0.8588235, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 404 *******
+this.drawFns[404] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.227451, 0.772549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 405 *******
+this.drawFns[405] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1607843, 0.8392157, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 406 *******
+this.drawFns[406] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3882353, 0.6117647, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 407 *******
+this.drawFns[407] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.9960784, 0.003921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 408 *******
+this.drawFns[408] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1568628, 0.8431373, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 409 *******
+this.drawFns[409] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 1, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 410 *******
+this.drawFns[410] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.007843138, 0.9921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 411 *******
+this.drawFns[411] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.07058824, 0.9294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 412 *******
+this.drawFns[412] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1215686, 0.8784314, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 413 *******
+this.drawFns[413] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1490196, 0.8509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 414 *******
+this.drawFns[414] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1843137, 0.8156863, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 415 *******
+this.drawFns[415] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2980392, 0.7019608, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 416 *******
+this.drawFns[416] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 417 *******
+this.drawFns[417] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 418 *******
+this.drawFns[418] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 419 *******
+this.drawFns[419] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5490196, 0.4509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 420 *******
+this.drawFns[420] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3372549, 0.6627451, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 421 *******
+this.drawFns[421] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2666667, 0.7333333, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 422 *******
+this.drawFns[422] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.8156863, 0.1843137, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 423 *******
+this.drawFns[423] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3333333, 0.6666667, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 424 *******
+this.drawFns[424] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2313726, 0.7686275, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 425 *******
+this.drawFns[425] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.6039216, 0.3960784, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 426 *******
+this.drawFns[426] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 427 *******
+this.drawFns[427] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.7960784, 0.2039216, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 428 *******
+this.drawFns[428] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 429 *******
+this.drawFns[429] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 430 *******
+this.drawFns[430] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.427451, 0.572549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 431 *******
+this.drawFns[431] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5450981, 0.454902, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 432 *******
+this.drawFns[432] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 433 *******
+this.drawFns[433] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2784314, 0.7215686, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 434 *******
+this.drawFns[434] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.282353, 0.7176471, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 435 *******
+this.drawFns[435] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 1, 0, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 436 *******
+this.drawFns[436] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 437 *******
+this.drawFns[437] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 438 *******
+this.drawFns[438] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5647059, 0.4352941, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 439 *******
+this.drawFns[439] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2941177, 0.7058824, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 440 *******
+this.drawFns[440] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2901961, 0.7098039, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 441 *******
+this.drawFns[441] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1411765, 0.8588235, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 442 *******
+this.drawFns[442] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.227451, 0.772549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 443 *******
+this.drawFns[443] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1607843, 0.8392157, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 444 *******
+this.drawFns[444] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3882353, 0.6117647, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 445 *******
+this.drawFns[445] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.9960784, 0.003921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** points object 446 *******
+this.drawFns[446] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 0, 0, 0 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.POINTS, 0, 36);
+}
+// ****** lines object 447 *******
+this.drawFns[447] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1568628, 0.8431373, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 448 *******
+this.drawFns[448] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 1, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 449 *******
+this.drawFns[449] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.007843138, 0.9921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 450 *******
+this.drawFns[450] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.07058824, 0.9294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 451 *******
+this.drawFns[451] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1215686, 0.8784314, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 452 *******
+this.drawFns[452] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1490196, 0.8509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 453 *******
+this.drawFns[453] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1843137, 0.8156863, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 454 *******
+this.drawFns[454] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2980392, 0.7019608, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 455 *******
+this.drawFns[455] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 456 *******
+this.drawFns[456] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 457 *******
+this.drawFns[457] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 458 *******
+this.drawFns[458] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5490196, 0.4509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 459 *******
+this.drawFns[459] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3372549, 0.6627451, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 460 *******
+this.drawFns[460] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2666667, 0.7333333, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 461 *******
+this.drawFns[461] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.8156863, 0.1843137, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 462 *******
+this.drawFns[462] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3333333, 0.6666667, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 463 *******
+this.drawFns[463] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2313726, 0.7686275, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 464 *******
+this.drawFns[464] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.6039216, 0.3960784, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 465 *******
+this.drawFns[465] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 466 *******
+this.drawFns[466] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.7960784, 0.2039216, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 467 *******
+this.drawFns[467] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 468 *******
+this.drawFns[468] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 469 *******
+this.drawFns[469] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.427451, 0.572549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 470 *******
+this.drawFns[470] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5450981, 0.454902, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 471 *******
+this.drawFns[471] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 472 *******
+this.drawFns[472] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2784314, 0.7215686, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 473 *******
+this.drawFns[473] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.282353, 0.7176471, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 474 *******
+this.drawFns[474] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 1, 0, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 475 *******
+this.drawFns[475] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 476 *******
+this.drawFns[476] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 477 *******
+this.drawFns[477] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5647059, 0.4352941, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 478 *******
+this.drawFns[478] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2941177, 0.7058824, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 479 *******
+this.drawFns[479] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2901961, 0.7098039, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 480 *******
+this.drawFns[480] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1411765, 0.8588235, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 481 *******
+this.drawFns[481] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.227451, 0.772549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 482 *******
+this.drawFns[482] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1607843, 0.8392157, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 483 *******
+this.drawFns[483] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3882353, 0.6117647, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 484 *******
+this.drawFns[484] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.9960784, 0.003921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 485 *******
+this.drawFns[485] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1568628, 0.8431373, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 486 *******
+this.drawFns[486] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 1, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 487 *******
+this.drawFns[487] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.007843138, 0.9921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 488 *******
+this.drawFns[488] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.07058824, 0.9294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 489 *******
+this.drawFns[489] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1215686, 0.8784314, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 490 *******
+this.drawFns[490] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1490196, 0.8509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 491 *******
+this.drawFns[491] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1843137, 0.8156863, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 492 *******
+this.drawFns[492] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2980392, 0.7019608, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 493 *******
+this.drawFns[493] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 494 *******
+this.drawFns[494] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 495 *******
+this.drawFns[495] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 496 *******
+this.drawFns[496] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5490196, 0.4509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 497 *******
+this.drawFns[497] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3372549, 0.6627451, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 498 *******
+this.drawFns[498] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2666667, 0.7333333, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 499 *******
+this.drawFns[499] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.8156863, 0.1843137, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 500 *******
+this.drawFns[500] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3333333, 0.6666667, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 501 *******
+this.drawFns[501] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2313726, 0.7686275, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 502 *******
+this.drawFns[502] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.6039216, 0.3960784, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 503 *******
+this.drawFns[503] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 504 *******
+this.drawFns[504] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.7960784, 0.2039216, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 505 *******
+this.drawFns[505] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 506 *******
+this.drawFns[506] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 507 *******
+this.drawFns[507] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.427451, 0.572549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 508 *******
+this.drawFns[508] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5450981, 0.454902, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 509 *******
+this.drawFns[509] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 510 *******
+this.drawFns[510] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2784314, 0.7215686, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 511 *******
+this.drawFns[511] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.282353, 0.7176471, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 512 *******
+this.drawFns[512] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 1, 0, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 513 *******
+this.drawFns[513] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 514 *******
+this.drawFns[514] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 515 *******
+this.drawFns[515] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5647059, 0.4352941, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 516 *******
+this.drawFns[516] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2941177, 0.7058824, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 517 *******
+this.drawFns[517] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2901961, 0.7098039, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 518 *******
+this.drawFns[518] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1411765, 0.8588235, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 519 *******
+this.drawFns[519] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.227451, 0.772549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 520 *******
+this.drawFns[520] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1607843, 0.8392157, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 521 *******
+this.drawFns[521] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3882353, 0.6117647, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 522 *******
+this.drawFns[522] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.9960784, 0.003921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** points object 523 *******
+this.drawFns[523] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 0, 0, 0 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.POINTS, 0, 36);
+}
+// ****** lines object 524 *******
+this.drawFns[524] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1568628, 0.8431373, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 525 *******
+this.drawFns[525] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 1, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 526 *******
+this.drawFns[526] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.007843138, 0.9921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 527 *******
+this.drawFns[527] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.07058824, 0.9294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 528 *******
+this.drawFns[528] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1215686, 0.8784314, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 529 *******
+this.drawFns[529] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1490196, 0.8509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 530 *******
+this.drawFns[530] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1843137, 0.8156863, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 531 *******
+this.drawFns[531] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2980392, 0.7019608, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 532 *******
+this.drawFns[532] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 533 *******
+this.drawFns[533] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 534 *******
+this.drawFns[534] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 535 *******
+this.drawFns[535] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5490196, 0.4509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 536 *******
+this.drawFns[536] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3372549, 0.6627451, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 537 *******
+this.drawFns[537] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2666667, 0.7333333, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 538 *******
+this.drawFns[538] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.8156863, 0.1843137, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 539 *******
+this.drawFns[539] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3333333, 0.6666667, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 540 *******
+this.drawFns[540] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2313726, 0.7686275, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 541 *******
+this.drawFns[541] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.6039216, 0.3960784, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 542 *******
+this.drawFns[542] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 543 *******
+this.drawFns[543] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.7960784, 0.2039216, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 544 *******
+this.drawFns[544] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 545 *******
+this.drawFns[545] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 546 *******
+this.drawFns[546] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.427451, 0.572549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 547 *******
+this.drawFns[547] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5450981, 0.454902, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 548 *******
+this.drawFns[548] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 549 *******
+this.drawFns[549] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2784314, 0.7215686, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 550 *******
+this.drawFns[550] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.282353, 0.7176471, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 551 *******
+this.drawFns[551] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 1, 0, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 552 *******
+this.drawFns[552] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 553 *******
+this.drawFns[553] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 554 *******
+this.drawFns[554] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5647059, 0.4352941, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 555 *******
+this.drawFns[555] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2941177, 0.7058824, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 556 *******
+this.drawFns[556] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2901961, 0.7098039, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 557 *******
+this.drawFns[557] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1411765, 0.8588235, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 558 *******
+this.drawFns[558] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.227451, 0.772549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 559 *******
+this.drawFns[559] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1607843, 0.8392157, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 560 *******
+this.drawFns[560] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3882353, 0.6117647, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 561 *******
+this.drawFns[561] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.9960784, 0.003921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 562 *******
+this.drawFns[562] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1568628, 0.8431373, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 563 *******
+this.drawFns[563] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0, 1, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 564 *******
+this.drawFns[564] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.007843138, 0.9921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 565 *******
+this.drawFns[565] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.07058824, 0.9294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 566 *******
+this.drawFns[566] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1215686, 0.8784314, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 567 *******
+this.drawFns[567] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1490196, 0.8509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 568 *******
+this.drawFns[568] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1843137, 0.8156863, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 569 *******
+this.drawFns[569] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2980392, 0.7019608, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 570 *******
+this.drawFns[570] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 571 *******
+this.drawFns[571] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 572 *******
+this.drawFns[572] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 573 *******
+this.drawFns[573] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5490196, 0.4509804, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 574 *******
+this.drawFns[574] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3372549, 0.6627451, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 575 *******
+this.drawFns[575] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2666667, 0.7333333, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 576 *******
+this.drawFns[576] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.8156863, 0.1843137, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 577 *******
+this.drawFns[577] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3333333, 0.6666667, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 578 *******
+this.drawFns[578] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2313726, 0.7686275, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 579 *******
+this.drawFns[579] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.6039216, 0.3960784, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 580 *******
+this.drawFns[580] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.4470588, 0.5529412, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 581 *******
+this.drawFns[581] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.7960784, 0.2039216, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 582 *******
+this.drawFns[582] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 583 *******
+this.drawFns[583] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3137255, 0.6862745, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 584 *******
+this.drawFns[584] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.427451, 0.572549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 585 *******
+this.drawFns[585] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5450981, 0.454902, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 586 *******
+this.drawFns[586] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 587 *******
+this.drawFns[587] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2784314, 0.7215686, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 588 *******
+this.drawFns[588] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.282353, 0.7176471, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 589 *******
+this.drawFns[589] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 1, 0, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 590 *******
+this.drawFns[590] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3921569, 0.6078432, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 591 *******
+this.drawFns[591] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2705882, 0.7294118, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 592 *******
+this.drawFns[592] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.5647059, 0.4352941, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 593 *******
+this.drawFns[593] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2941177, 0.7058824, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 594 *******
+this.drawFns[594] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.2901961, 0.7098039, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 595 *******
+this.drawFns[595] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1411765, 0.8588235, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 596 *******
+this.drawFns[596] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.227451, 0.772549, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 597 *******
+this.drawFns[597] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.1607843, 0.8392157, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 598 *******
+this.drawFns[598] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.3882353, 0.6117647, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ****** lines object 599 *******
+this.drawFns[599] = function(id, clipplanes) {
+gl.useProgram(this.prog[id]);
+gl.bindBuffer(gl.ARRAY_BUFFER, this.buf[id]);
+gl.uniformMatrix4fv( this.prMatLoc[id], false, new Float32Array(this.prMatrix.getAsArray()) );
+gl.uniformMatrix4fv( this.mvMatLoc[id], false, new Float32Array(this.mvMatrix.getAsArray()) );
+var clipcheck = 0;
+for (var i=0; i < clipplanes.length; i++)
+clipcheck = this.clipFns[clipplanes[i]].call(this, clipplanes[i], id, clipcheck);
+gl.enableVertexAttribArray( posLoc );
+gl.disableVertexAttribArray( colLoc );
+gl.vertexAttrib4f( colLoc, 0.9960784, 0.003921569, 0, 1 );
+gl.lineWidth( 1 );
+gl.vertexAttribPointer(posLoc,  3, gl.FLOAT, false, 4*this.offsets[id]["stride"],  4*this.offsets[id]["vofs"]);
+gl.drawArrays(gl.LINES, 0, 2);
+}
+// ***** subscene 363 ****
+this.drawFns[363] = function(id) {
+this.vp = this.viewport[id];
+gl.viewport(this.vp[0], this.vp[1], this.vp[2], this.vp[3]);
+gl.scissor(this.vp[0], this.vp[1], this.vp[2], this.vp[3]);
+gl.clearColor(1, 1, 1, 1);
+gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+this.prMatrix.makeIdentity();
+var radius = 0.3626567;
+var distance = 1.273816;
+var t = tan(this.FOV[363]*PI/360);
+var near = distance - radius;
+var far = distance + radius;
+var hlen = t*near;
+var aspect = this.vp[2]/this.vp[3];
+var z = this.zoom[363];
+if (aspect > 1) 
+this.prMatrix.frustum(-hlen*aspect*z, hlen*aspect*z, 
+-hlen*z, hlen*z, near, far);
+else  
+this.prMatrix.frustum(-hlen*z, hlen*z, 
+-hlen*z/aspect, hlen*z/aspect, 
+near, far);
+this.mvMatrix.makeIdentity();
+this.mvMatrix.translate( -0.002000697, 0.01604869, 0.006596699 );
+this.mvMatrix.scale( 1, 1, 1 );   
+this.mvMatrix.multRight( srd_shape_global_3drgl.userMatrix[363] );
+this.mvMatrix.translate(-0, -0, -1.273816);
+var clipids = this.clipplanes[id];
+if (clipids.length > 0) {
+this.invMatrix = new CanvasMatrix4(this.mvMatrix);
+this.invMatrix.invert();
+for (var i = 0; i < this.clipplanes[id].length; i++) 
+this.drawFns[clipids[i]].call(this, clipids[i]);
+}
+var subids = this.opaque[id];
+for (var i = 0; i < subids.length; i++) 
+this.drawFns[subids[i]].call(this, subids[i], clipids);
+subids = this.transparent[id];
+if (subids.length > 0) {
+gl.depthMask(false);
+gl.blendFuncSeparate(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA,
+gl.ONE, gl.ONE);
+gl.enable(gl.BLEND);
+for (var i = 0; i < subids.length; i++) 
+this.drawFns[subids[i]].call(this, subids[i], clipids);
+}
+subids = this.subscenes[id];
+for (var i = 0; i < subids.length; i++)
+this.drawFns[subids[i]].call(this, subids[i]);
+}
+this.drawScene();
+var vpx0 = {
+363: 0
+};
+var vpy0 = {
+363: 0
+};
+var vpWidths = {
+363: 504
+};
+var vpHeights = {
+363: 504
+};
+var activeModel = {
+363: 363
+};
+var activeProjection = {
+363: 363
+};
+srd_shape_global_3drgl.listeners = {
+363: [ 363 ]
+};
+var whichSubscene = function(coords){
+if (0 <= coords.x && coords.x <= 504 && 0 <= coords.y && coords.y <= 504) return(363);
+return(363);
+}
+var translateCoords = function(subsceneid, coords){
+return {x:coords.x - vpx0[subsceneid], y:coords.y - vpy0[subsceneid]};
+}
+var vlen = function(v) {
+return sqrt(v[0]*v[0] + v[1]*v[1] + v[2]*v[2])
+}
+var xprod = function(a, b) {
+return [a[1]*b[2] - a[2]*b[1],
+a[2]*b[0] - a[0]*b[2],
+a[0]*b[1] - a[1]*b[0]];
+}
+var screenToVector = function(x, y) {
+var width = vpWidths[activeSubscene];
+var height = vpHeights[activeSubscene];
+var radius = max(width, height)/2.0;
+var cx = width/2.0;
+var cy = height/2.0;
+var px = (x-cx)/radius;
+var py = (y-cy)/radius;
+var plen = sqrt(px*px+py*py);
+if (plen > 1.e-6) { 
+px = px/plen;
+py = py/plen;
+}
+var angle = (SQRT2 - plen)/SQRT2*PI/2;
+var z = sin(angle);
+var zlen = sqrt(1.0 - z*z);
+px = px * zlen;
+py = py * zlen;
+return [px, py, z];
+}
+var rotBase;
+var trackballdown = function(x,y) {
+rotBase = screenToVector(x, y);
+var l = srd_shape_global_3drgl.listeners[activeModel[activeSubscene]];
+saveMat = new Object();
+for (var i = 0; i < l.length; i++) 
+saveMat[l[i]] = new CanvasMatrix4(srd_shape_global_3drgl.userMatrix[l[i]]);
+}
+var trackballmove = function(x,y) {
+var rotCurrent = screenToVector(x,y);
+var dot = rotBase[0]*rotCurrent[0] + 
+rotBase[1]*rotCurrent[1] + 
+rotBase[2]*rotCurrent[2];
+var angle = acos( dot/vlen(rotBase)/vlen(rotCurrent) )*180./PI;
+var axis = xprod(rotBase, rotCurrent);
+var l = srd_shape_global_3drgl.listeners[activeModel[activeSubscene]];
+for (i = 0; i < l.length; i++) {
+srd_shape_global_3drgl.userMatrix[l[i]].load(saveMat[l[i]]);
+srd_shape_global_3drgl.userMatrix[l[i]].rotate(angle, axis[0], axis[1], axis[2]);
+}
+srd_shape_global_3drgl.drawScene();
+}
+var trackballend = 0;
+var y0zoom = 0;
+var zoom0 = 0;
+var zoomdown = function(x, y) {
+y0zoom = y;
+zoom0 = new Object();
+l = srd_shape_global_3drgl.listeners[activeProjection[activeSubscene]];
+for (i = 0; i < l.length; i++)
+zoom0[l[i]] = log(srd_shape_global_3drgl.zoom[l[i]]);
+}
+var zoommove = function(x, y) {
+l = srd_shape_global_3drgl.listeners[activeProjection[activeSubscene]];
+for (i = 0; i < l.length; i++)
+srd_shape_global_3drgl.zoom[l[i]] = exp(zoom0[l[i]] + (y-y0zoom)/height);
+srd_shape_global_3drgl.drawScene();
+}
+var zoomend = 0;
+var y0fov = 0;
+var fov0 = 0;
+var fovdown = function(x, y) {
+y0fov = y;
+fov0 = new Object();
+l = srd_shape_global_3drgl.listeners[activeProjection[activeSubscene]];
+for (i = 0; i < l.length; i++)
+fov0[l[i]] = srd_shape_global_3drgl.FOV[l[i]];
+}
+var fovmove = function(x, y) {
+l = srd_shape_global_3drgl.listeners[activeProjection[activeSubscene]];
+for (i = 0; i < l.length; i++)
+srd_shape_global_3drgl.FOV[l[i]] = max(1, min(179, fov0[l[i]] + 180*(y-y0fov)/height));
+srd_shape_global_3drgl.drawScene();
+}
+var fovend = 0;
+var mousedown = [trackballdown, zoomdown, fovdown];
+var mousemove = [trackballmove, zoommove, fovmove];
+var mouseend = [trackballend, zoomend, fovend];
+function relMouseCoords(event){
+var totalOffsetX = 0;
+var totalOffsetY = 0;
+var currentElement = canvas;
+do{
+totalOffsetX += currentElement.offsetLeft;
+totalOffsetY += currentElement.offsetTop;
+currentElement = currentElement.offsetParent;
+}
+while(currentElement)
+var canvasX = event.pageX - totalOffsetX;
+var canvasY = event.pageY - totalOffsetY;
+return {x:canvasX, y:canvasY}
+}
+canvas.onmousedown = function ( ev ){
+if (!ev.which) // Use w3c defns in preference to MS
+switch (ev.button) {
+case 0: ev.which = 1; break;
+case 1: 
+case 4: ev.which = 2; break;
+case 2: ev.which = 3;
+}
+drag = ev.which;
+var f = mousedown[drag-1];
+if (f) {
+var coords = relMouseCoords(ev);
+coords.y = height-coords.y;
+activeSubscene = whichSubscene(coords);
+coords = translateCoords(activeSubscene, coords);
+f(coords.x, coords.y); 
+ev.preventDefault();
+}
+}    
+canvas.onmouseup = function ( ev ){	
+if ( drag == 0 ) return;
+var f = mouseend[drag-1];
+if (f) 
+f();
+drag = 0;
+}
+canvas.onmouseout = canvas.onmouseup;
+canvas.onmousemove = function ( ev ){
+if ( drag == 0 ) return;
+var f = mousemove[drag-1];
+if (f) {
+var coords = relMouseCoords(ev);
+coords.y = height - coords.y;
+coords = translateCoords(activeSubscene, coords);
+f(coords.x, coords.y);
+}
+}
+var wheelHandler = function(ev) {
+var del = 1.1;
+if (ev.shiftKey) del = 1.01;
+var ds = ((ev.detail || ev.wheelDelta) > 0) ? del : (1 / del);
+l = srd_shape_global_3drgl.listeners[activeProjection[activeSubscene]];
+for (i = 0; i < l.length; i++)
+srd_shape_global_3drgl.zoom[l[i]] *= ds;
+srd_shape_global_3drgl.drawScene();
+ev.preventDefault();
+};
+canvas.addEventListener("DOMMouseScroll", wheelHandler, false);
+canvas.addEventListener("mousewheel", wheelHandler, false);
+}
+</script>
+<canvas id="srd_shape_global_3dcanvas" class="rglWebGL" width="1" height="1"></canvas> 
+<p id="srd_shape_global_3ddebug">
+You must enable Javascript to view this page properly.</p>
+<script>srd_shape_global_3drgl.start();</script>
 
 ---
 

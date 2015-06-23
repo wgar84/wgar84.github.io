@@ -9,11 +9,11 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-# A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
+## A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
 
-## Guilherme Garcia & Gabriel Marroig
+### Guilherme Garcia & Gabriel Marroig
 
-### University of São Paulo - Brasil
+University of São Paulo - Brasil
 
 ---
 
@@ -248,6 +248,25 @@ ppca.Data $ post.arc %>%
   }
 text(y = -(1:2), x = rep (-1.2, 2),
      labels = c('Global 1', 'Global 2'))
+```
+
+---
+
+```{r srd_shape_global_3d, echo = FALSE, webgl = TRUE}
+ppca.Data $ post.arc %>%
+  filter(Type == 'Local Shape Variables') %>%
+  mutate('trait2' = factor (as.character(trait), levels = rownames (Aux $ def.hyp))) %>%
+  group_by(axis, trait2) %>%
+  summarise_each(funs(mean), value) %$%
+  {
+    coleurs <- colorRamp(c ('red', 'green'))
+    edit.values <- rangenorm(value [axis=='Global.1'][-1])
+    edit.values <- c(edit.values, edit.values)
+    points3d(Reference [, , 'Macaca_mulatta'], alpha = 0)
+    for (i in 1:(dim (Aux $ tessel.38) [1]))
+      segments3d(Reference [Aux $ tessel.38 [i, ], , 'Macaca_mulatta'], 
+                 col = do.call (rgb, as.list (coleurs(edit.values [i])/255)))
+  }
 ```
 
 ---
