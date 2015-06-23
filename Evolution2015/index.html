@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates</title>
+  <meta name="description" content="">
+  <meta name="author" content="Guilherme Garcia & Gabriel Marroig">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+<link rel="stylesheet" href = "assets/css/tablefont.css">
+<link rel="stylesheet" href = "assets/css/tablefont.css~">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h2>A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates</h2>
+  <h3>Guilherme Garcia &amp; Gabriel Marroig</h3>
+
+<p>University of São Paulo - Brasil</p>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h2>Mammalian Skull Development</h2>
+  <p><img src="figures/palimpsest.png" alt="@hallgrimsson_mouse_2008"></p>
+
+<p><aside class='notes'>
+  Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; the timing, rate and scope of such processes structures covariance patterns.
+</aside></p>
+
+</section>
+<section>
+   <section class='' data-state=''>
+    <h2>Landmarks and Measurements</h2>
+    <p><img src="figures/landmarks_pres1.png" alt=""></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <p><img src="figures/landmarks_pres2.png" alt=""></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-4'>
+  
+  <p><img src="assets/fig/phylo_model-1.png" alt="plot of chunk phylo_model"> </p>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  
+  <p><img src="figures/matrixspace.png" alt=""></p>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  
+  <p><img src="assets/fig/phylo_decdiv-1.png" alt="plot of chunk phylo_decdiv"> </p>
+
+</section>
+<section class='' data-state='' id='slide-7'>
+  
+  <table><thead>
+<tr>
+<th align="left"></th>
+<th align="right">Value</th>
+<th align="right">Expectation</th>
+<th align="right">Distance</th>
+<th align="left">P-value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left">Single Node</td>
+<td align="right">0.106</td>
+<td align="right">0.029</td>
+<td align="right">13.456</td>
+<td align="left">&lt; 10<sup>-4^</sup></td>
+</tr>
+<tr>
+<td align="left">Few Nodes</td>
+<td align="right">0.248</td>
+<td align="right">0.139</td>
+<td align="right">13.545</td>
+<td align="left">&lt; 10<sup>-4^</sup></td>
+</tr>
+<tr>
+<td align="left">Tip/Root Skewness (Topology Only)</td>
+<td align="right">0.632</td>
+<td align="right">0.505</td>
+<td align="right">12.197</td>
+<td align="left">&lt; 10<sup>-4^</sup></td>
+</tr>
+<tr>
+<td align="left">Tip/Root Skewness (Branch Lengths)</td>
+<td align="right">0.381</td>
+<td align="right">0.505</td>
+<td align="right">-11.067</td>
+<td align="left">&lt; 10<sup>-4^</sup></td>
+</tr>
+</tbody></table>
+
+</section>
+<section class='' data-state='' id='slide-8'>
+  
+  <p><img src="assets/fig/ppca_eval-1.png" alt="plot of chunk ppca_eval"> </p>
+
+</section>
+<section class='' data-state='' id='slide-9'>
+  
+  <p><img src="assets/fig/phylo_g1-1.png" alt="plot of chunk phylo_g1"> </p>
+
+</section>
+<section class='' data-state='' id='slide-10'>
+  
+  <p><img src="assets/fig/phylo_g2-1.png" alt="plot of chunk phylo_g2"> </p>
+
+</section>
+<section class='' data-state='' id='slide-11'>
+  
+  <p><img src="assets/fig/srd_g1-1.png" alt="plot of chunk srd_g1"> </p>
+
+</section>
+<section class='' data-state='' id='slide-12'>
+  
+  <p>##</p>
+
+<p><img src="assets/fig/srd_g2-1.png" alt="plot of chunk srd_g2"> </p>
+
+</section>
+<section class='' data-state='' id='slide-13'>
+  
+  <p><img src="assets/fig/srd_shape_global-1.png" alt="plot of chunk srd_shape_global"> </p>
+
+</section>
+<section class='' data-state='' id='slide-14'>
+  
+  <p><img src="assets/fig/phylo_l1-1.png" alt="plot of chunk phylo_l1"> </p>
+
+</section>
+<section class='' data-state='' id='slide-15'>
+  
+  <p><img src="assets/fig/phylo_l2-1.png" alt="plot of chunk phylo_l2"> </p>
+
+</section>
+<section class='' data-state='' id='slide-16'>
+  
+  <p><img src="assets/fig/srd_l1-1.png" alt="plot of chunk srd_l1"> </p>
+
+</section>
+<section class='' data-state='' id='slide-17'>
+  
+  <p><img src="assets/fig/srd_l2-1.png" alt="plot of chunk srd_l2"> </p>
+
+</section>
+<section class='' data-state='' id='slide-18'>
+  <h2>Local Shape Changes</h2>
+  <p><img src="assets/fig/srd_shape_local-1.png" alt="plot of chunk srd_shape_local"> </p>
+
+</section>
+<section class='' data-state='' id='slide-19'>
+  <h2>References</h2>
+  
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'default', 
+    transition: Reveal.getQueryHash().transition || 'default', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>

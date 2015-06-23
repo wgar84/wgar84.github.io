@@ -1,0 +1,36 @@
+---
+title       : A Phylogenetic Analysis 
+subtitle    : of Covariance Structure in the Skull of Anthropoid Primates
+author      : Guilherme Garcia & Gabriel Marroig
+job         : University of São Paulo - Brasil
+framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax]     # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Mammalian Skull Development
+
+![@hallgrimsson_mouse_2008](../Presentation/PhyloComp/Figures/palimpsest.png)
+
+<aside class='notes'>
+  Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes, and the timing, rate and scope of such processes structures covariance patterns.
+</aside>
+
+---
+
+## Read-And-Delete
+
+1. Edit YAML front matter
+2. Write using R Markdown
+3. Use an empty line followed by three dashes to separate slides!
+
+--- .class #id 
+
+## Slide 2
+
+
+
+
