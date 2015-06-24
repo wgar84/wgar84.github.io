@@ -35,13 +35,28 @@ Hallgrímsson *et al.* (2008)
 
 --- &vertical
 
-## Landmarks and Measurements 
+## Landmarks 
 
-![`r captions $ fig.landmarks`](figures/landmarks_pres1.png)
+![](figures/landmarks_pres1.png)
 
 *** 
 
-![`r captions $ fig.landmarks`](figures/landmarks_pres2.png)
+![](figures/landmarks_pres2.png)
+
+--- 
+
+## Measurements
+
+- log Centroid Size
+
+- Local shape variables
+  + log volume transformations
+
+---
+
+## Skull Regions 
+
+![](figures/regions_names.png)
 
 ---
 
@@ -79,17 +94,23 @@ legend(0, 0,
 
 ![](figures/matrixdisp.png)
 
+Pavoine *et al.* (2008)
+
 ---
 
 ### Eigentensors
 
 ![](figures/matrixspace.png)
 
+Hine *et al.* (2006)
+
 ---
 
 ### Phylogenetic Principal Components
 
 ![](figures/ppca.png)
+
+Jombart *et al.* (2010)
 
 ---
 
@@ -99,7 +120,7 @@ legend(0, 0,
 
 --- &vertical
 
-### Distribution of Matrix Disparity
+### Covariance Matrix Diversity
 
 ```{r phylo_decdiv, echo = FALSE, fig.width = 8, fig.height = 6}
 
@@ -124,7 +145,7 @@ text (y = c(-2, -1, 0, 1, 2), x = c(0, 0, 0, 0, 0) + 0.5,
 
 ***
 
-### Tests for Distribution of Disparity 
+### Tests for Distribution of Matrix Diversity
 
 ```{r riem_decdiv, echo = FALSE, warning = FALSE, message = FALSE}
 kable(riem.tab)
