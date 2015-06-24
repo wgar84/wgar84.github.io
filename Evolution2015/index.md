@@ -2,10 +2,9 @@
 title       : A Phylogenetic Analysis of Covariance Structure in the Skull of Anthropoid Primates
 author      : Guilherme Garcia & Gabriel Marroig
 job         : University of São Paulo - Brasil
-framework   : revealjs      # {io2012, html5slides, shower, dzslides, ...}
+framework   : revealjs   # {io2012, html5slides, shower, dzslides, ...}
 revealjs    :
   theme: night
-  transitions: slide
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 widgets     : [mathjax]     # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
@@ -29,9 +28,51 @@ University of São Paulo - Brasil
 
 Hallgrímsson *et al.* (2008)
 
-<aside class='notes'>
+*** =pnotes
+
   Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; the timing, rate and scope of such processes structures covariance patterns.
+
+---
+
+### Limits to Changes in Covariance Structure
+
+- Canalization;
+
+- Stabilizing Selection.
+  + developmental systems;
+  + functional interactions.
+
+<aside class='notes'>
+Covariance structure in adult phenotypes is also influenced by the effects of canalization and stabilizing selection, both over developmental systems themselves and functional interactions in the resulting phenotypes. These factors may limit variation in developmental processes, thus limiting changes in covariance structure.
 </aside>
+
+---
+
+We expect that changes in covariance structure between sister lineages will display a non-random pattern consistent with developmental and functional interactions.
+
+---
+
+## Objective
+
+We investigate the evolution of skull size-shape covariance structure in anthropoid primates in a phylogenetic framework.
+
+---
+
+## Sample
+
+- 5108 individuals;
+
+- 109 species.
+
+--- 
+
+## Measurements
+
+- log Centroid Size;
+
+- Local shape variables (Márquez *et al.*, 2012):
+  + log volume transformations;
+  + TPS function.
 
 --- &vertical
 
@@ -43,20 +84,23 @@ Hallgrímsson *et al.* (2008)
 
 ![](figures/landmarks_pres2.png)
 
---- 
-
-## Measurements
-
-- log Centroid Size
-
-- Local shape variables
-  + log volume transformations
-
 ---
 
 ## Skull Regions 
 
 ![](figures/regions_names.png)
+
+<aside class='notes'>
+These traits are grouped according to their developmental origins and functional interactions; these regions are used here as a framework to interpret changes in covariance structure, linking such changes to developmental processes.
+</aside>
+
+--- 
+
+- Linear models to correct for fixed effects:
+  + sexual dimorphism, subspecific variation.
+
+- Bayesian framework (MCMCglmm; Hadfield, 2010):
+  + posterior distribution of P-matrices.
 
 ---
 
@@ -70,15 +114,19 @@ Hallgrímsson *et al.* (2008)
 
 Pavoine *et al.* (2008)
 
+<aside class='notes'>
+We estimate Riemannian distances between these matrices, and we subject these distances to a decomposition of matrix disparity along the phylogeny. Using a randomization procedure, we evaluated a series of hypotheses concerning the distribution of matrix disparity throughout anthropoid diversification.
+</aside>
+
 ---
 
-### Eigentensors
+### Eigentensors 
 
 ![](figures/matrixspace.png)
 
-Hine *et al.* (2006); Aguirre *et al.* (2013)
+Hine *et al.* (2006)
 
----
+--- &vertical
 
 ### Phylogenetic Principal Components
 
@@ -86,11 +134,40 @@ Hine *et al.* (2006); Aguirre *et al.* (2013)
 
 Jombart *et al.* (2010)
 
+***
+
+### pPCA Details
+
+Spectral decomposition of the matrix
+
+&nbsp;
+&nbsp;
+
+$$
+\frac{1}{2n}\mathbf{X}^t(\mathbf{W} + \mathbf{W}^t)\mathbf{X}
+$$
+
+&nbsp;
+
+- $n$: number of tips;
+
+- $\mathbf{X}$: data for tips (here, principal matrix projections);
+
+- $\mathbf{W}$: phylogenetic distance matrix.
+
 ---
 
 ### Reconstructing Matrix Variation
 
 ![](figures/limits.png)
+
+---
+
+### Matrix Variation along pPC Axes
+
+- Selection Response Decomposition (SRD; Marroig *et al.*, 2011);
+
+- posterior distribution of differences in trait-specific covariance structure.
 
 --- &vertical
 
@@ -110,15 +187,13 @@ Jombart *et al.* (2010)
 |Tip/Root Skewness (Topology Only)  | 0.632| 0.505|  12.197|< 10^-4 |
 |Tip/Root Skewness (Branch Lengths) | 0.381| 0.505| -11.067|< 10^-4 |
 
---- &twocol
+--- &vertical
 
 ### pPCA Eigenvalue Distribution
 
-*** =left
-
 ![plot of chunk ppca_eval](assets/fig/ppca_eval-1.png) 
 
-*** =right
+***
 
 ![plot of chunk var_moran](assets/fig/var_moran-1.png) 
 
@@ -130,8 +205,6 @@ Jombart *et al.* (2010)
 
 ***
 
-## Global pPC1
-
 ![plot of chunk srd_g1](assets/fig/srd_g1-1.png) 
 
 --- &vertical
@@ -141,8 +214,6 @@ Jombart *et al.* (2010)
 ![plot of chunk phylo_g2](assets/fig/phylo_g2-1.png) 
 
 ***
-
-## Global pPC2
 
 ![plot of chunk srd_g2](assets/fig/srd_g2-1.png) 
 
@@ -198,8 +269,6 @@ Jombart *et al.* (2010)
 
 ***
 
-## Local pPC1 
-
 ![plot of chunk srd_l1](assets/fig/srd_l1-1.png) 
 
 
@@ -210,8 +279,6 @@ Jombart *et al.* (2010)
 ![plot of chunk phylo_l2](assets/fig/phylo_l2-1.png) 
 
 ***
-
-## Local pPC2
 
 ![plot of chunk srd_l2](assets/fig/srd_l2-1.png) 
 

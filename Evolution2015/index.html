@@ -37,9 +37,57 @@
 
 <p>Hallgrímsson <em>et al.</em> (2008)</p>
 
+  <aside class='notes'>
+    <p>Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; the timing, rate and scope of such processes structures covariance patterns.</p>
+
+  </aside>
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h3>Limits to Changes in Covariance Structure</h3>
+  <ul>
+<li><p>Canalization;</p></li>
+<li><p>Stabilizing Selection.</p>
+
+<ul>
+<li>developmental systems;</li>
+<li>functional interactions.</li>
+</ul></li>
+</ul>
+
 <p><aside class='notes'>
-  Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; the timing, rate and scope of such processes structures covariance patterns.
+Covariance structure in adult phenotypes is also influenced by the effects of canalization and stabilizing selection, both over developmental systems themselves and functional interactions in the resulting phenotypes. These factors may limit variation in developmental processes, thus limiting changes in covariance structure.
 </aside></p>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  
+  <p>We expect that changes in covariance structure between sister lineages will display a non-random pattern consistent with developmental and functional interactions.</p>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h2>Objective</h2>
+  <p>We investigate the evolution of skull size-shape covariance structure in anthropoid primates in a phylogenetic framework.</p>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h2>Sample</h2>
+  <ul>
+<li><p>5108 individuals;</p></li>
+<li><p>109 species.</p></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h2>Measurements</h2>
+  <ul>
+<li><p>log Centroid Size;</p></li>
+<li><p>Local shape variables (Márquez <em>et al.</em>, 2012):</p>
+
+<ul>
+<li>log volume transformations;</li>
+<li>TPS function.</li>
+</ul></li>
+</ul>
 
 </section>
 <section>
@@ -59,52 +107,101 @@
     </aside>
    </section>
 </section>
-<section class='' data-state='' id='slide-4'>
-  <h2>Measurements</h2>
+<section class='' data-state='' id='slide-9'>
+  <h2>Skull Regions</h2>
+  <p><img src="figures/regions_names.png" alt=""></p>
+
+<p><aside class='notes'>
+These traits are grouped according to their developmental origins and functional interactions; these regions are used here as a framework to interpret changes in covariance structure, linking such changes to developmental processes.
+</aside></p>
+
+</section>
+<section class='' data-state='' id='slide-10'>
+  
   <ul>
-<li><p>log Centroid Size</p></li>
-<li><p>Local shape variables</p>
+<li><p>Linear models to correct for fixed effects:</p>
 
 <ul>
-<li>log volume transformations</li>
+<li>sexual dimorphism, subspecific variation.</li>
+</ul></li>
+<li><p>Bayesian framework (MCMCglmm; Hadfield, 2010):</p>
+
+<ul>
+<li>posterior distribution of P-matrices.</li>
 </ul></li>
 </ul>
 
 </section>
-<section class='' data-state='' id='slide-5'>
-  <h2>Skull Regions</h2>
-  <p><img src="figures/regions_names.png" alt=""></p>
-
-</section>
-<section class='' data-state='' id='slide-6'>
+<section class='' data-state='' id='slide-11'>
   
   <p><img src="assets/fig/phylo_model-1.png" alt="plot of chunk phylo_model"> </p>
 
 </section>
-<section class='' data-state='' id='slide-7'>
+<section class='' data-state='' id='slide-12'>
   <h2>Diversity Decomposition</h2>
   <p><img src="figures/matrixdisp.png" alt=""></p>
 
 <p>Pavoine <em>et al.</em> (2008)</p>
 
+<p><aside class='notes'>
+We estimate Riemannian distances between these matrices, and we subject these distances to a decomposition of matrix disparity along the phylogeny. Using a randomization procedure, we evaluated a series of hypotheses concerning the distribution of matrix disparity throughout anthropoid diversification.
+</aside></p>
+
 </section>
-<section class='' data-state='' id='slide-8'>
+<section class='' data-state='' id='slide-13'>
   <h3>Eigentensors</h3>
   <p><img src="figures/matrixspace.png" alt=""></p>
 
-<p>Hine <em>et al.</em> (2006); Aguirre <em>et al.</em> (2013)</p>
+<p>Hine <em>et al.</em> (2006)</p>
 
 </section>
-<section class='' data-state='' id='slide-9'>
-  <h3>Phylogenetic Principal Components</h3>
-  <p><img src="figures/ppca.png" alt=""></p>
+<section>
+   <section class='' data-state=''>
+    <h3>Phylogenetic Principal Components</h3>
+    <p><img src="figures/ppca.png" alt=""></p>
 
 <p>Jombart <em>et al.</em> (2010)</p>
 
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>pPCA Details</h3>
+
+<p>Spectral decomposition of the matrix</p>
+
+<p>&nbsp;
+&nbsp;</p>
+
+<p>\[
+\frac{1}{2n}\mathbf{X}^t(\mathbf{W} + \mathbf{W}^t)\mathbf{X}
+\]</p>
+
+<p>&nbsp;</p>
+
+<ul>
+<li><p>\(n\): number of tips;</p></li>
+<li><p>\(\mathbf{X}\): data for tips (here, principal matrix projections);</p></li>
+<li><p>\(\mathbf{W}\): phylogenetic distance matrix.</p></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
-<section class='' data-state='' id='slide-10'>
+<section class='' data-state='' id='slide-15'>
   <h3>Reconstructing Matrix Variation</h3>
   <p><img src="figures/limits.png" alt=""></p>
+
+</section>
+<section class='' data-state='' id='slide-16'>
+  <h3>Matrix Variation along pPC Axes</h3>
+  <ul>
+<li><p>Selection Response Decomposition (SRD; Marroig <em>et al.</em>, 2011);</p></li>
+<li><p>posterior distribution of differences in trait-specific covariance structure.</p></li>
+</ul>
 
 </section>
 <section>
@@ -163,17 +260,22 @@
     </aside>
    </section>
 </section>
-<section class='' data-state='' id='slide-12'>
-  <h3>pPCA Eigenvalue Distribution</h3>
-  
-  <div class='left' style='float:left;width:48%'>
+<section>
+   <section class='' data-state=''>
+    <h3>pPCA Eigenvalue Distribution</h3>
     <p><img src="assets/fig/ppca_eval-1.png" alt="plot of chunk ppca_eval"> </p>
 
-  </div>    
-  <div class='right' style='float:right;width:48%'>
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
     <p><img src="assets/fig/var_moran-1.png" alt="plot of chunk var_moran"> </p>
 
-  </div>
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
 <section>
    <section class='' data-state=''>
@@ -185,9 +287,7 @@
     </aside>
    </section>
    <section class='' data-state=''>
-    <h2>Global pPC1</h2>
-
-<p><img src="assets/fig/srd_g1-1.png" alt="plot of chunk srd_g1"> </p>
+    <p><img src="assets/fig/srd_g1-1.png" alt="plot of chunk srd_g1"> </p>
 
     <aside class='notes'>
       
@@ -204,16 +304,14 @@
     </aside>
    </section>
    <section class='' data-state=''>
-    <h2>Global pPC2</h2>
-
-<p><img src="assets/fig/srd_g2-1.png" alt="plot of chunk srd_g2"> </p>
+    <p><img src="assets/fig/srd_g2-1.png" alt="plot of chunk srd_g2"> </p>
 
     <aside class='notes'>
       
     </aside>
    </section>
 </section>
-<section class='' data-state='' id='slide-15'>
+<section class='' data-state='' id='slide-21'>
   <h3>Global pPCs over Shape</h3>
   <p><img src="assets/fig/srd_shape_global-1.png" alt="plot of chunk srd_shape_global"> </p>
 
@@ -296,9 +394,7 @@
     </aside>
    </section>
    <section class='' data-state=''>
-    <h2>Local pPC1</h2>
-
-<p><img src="assets/fig/srd_l1-1.png" alt="plot of chunk srd_l1"> </p>
+    <p><img src="assets/fig/srd_l1-1.png" alt="plot of chunk srd_l1"> </p>
 
     <aside class='notes'>
       
@@ -315,21 +411,19 @@
     </aside>
    </section>
    <section class='' data-state=''>
-    <h2>Local pPC2</h2>
-
-<p><img src="assets/fig/srd_l2-1.png" alt="plot of chunk srd_l2"> </p>
+    <p><img src="assets/fig/srd_l2-1.png" alt="plot of chunk srd_l2"> </p>
 
     <aside class='notes'>
       
     </aside>
    </section>
 </section>
-<section class='' data-state='' id='slide-18'>
+<section class='' data-state='' id='slide-24'>
   <h3>Local pPCs over Shape</h3>
   <p><img src="assets/fig/srd_shape_local-1.png" alt="plot of chunk srd_shape_local"> </p>
 
 </section>
-<section class='' data-state='' id='slide-19'>
+<section class='' data-state='' id='slide-25'>
   <h2>References</h2>
   
 </section>
