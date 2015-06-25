@@ -277,9 +277,11 @@ the SRD analysis over covariance matrices recovered from the first global pPC in
 
 ![plot of chunk phylo_g2](assets/fig/phylo_g2-1.png) 
 
-***
+*** =pnotes
 
 The second global pPC depicts contrasts within Platyrrhini and Catarrhini, associated with the split between Atelidae and Cebidae and between Hominoidea and Cercopithecoidea.
+
+***
 
 ![plot of chunk srd_g2](assets/fig/srd_g2-1.png) 
 

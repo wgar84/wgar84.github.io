@@ -377,9 +377,11 @@ legend('bottomright', bty = 'n', pt.cex = 1:4, yjust = 0.5,
        pch = 20, col = rgb (0,0,0,0.5))
 ```
 
-***
+*** =pnotes
 
 The second global pPC depicts contrasts within Platyrrhini and Catarrhini, associated with the split between Atelidae and Cebidae and between Hominoidea and Cercopithecoidea.
+
+***
 
 ```{r srd_g2, echo = FALSE, fig.width = 8, fig.height = 6}
 ppca.Data $ post.arc %>%
