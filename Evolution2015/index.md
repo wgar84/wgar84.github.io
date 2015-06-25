@@ -129,11 +129,26 @@ We estimate Riemannian distances between these mean matrices, and we subject the
 
 ***
 
+### Riemannian Distances
+
+Distance among covariance matrices is estimated as
+
+&nbsp;
+$$ \delta_{ij} = \|Log(\mathbf{C}_i \mathbf{C}_j^{-1})\|_F $$
+
+&nbsp;
+where
+
+&nbsp;
+$$ \|\mathbf{C}\|_F = tr(\mathbf{C}^t\mathbf{C})^\frac{1}{2} $$
+
+***
+
+### Matrix Diversity Estimation
+
 For a fully resolved tree, diversity $w$ on node $i$ is estimated as
 
 &nbsp;
-&nbsp;
-
 $$
 w_i = \frac{n_i}{n_T}\bigg[\frac{n_{d1}n_{d2}}
 {n_i^2} \frac{D_{\Delta}^2(P_{d1}, P_{d2})}{2}\bigg]
@@ -143,6 +158,8 @@ $$
 - $d1$, $d2$: descendants of node $i$;
 
 - $n_i$: number of tips descending from node $i$;
+
+- $P_{d1}$: set of tips descending from $d1$.
 
 ***
 
@@ -157,10 +174,6 @@ $$
 $$
 H_{\Delta} (P) = \sum_{i,j \in P} \frac{\delta_{ij}^2}{2}
 $$
-
-***
-
-$$ \delta_{ij} = \|Log(C_i C_j^{-1})\|_F $$
 
 ---
 
@@ -188,17 +201,16 @@ We then use covariance matrix projections over eigentensors as traits in a phylo
 
 ***
 
+### pPCA Details
+
 Spectral decomposition of the matrix
 
 &nbsp;
-&nbsp;
-
 $$
 \frac{1}{2n}\mathbf{X}^t(\mathbf{W} + \mathbf{W}^t)\mathbf{X}
 $$
 
 &nbsp;
-
 - $n$: number of tips;
 
 - $\mathbf{X}$: data for tips (here, principal matrix projections);

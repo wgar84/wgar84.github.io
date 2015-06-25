@@ -169,12 +169,30 @@
     </aside>
    </section>
    <section class='' data-state=''>
-    <p>For a fully resolved tree, diversity \(w\) on node \(i\) is estimated as</p>
+    <h3>Riemannian Distances</h3>
+
+<p>Distance among covariance matrices is estimated as</p>
 
 <p>&nbsp;
-&nbsp;</p>
+\[ \delta_{ij} = \|Log(\mathbf{C}_i \mathbf{C}_j^{-1})\|_F \]</p>
 
-<p>\[
+<p>&nbsp;
+where</p>
+
+<p>&nbsp;
+\[ \|\mathbf{C}\|_F = tr(\mathbf{C}^t\mathbf{C})^\frac{1}{2} \]</p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>Matrix Diversity Estimation</h3>
+
+<p>For a fully resolved tree, diversity \(w\) on node \(i\) is estimated as</p>
+
+<p>&nbsp;
+\[
 w_i = \frac{n_i}{n_T}\bigg[\frac{n_{d1}n_{d2}}
 {n_i^2} \frac{D_{\Delta}^2(P_{d1}, P_{d2})}{2}\bigg]
 \]
@@ -183,6 +201,7 @@ w_i = \frac{n_i}{n_T}\bigg[\frac{n_{d1}n_{d2}}
 <ul>
 <li><p>\(d1\), \(d2\): descendants of node \(i\);</p></li>
 <li><p>\(n_i\): number of tips descending from node \(i\);</p></li>
+<li><p>\(P_{d1}\): set of tips descending from \(d1\).</p></li>
 </ul>
 
     <aside class='notes'>
@@ -201,13 +220,6 @@ H_{\Delta}(P_i) - H_{\Delta}(P_j) \bigg)\Bigg]^{\frac{1}{2}}
 <p>\[
 H_{\Delta} (P) = \sum_{i,j \in P} \frac{\delta_{ij}^2}{2}
 \]</p>
-
-    <aside class='notes'>
-      
-    </aside>
-   </section>
-   <section class='' data-state=''>
-    <p>\[ \delta_{ij} = \|Log(C_i C_j^{-1})\|_F \]</p>
 
     <aside class='notes'>
       
@@ -239,12 +251,12 @@ H_{\Delta} (P) = \sum_{i,j \in P} \frac{\delta_{ij}^2}{2}
     </aside>
    </section>
    <section class='' data-state=''>
-    <p>Spectral decomposition of the matrix</p>
+    <h3>pPCA Details</h3>
+
+<p>Spectral decomposition of the matrix</p>
 
 <p>&nbsp;
-&nbsp;</p>
-
-<p>\[
+\[
 \frac{1}{2n}\mathbf{X}^t(\mathbf{W} + \mathbf{W}^t)\mathbf{X}
 \]</p>
 
