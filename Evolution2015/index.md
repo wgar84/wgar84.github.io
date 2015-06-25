@@ -103,6 +103,7 @@ These traits are grouped according to their developmental origins and functional
 - Linear models to correct for fixed effects:
   + sexual dimorphism, subspecific variation.
 
+  &nbsp;
 - Bayesian framework (MCMCglmm; Hadfield, 2010):
   + posterior distribution of P-matrices.
 
@@ -234,7 +235,7 @@ We subject each pair of matrices to Selection Response Decomposition, in order t
 
 *** =pnotes
 
-The tests of matrix disparity along the phylogeny indicate that most divergence in covariance structure is skewed towards the root of the tree, therefore associated with the split between New and Old World Monkeys. The second highest matrix diversity is estimated in the divergence between Atelidae and Cebidae.
+The tests of matrix disparity along the phylogeny indicate that most divergence in covariance structure is skewed towards the root of the tree, therefore associated with the split between New and Old World Monkeys. However, it is noteworthy that this divergence represents 10% of the total matrix diversity, with remaining 90% spread throughout the phylogeny.
 
 ***
 
@@ -314,7 +315,7 @@ As expected, local pPCs indicate contrast among sister species, and traits assoc
 
 ## Concluding Remarks
 
-1. Magnitude of matrix disparity is associated with divergence time;
+1. Matrix disparity is weakly associated with divergence time;
 
 2. Some regions maintain overall the same covariance structure:
   + Oral, Nasal, Vault;

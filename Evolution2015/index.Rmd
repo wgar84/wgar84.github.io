@@ -103,6 +103,7 @@ These traits are grouped according to their developmental origins and functional
 - Linear models to correct for fixed effects:
   + sexual dimorphism, subspecific variation.
 
+  &nbsp;
 - Bayesian framework (MCMCglmm; Hadfield, 2010):
   + posterior distribution of P-matrices.
 
@@ -279,7 +280,7 @@ text (y = c(-2, -1, 0, 1, 2), x = c(0, 0, 0, 0, 0) + 0.5,
 
 *** =pnotes
 
-The tests of matrix disparity along the phylogeny indicate that most divergence in covariance structure is skewed towards the root of the tree, therefore associated with the split between New and Old World Monkeys. The second highest matrix diversity is estimated in the divergence between Atelidae and Cebidae.
+The tests of matrix disparity along the phylogeny indicate that most divergence in covariance structure is skewed towards the root of the tree, therefore associated with the split between New and Old World Monkeys. However, it is noteworthy that this divergence represents 10% of the total matrix diversity, with remaining 90% spread throughout the phylogeny.
 
 ***
 
@@ -325,9 +326,9 @@ tiplabels(tip = 1:109, pch = 20,
 
 Plot.taxa(TRUE)
 
-legend('bottomright', bty = 'n', pt.cex = 1:4, yjust = 0.5,
-       legend = 1:4, cex = 0.6, y.intersp = 2, x.intersp = 2, 
-       pch = 20, col = rgb (0,0,0,0.5))
+legend('bottomleft', bty = 'n', pt.cex = c(3:1, 1:3), yjust = 0.5,
+       legend = c(-(3:1), 1:3), cex = 0.6, y.intersp = 2, x.intersp = 2, 
+       pch = 20, col = rgb (rep (c(1, 0), each = 3),0,rep (c(0, 1), each = 3),0.5))
 ```
 
 *** =pnotes
@@ -373,9 +374,9 @@ tiplabels(tip = 1:109, pch = 20,
 
 Plot.taxa(TRUE)
 
-legend('bottomright', bty = 'n', pt.cex = 1:4, yjust = 0.5,
-       legend = 1:4, cex = 0.6, y.intersp = 2, x.intersp = 2, 
-       pch = 20, col = rgb (0,0,0,0.5))
+legend('bottomleft', bty = 'n', pt.cex = c(3:1, 1:3), yjust = 0.5,
+       legend = c(-(3:1), 1:3), cex = 0.6, y.intersp = 2, x.intersp = 2, 
+       pch = 20, col = rgb (rep (c(1, 0), each = 3),0,rep (c(0, 1), each = 3),0.5))
 ```
 
 *** =pnotes
@@ -421,9 +422,9 @@ tiplabels(tip = 1:109, pch = 20,
 
 Plot.taxa(TRUE)
 
-legend('bottomright', bty = 'n', pt.cex = 1:4, yjust = 0.5,
-       legend = 1:4, cex = 0.6, y.intersp = 2, x.intersp = 2, 
-       pch = 20, col = rgb (0,0,0,0.5))
+legend('bottomleft', bty = 'n', pt.cex = c(3:1, 1:3), yjust = 0.5,
+       legend = c(-(3:1), 1:3), cex = 0.6, y.intersp = 2, x.intersp = 2, 
+       pch = 20, col = rgb (rep (c(1, 0), each = 3),0,rep (c(0, 1), each = 3),0.5))
 ```
 
 *** =pnotes
@@ -471,9 +472,10 @@ tiplabels(tip = 1:109, pch = 20,
 
 Plot.taxa(TRUE)
 
-legend('bottomright', bty = 'n', pt.cex = 1:4, yjust = 0.5,
-       legend = 1:4, cex = 0.6, y.intersp = 2, x.intersp = 2, 
-       pch = 20, col = rgb (0,0,0,0.5))
+legend('bottomleft', bty = 'n', pt.cex = c(3:1, 1:3), yjust = 0.5,
+       legend = c(-(3:1), 1:3), cex = 0.6, y.intersp = 2, x.intersp = 2, 
+       pch = 20, col = rgb (rep (c(1, 0), each = 3),0,rep (c(0, 1), each = 3),0.5))
+
 ```
 
 *** 
@@ -500,7 +502,7 @@ ppca.Data $ post.arc %>%
 
 ## Concluding Remarks
 
-1. Magnitude of matrix disparity is associated with divergence time;
+1. Matrix disparity is weakly associated with divergence time;
 
 2. Some regions maintain overall the same covariance structure:
   + Oral, Nasal, Vault;
