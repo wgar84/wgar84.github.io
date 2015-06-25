@@ -28,7 +28,8 @@ Hallgrímsson *et al.* (2008)
 
 *** =pnotes
 
-Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; the timing, rate and scope of such processes structures covariance patterns.
+Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; variation in timing, rate and scope of such processes structures covariance patterns. Covariance structure in adult phenotypes is also influenced by the effects of canalization and stabilizing selection, both over developmental systems themselves and functional interactions in the resulting phenotypes. These factors may limit variation in developmental processes, thus limiting changes in covariance structure.
+
 
 ***
 
@@ -37,10 +38,6 @@ Morphological systems have a tendency to exhibit covariation among its component
 - Stabilizing Selection.
   + developmental systems;
   + functional interactions.
-
-*** =pnotes
-
-Covariance structure in adult phenotypes is also influenced by the effects of canalization and stabilizing selection, both over developmental systems themselves and functional interactions in the resulting phenotypes. These factors may limit variation in developmental processes, thus limiting changes in covariance structure.
 
 ---
 
@@ -155,6 +152,10 @@ $$
 $$
 H_{\Delta} (P) = \sum_{i,j \in P} \frac{\delta_{ij}^2}{2}
 $$
+
+***
+
+$$ \delta_{ij} = \|Log(C_i C_j^{-1})\|_F $$
 
 ---
 
@@ -279,15 +280,11 @@ the SRD analysis over covariance matrices recovered from the first global pPC in
 
 *** =pnotes
 
-The second global pPC depicts contrasts within Platyrrhini and Catarrhini, associated with the split between Atelidae and Cebidae and between Hominoidea and Cercopithecoidea.
+The second global pPC depicts contrasts within Platyrrhini and Catarrhini, associated with the split between Atelidae and Cebidae and between Hominoidea and Cercopithecoidea. The pattern of trait covariance structure, however, indicate the same traits associated with both global structures.
 
 ***
 
 ![plot of chunk srd_g2](assets/fig/srd_g2-1.png) 
-
-*** =pnotes
-
-The pattern of trait covariance structure, however, indicate the same traits associated with these global structures.
 
 --- &vertical
 
