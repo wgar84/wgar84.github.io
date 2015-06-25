@@ -337,3 +337,5 @@ Thus, the pattern of changes in covariance structure in anthropoid diversificati
 ---
 
 # Thank you!
+
+This work has been supported by grants from FAPESP and CNPq. 
