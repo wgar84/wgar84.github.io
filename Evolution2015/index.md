@@ -18,7 +18,7 @@ Guilherme Garcia & Gabriel Marroig
 
 University of São Paulo - Brasil
 
---- &vertical
+---
 
 ## Skull Development
 
@@ -28,16 +28,30 @@ Hallgrímsson *et al.* (2008)
 
 *** =pnotes
 
-Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; variation in timing, rate and scope of such processes structures covariance patterns. Covariance structure in adult phenotypes is also influenced by the effects of canalization and stabilizing selection, both over developmental systems themselves and functional interactions in the resulting phenotypes. These factors may limit variation in developmental processes, thus limiting changes in covariance structure.
+Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; variation in timing, rate and scope of such processes structures covariance patterns. 
 
+--- &twocol
 
-***
+### Developmental Trajectories
+
+*** =left
+
+![](figures/rollingball.jpg)
+
+Waddington (1942)
+
+*** =right
 
 - Canalization;
 
 - Stabilizing Selection.
   + developmental systems;
   + functional interactions.
+
+*** =pnotes
+
+Covariance structure in adult phenotypes is also influenced by the effects of canalization and stabilizing selection, both over developmental systems themselves and functional interactions in the resulting phenotypes. These factors may limit variation in developmental processes, thus limiting changes in covariance structure.
+
 
 ---
 
@@ -254,12 +268,12 @@ The tests of matrix disparity along the phylogeny indicate that most divergence 
 ### Tests for Distribution of Matrix Diversity
 
 
-|                                   | Value|  Exp.|   Dist.|P       |
-|:----------------------------------|-----:|-----:|-------:|:-------|
-|Single Node                        | 0.106| 0.029|  13.456|< 10^-4 |
-|Few Nodes                          | 0.248| 0.139|  13.545|< 10^-4 |
-|Tip/Root Skewness (Topology Only)  | 0.632| 0.505|  12.197|< 10^-4 |
-|Tip/Root Skewness (Branch Lengths) | 0.381| 0.505| -11.067|< 10^-4 |
+|                                   | Value| Expectation| Distance|P-value  |
+|:----------------------------------|-----:|-----------:|--------:|:--------|
+|Single Node                        | 0.106|       0.029|   13.456|< 10^-4^ |
+|Few Nodes                          | 0.248|       0.139|   13.545|< 10^-4^ |
+|Tip/Root Skewness (Topology Only)  | 0.632|       0.505|   12.197|< 10^-4^ |
+|Tip/Root Skewness (Branch Lengths) | 0.381|       0.505|  -11.067|< 10^-4^ |
 
 --- &vertical
 
