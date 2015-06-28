@@ -32,8 +32,6 @@ Morphological systems have a tendency to exhibit covariation among its component
 
 --- &twocol
 
-### Developmental Trajectories
-
 *** =left
 
 ![](figures/rollingball.jpg)
