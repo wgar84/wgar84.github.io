@@ -3,14 +3,16 @@ title       : Perspectivas sobre o reconhecimento de padrões de modularidade e 
 author      : Guilherme Garcia
 job         : Universidade de São Paulo - Brasil
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
-revealjs    : {theme: moon, transition: slide}
+revealjs    : {theme: moon, transition: linear}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-# Perspectivas sobre o reconhecimento de padrões de modularidade e suas implicações para a evolução de morfologias complexas
+### Perspectivas sobre o reconhecimento de padrões de modularidade e suas implicações para a evolução de morfologias complexas
+
+![](figures/duckmedead.jpg)
 
 Guilherme Garcia
 
