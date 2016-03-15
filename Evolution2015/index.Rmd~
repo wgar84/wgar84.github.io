@@ -18,7 +18,7 @@ Guilherme Garcia & Gabriel Marroig
 
 University of São Paulo - Brasil
 
---- &vertical
+---
 
 ## Skull Development
 
@@ -28,16 +28,28 @@ Hallgrímsson *et al.* (2008)
 
 *** =pnotes
 
-Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; variation in timing, rate and scope of such processes structures covariance patterns. Covariance structure in adult phenotypes is also influenced by the effects of canalization and stabilizing selection, both over developmental systems themselves and functional interactions in the resulting phenotypes. These factors may limit variation in developmental processes, thus limiting changes in covariance structure.
+Morphological systems have a tendency to exhibit covariation among its components due to developmental interactions. In the mammalian skull, for instance, adult phenotypes are assembled by a series of developmental processes; variation in timing, rate and scope of such processes structures covariance patterns. 
 
+--- &twocol
 
-***
+*** =left
+
+![](figures/rollingball.jpg)
+
+Waddington (1942)
+
+*** =right
 
 - Canalization;
 
 - Stabilizing Selection.
   + developmental systems;
   + functional interactions.
+
+*** =pnotes
+
+Covariance structure in adult phenotypes is also influenced by the effects of canalization and stabilizing selection, both over developmental systems themselves and functional interactions in the resulting phenotypes. These factors may limit variation in developmental processes, thus limiting changes in covariance structure.
+
 
 ---
 
