@@ -34,7 +34,7 @@ certos elementos interagem entre si mais do que com outros subconjuntos
 
 ## Sistemas Morfológicos
 
-![](figures/wagner3.png)
+![](figures/wagner.png)
 
 *** =pnotes
 
