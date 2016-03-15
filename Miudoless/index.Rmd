@@ -12,7 +12,7 @@ knit        : slidify::knit2slides
 
 ### Perspectivas sobre o reconhecimento de padrões de modularidade e suas implicações para a evolução de morfologias complexas
 
-![](figures/duckmedead.jpg)
+<img src="figures/duckmedead.jpg">
 
 Guilherme Garcia
 
@@ -24,8 +24,39 @@ Universidade de São Paulo
 
 ![](figures/modularity.png)
 
+*** =pnotes
+
+propriedade característica associada à distribuição das interações entre elementos de um sistema biológico
+
+certos elementos interagem entre si mais do que com outros subconjuntos
+
 ---
 
+## Sistemas Morfológicos
+
+![](figures/wagner3.png)
+
+*** =pnotes
+
+em sistemas morfológicos, as interações entre elementos são advindas dos efeitos conjuntos entre redes de regulação gênica, as vias de desenvolvimento compartilhadas entre elementos e interações funcionais
+
+---
+
+## Regulação Gênica
+
+<img src="figures/limb-mod.png" height="450">
+
+---
+
+## Interações Ontogenéticas
+
+![](figures/limb_size.png)
+
+---
+
+## Palimpsest
+
+![](figures/palimpsest.png)
 
 
 
