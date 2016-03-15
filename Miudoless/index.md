@@ -62,7 +62,7 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ## Interações Funcionais
 
-![](figures/regions_names.png)
+![](figures/func.png)
 
 ---
 
