@@ -44,7 +44,7 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ## Regulação Gênica
 
-<img src="figures/limb-mod.png" height="450">
+<img src="figures/limb_mod.png" height="450">
 
 ---
 
