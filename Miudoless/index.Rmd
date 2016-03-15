@@ -12,7 +12,7 @@ knit        : slidify::knit2slides
 
 ### Perspectivas sobre o reconhecimento de padrões de modularidade e suas implicações para a evolução de morfologias complexas
 
-<img src="figures/duckmedead.jpg">
+<img src="figures/duckmedead.jpg", height=200>
 
 Guilherme Garcia
 
@@ -63,6 +63,15 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 ## Interações Funcionais
 
 ![](figures/func.png)
+
+---
+
+## Landmarks
+
+![](figures/landemph.png)
+
+
+
 
 ---
 
