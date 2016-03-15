@@ -58,5 +58,14 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ![](figures/palimpsest.png)
 
+---
 
+## Interações Funcionais
 
+![](figures/regions_names)
+
+---
+
+## Anthropoidea
+
+![](figures/monkeys.png)
