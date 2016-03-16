@@ -48,8 +48,6 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ---
 
-## Interações Ontogenéticas
-
 ![](figures/limb_size.png)
 
 ---
@@ -64,10 +62,7 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ---
 
-##
-
 ![](figures/wagner.png)
-
 
 --- &vertical
 

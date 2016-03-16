@@ -50,8 +50,6 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ---
 
-## Interações Ontogenéticas
-
 ![](figures/limb_size.png)
 
 ---
@@ -66,16 +64,13 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ---
 
-##
-
 ![](figures/wagner.png)
-
 
 --- &vertical
 
 ## Matrizes de Covariância
 
-$$
+$$ 
 \begin{bmatrix}
 	\sigma_{1}^2 & cov_{1,2} & cov_{1,3} & \cdots \\
 	cov_{2,1} & \sigma_{2}^2 & cov_{2,3} & \cdots \\
