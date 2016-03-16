@@ -10,6 +10,10 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=FALSE)
+```
+
 ## Perspectivas sobre o reconhecimento de padrões de modularidade e suas implicações para a evolução de morfologias complexas
 
 <img src="figures/duckmedead.jpg", align='right', style='margin: 10px 10px', height=200>
@@ -173,11 +177,17 @@ $$
 
 Investigar a relação entre as representações utilizadas para caracterizar variação morfológica e as inferências feitas a partir destas representações a respeito de propriedades variacionais em escala macroevolutiva.
 
----
+--- &vertical
 
 ## Anthropoidea
 
 ![](figures/monkeys.png)
+
+***
+
+```{r base_tree, echo = FALSE, fig.width = 12, fig.height = 8}
+base.tree
+```
 
 ---
 
@@ -188,3 +198,32 @@ Investigar a relação entre as representações utilizadas para caracterizar va
 2. Alometria e modularidade
 
 3. Análise comparativa de matrizes de covariância
+
+---
+
+```{r cac_logCS, echo = FALSE, fig.width = 12, fig.height = 8}
+allo.Plots $ CAC.logCS
+```
+
+--- &vertical
+
+```{r tree_inter, echo = FALSE, fig.height = 8, fig.width = 12}
+Tree.Plots$inter.tree
+```
+
+***
+```{r tree_slope, echo = FALSE, fig.height = 8, fig.width = 12}
+Tree.Plots$slope.tree
+```
+
+--- &vertical
+
+```{r MI_vs_slopeW_main, echo = FALSE, fig.width = 12, fig.height = 6}
+allo.Plots $ MI.vs.Wslope.main
+```
+
+***
+
+```{r MI_vs_slopeW_si, echo = FALSE, fig.width = 12, fig.height = 8}
+allo.Plots $ MI.vs.Wslope.si
+```

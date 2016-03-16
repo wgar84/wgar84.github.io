@@ -10,6 +10,8 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
+
+
 ## Perspectivas sobre o reconhecimento de padrões de modularidade e suas implicações para a evolução de morfologias complexas
 
 <img src="figures/duckmedead.jpg", align='right', style='margin: 10px 10px', height=200>
@@ -173,11 +175,15 @@ $$
 
 Investigar a relação entre as representações utilizadas para caracterizar variação morfológica e as inferências feitas a partir destas representações a respeito de propriedades variacionais em escala macroevolutiva.
 
----
+--- &vertical
 
 ## Anthropoidea
 
 ![](figures/monkeys.png)
+
+***
+
+![plot of chunk base_tree](assets/fig/base_tree-1.png)
 
 ---
 
@@ -188,3 +194,22 @@ Investigar a relação entre as representações utilizadas para caracterizar va
 2. Alometria e modularidade
 
 3. Análise comparativa de matrizes de covariância
+
+---
+
+![plot of chunk cac_logCS](assets/fig/cac_logCS-1.png)
+
+--- &vertical
+
+![plot of chunk tree_inter](assets/fig/tree_inter-1.png)
+
+***
+![plot of chunk tree_slope](assets/fig/tree_slope-1.png)
+
+--- &vertical
+
+![plot of chunk MI_vs_slopeW_main](assets/fig/MI_vs_slopeW_main-1.png)
+
+***
+
+![plot of chunk MI_vs_slopeW_si](assets/fig/MI_vs_slopeW_si-1.png)
