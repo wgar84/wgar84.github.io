@@ -317,3 +317,4 @@ allo.Plots $ MI.vs.Wslope.main
 ```{r MI_vs_slopeW_si, echo = FALSE, fig.width = 12, fig.height = 8}
 allo.Plots $ MI.vs.Wslope.si
 ```
+

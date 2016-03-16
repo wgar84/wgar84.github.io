@@ -303,3 +303,4 @@ $$ \bar{MHI} = \frac{\bar{\rho}_+ - \bar{\rho}_-}{ICV} $$
 ***
 
 ![plot of chunk MI_vs_slopeW_si](assets/fig/MI_vs_slopeW_si-1.png)
+
