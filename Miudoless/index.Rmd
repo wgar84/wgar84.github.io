@@ -69,7 +69,7 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ![](figures/func.png)
 
----
+--- &vertical
 
 ## Matrizes de Covariância
 
@@ -81,6 +81,20 @@ $$
 	\vdots & \vdots & \vdots & \ddots \\
 \end{bmatrix}
 $$
+
+***
+
+## Matrizes de Correlação
+
+$$
+\begin{bmatrix}
+	1 & \rho_{1,2} & \rho_{1,3} & \cdots \\
+	\rho_{2,1} & 1 & \rho_{2,3} & \cdots \\
+	\rho_{3,1} & \rho_{1,2} & 1 & \cdots \\
+	\vdots & \vdots & \vdots & \ddots \\
+\end{bmatrix}
+$$
+
 
 ---
 
@@ -153,11 +167,27 @@ $$
 
 *** =left
 
+<img src='figures/thompson.jpg'>
+
+*** =right
+
+<img src='figures/DWT.jpg'>
+
+--- &twocol
+
+## Deformações
+
+*** =left
+
 <img src='figures/twoshapes.png' style="background-color:white;">
 
 *** =right
 
 <img src='figures/field.png' style="background-color:white;">
+
+*** =pnotes
+
+D'arcy Thompson, 1917. *On growth and form.*
 
 --- &twocol
 
@@ -198,6 +228,66 @@ base.tree
 2. Alometria e modularidade
 
 3. Análise comparativa de matrizes de covariância
+
+---
+
+## Alometria
+
+---
+
+## Perguntas
+
+- Os parâmetros de alometria estática no crânio mudaram ao longo da diversificação dos Anthropoidea?
+
+- Existe relação entre estes parâmetros (em especial, $b_s$) e a magnitude de associação entre caracteres nas diferentes regiões do crânio?
+
+---
+
+## Métodos
+
+---
+
+## Modularidade
+
+  - matrizes de correlação entre distâncias *interlandmark*
+
+  + *Índice de Modularidade*:
+
+&nbsp;
+$$ \bar{MHI} = \frac{\bar{\rho}_+ - \bar{\rho}_-}{ICV} $$
+
+---
+
+## Alometria
+
+- Regressão de projeções no Componente Alométrico Comum sobre o logCS
+
+  + projeções estimadas a partir de variáveis locais de forma
+
+&nbsp;
+- *Regressão aleatória*:
+
+  + parâmetros da regressão dentro de cada espécie ($a_s$; $b_s$) seguem uma distribuição multivariada normal dependente da filogenia.
+
+---
+
+*Os parâmetros de alometria estática no crânio mudaram ao longo da diversificação dos Anthropoidea?*
+
+&nbsp;
+- estimativas de intervalos de credibilidade para os parâmetros da alometria estática ($a_s$ e $b_s$) ao longo da filogenia
+
+---
+
+*Existe relação entre estes parâmetros (em especial, $b_s$) e a magnitude de associação entre caracteres nas diferentes regiões do crânio?*
+
+&nbsp;
+- regressão filogenética dos Índices de Modularidade sobre parâmetros alométricos
+&nbsp;
+- seleção de modelos
+
+---
+
+## Resultados
 
 ---
 

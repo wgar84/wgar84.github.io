@@ -70,9 +70,10 @@
   <p><img src="figures/func.png" alt=""></p>
 
 </section>
-<section class='' data-state='' id='slide-8'>
-  <h2>Matrizes de Covariância</h2>
-  <p>\[
+<section>
+   <section class='' data-state=''>
+    <h2>Matrizes de Covariância</h2>
+    <p>\[
 \begin{bmatrix}
     \sigma_{1}^2 & cov_{1,2} & cov_{1,3} & \cdots \\
     cov_{2,1} & \sigma_{2}^2 & cov_{2,3} & \cdots \\
@@ -81,6 +82,26 @@
 \end{bmatrix}
 \]</p>
 
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Matrizes de Correlação</h2>
+
+<p>\[
+\begin{bmatrix}
+    1 & \rho_{1,2} & \rho_{1,3} & \cdots \\
+    \rho_{2,1} & 1 & \rho_{2,3} & \cdots \\
+    \rho_{3,1} & \rho_{1,2} & 1 & \cdots \\
+    \vdots & \vdots & \vdots & \ddots \\
+\end{bmatrix}
+\]</p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
 <section class='' data-state='' id='slide-9'>
   <h2>Resposta a Seleção</h2>
@@ -171,6 +192,18 @@
   <h2>Deformações</h2>
   
   <div class='left' style='float:left;width:48%'>
+    <p><img src='figures/thompson.jpg'></p>
+
+  </div>    
+  <div class='right' style='float:right;width:48%'>
+    <p><img src='figures/DWT.jpg'></p>
+
+  </div>
+</section>
+<section class='' data-state='' id='slide-16'>
+  <h2>Deformações</h2>
+  
+  <div class='left' style='float:left;width:48%'>
     <p><img src='figures/twoshapes.png' style="background-color:white;"></p>
 
   </div>    
@@ -178,8 +211,12 @@
     <p><img src='figures/field.png' style="background-color:white;"></p>
 
   </div>
+  <aside class='notes'>
+    <p>D&#39;arcy Thompson, 1917. <em>On growth and form.</em></p>
+
+  </aside>
 </section>
-<section class='' data-state='' id='slide-16'>
+<section class='' data-state='' id='slide-17'>
   <h2>Variáveis Locais de Forma</h2>
   
   <div class='left' style='float:left;width:48%'>
@@ -191,7 +228,7 @@
 
   </div>
 </section>
-<section class='' data-state='' id='slide-17'>
+<section class='' data-state='' id='slide-18'>
   <h2>Objetivo</h2>
   <p>Investigar a relação entre as representações utilizadas para caracterizar variação morfológica e as inferências feitas a partir destas representações a respeito de propriedades variacionais em escala macroevolutiva.</p>
 
@@ -213,7 +250,7 @@
     </aside>
    </section>
 </section>
-<section class='' data-state='' id='slide-19'>
+<section class='' data-state='' id='slide-20'>
   <h2>Perfil da Tese</h2>
   <ol>
 <li><p>Taxas de erro em testes de hipótese <em>a priori</em></p></li>
@@ -222,7 +259,83 @@
 </ol>
 
 </section>
-<section class='' data-state='' id='slide-20'>
+<section class='' data-state='' id='slide-21'>
+  <h2>Alometria</h2>
+  
+</section>
+<section class='' data-state='' id='slide-22'>
+  <h2>Perguntas</h2>
+  <ul>
+<li><p>Os parâmetros de alometria estática no crânio mudaram ao longo da diversificação dos Anthropoidea?</p></li>
+<li><p>Existe relação entre estes parâmetros (em especial, \(b_s\)) e a magnitude de associação entre caracteres nas diferentes regiões do crânio?</p></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-23'>
+  <h2>Métodos</h2>
+  
+</section>
+<section class='' data-state='' id='slide-24'>
+  <h2>Modularidade</h2>
+  <ul>
+<li><p>matrizes de correlação entre distâncias <em>interlandmark</em></p></li>
+<li><p><em>Índice de Modularidade</em>:</p></li>
+</ul>
+
+<p>&nbsp;
+\[ \bar{MHI} = \frac{\bar{\rho}_+ - \bar{\rho}_-}{ICV} \]</p>
+
+</section>
+<section class='' data-state='' id='slide-25'>
+  <h2>Alometria</h2>
+  <ul>
+<li><p>Regressão de projeções no Componente Alométrico Comum sobre o logCS</p>
+
+<ul>
+<li>projeções estimadas a partir de variáveis locais de forma</li>
+</ul></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<ul>
+<li><p><em>Regressão aleatória</em>:</p>
+
+<ul>
+<li>parâmetros da regressão dentro de cada espécie (\(a_s\); \(b_s\)) seguem uma distribuição multivariada normal dependente da filogenia.</li>
+</ul></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-26'>
+  
+  <p><em>Os parâmetros de alometria estática no crânio mudaram ao longo da diversificação dos Anthropoidea?</em></p>
+
+<p>&nbsp;</p>
+
+<ul>
+<li>estimativas de intervalos de credibilidade para os parâmetros da alometria estática (\(a_s\) e \(b_s\)) ao longo da filogenia</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-27'>
+  
+  <p><em>Existe relação entre estes parâmetros (em especial, \(b_s\)) e a magnitude de associação entre caracteres nas diferentes regiões do crânio?</em></p>
+
+<p>&nbsp;</p>
+
+<ul>
+<li>regressão filogenética dos Índices de Modularidade sobre parâmetros alométricos
+&nbsp;</li>
+<li>seleção de modelos</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-28'>
+  <h2>Resultados</h2>
+  
+</section>
+<section class='' data-state='' id='slide-29'>
   
   <p><img src="assets/fig/cac_logCS-1.png" alt="plot of chunk cac_logCS"></p>
 
