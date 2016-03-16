@@ -16,7 +16,7 @@ knit        : slidify::knit2slides
 <img src="figures/logo.png", align='left', style='margin: 10px 10px', height=200>
 
 &nbsp;
-<img src="figures/usp.jpg", align=center', style='margin: 5px 10px', width=200>
+<img src="figures/usp.jpg", align=center', style='margin: 10px 10px', width=200>
 <br>
 <img src="figures/FAPESP.png", align=center', style='margin: 5px 10px', height=70>
 <img src="figures/cnpq.jpg", align=center', style='margin: 5px 10px', height=70>
@@ -56,8 +56,6 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 ![](figures/limb_size.png)
 
 ---
-
-## Palimpsest
 
 ![](figures/palimpsest.png)
 
@@ -171,6 +169,22 @@ $$
 
 ---
 
+## Objetivo
+
+Investigar a relação entre as representações utilizadas para caracterizar variação morfológica e as inferências feitas a partir destas representações a respeito de propriedades variacionais em escala macroevolutiva.
+
+---
+
 ## Anthropoidea
 
 ![](figures/monkeys.png)
+
+---
+
+## Perfil da Tese
+
+1. Taxas de erro em testes de hipótese *a priori*
+
+2. Alometria e modularidade
+
+3. Análise comparativa de matrizes de covariância
