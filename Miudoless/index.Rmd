@@ -10,13 +10,16 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-### Perspectivas sobre o reconhecimento de padrões de modularidade e suas implicações para a evolução de morfologias complexas
+## Perspectivas sobre o reconhecimento de padrões de modularidade e suas implicações para a evolução de morfologias complexas
 
-<img src="figures/duckmedead.jpg", height=200>
+<img src="figures/duckmedead.jpg", align='right', style='margin: 10px 10px', height=200>
+<img src="figures/logo.png", align='left', style='margin: 10px 10px', height=200>
 
-Guilherme Garcia
-
-Universidade de São Paulo
+&nbsp;
+<img src="figures/usp.jpg", align=center', style='margin: 5px 10px', width=200>
+<br>
+<img src="figures/FAPESP.png", align=center', style='margin: 5px 10px', height=70>
+<img src="figures/cnpq.jpg", align=center', style='margin: 5px 10px', height=70>
 
 ---
 
@@ -66,12 +69,67 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ---
 
+## Matrizes de Covariância
+
+$$
+\begin{bmatrix}
+	\sigma_{1}^2 & cov_{1,2} & cov_{1,3} & \cdots \\
+	cov_{2,1} & \sigma_{2}^2 & cov_{2,3} & \cdots \\
+	cov_{3,1} & cov_{1,2} & \sigma_{3}^2 & \cdots \\
+	\vdots & \vdots & \vdots & \ddots \\
+\end{bmatrix}
+$$
+
+---
+
+## Resposta a Seleção
+
+![](figures/lande.png)
+
+&nbsp;
+$$
+\Delta \bar{z} = \mathbf{G} \beta
+$$
+
+---
+
+## Como representar elementos morfológicos?
+
+---
+
+## Distâncias Euclidianas
+
+![](figures/dist.png)
+
+---
+
 ## Landmarks
 
 ![](figures/landemph.png)
 
+--- &twocol
 
+## Deformações
 
+*** =left
+
+<img src='figures/twoshapes.png' style="background-color:white;">
+
+*** =right
+
+<img src='figures/field.png' style="background-color:white;">
+
+--- &twocol
+
+## Variáveis Locais de Forma
+
+*** =left
+
+<img src='figures/field.png' style="background-color:white;">
+
+*** =right
+
+<img src='figures/localshape.png' style="background-color:white;">
 
 ---
 
