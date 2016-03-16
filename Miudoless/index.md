@@ -250,7 +250,7 @@ Investigar a relação entre as representações utilizadas para caracterizar va
   + *Índice de Modularidade*:
 
 &nbsp;
-$$ \bar{MHI} = \frac{\bar{\rho}_+ - \bar{\rho}_-}{ICV} $$
+$$ MHI = \frac{\bar{\rho}_+ - \bar{\rho}_-}{ICV} $$
 
 ---
 
@@ -304,3 +304,22 @@ $$ \bar{MHI} = \frac{\bar{\rho}_+ - \bar{\rho}_-}{ICV} $$
 
 ![plot of chunk MI_vs_slopeW_si](assets/fig/MI_vs_slopeW_si-1.png)
 
+--- &vertical
+
+## Respostas
+
+*Os parâmetros de alometria estática no crânio mudaram ao longo da diversificação dos Anthropoidea?*
+
+- Sim! Interceptos mudaram mais que inclinações.
+
+- Mudanças detectáveis nas inclinações em *Homo* e *Gorilla*.
+
+***
+
+![plot of chunk cac_homi](assets/fig/cac_homi-1.png)
+
+---
+
+*Existe relação entre estes parâmetros (em especial, $b_s$) e a magnitude de associação entre caracteres nas diferentes regiões do crânio?*
+
+> - Sim. E a relação é oposta para caracteres da Face (+) e do Neurocrânio (-), refletindo o efeito do desenvolvimento pós-natal na associação entre estes caracteres.
