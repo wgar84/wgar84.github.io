@@ -324,13 +324,14 @@ allo.Plots $ MI.vs.Wslope.si
 
 *Os parâmetros de alometria estática no crânio mudaram ao longo da diversificação dos Anthropoidea?*
 
-- Sim! Interceptos mudaram mais que inclinações.
+&nbsp;
+- Sim. Interceptos mudaram mais que inclinações.
 
 - Mudanças detectáveis nas inclinações em *Homo* e *Gorilla*.
 
 ***
 
-```{r cac_homi, echo = FALSE, fig.width = 10, fig.height = 8}
+```{r cac_homi, echo = FALSE, fig.width = 9, fig.height = 8}
 cac.homi
 ```
 
@@ -338,4 +339,5 @@ cac.homi
 
 *Existe relação entre estes parâmetros (em especial, $b_s$) e a magnitude de associação entre caracteres nas diferentes regiões do crânio?*
 
-> - Sim. E a relação é oposta para caracteres da Face (+) e do Neurocrânio (-), refletindo o efeito do desenvolvimento pós-natal na associação entre estes caracteres.
+&nbsp;
+- Sim, com relações opostas para caracteres da Face (+) e do Neurocrânio (-).

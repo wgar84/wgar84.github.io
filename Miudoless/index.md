@@ -310,6 +310,7 @@ $$ MHI = \frac{\bar{\rho}_+ - \bar{\rho}_-}{ICV} $$
 
 *Os parâmetros de alometria estática no crânio mudaram ao longo da diversificação dos Anthropoidea?*
 
+&nbsp;
 - Sim! Interceptos mudaram mais que inclinações.
 
 - Mudanças detectáveis nas inclinações em *Homo* e *Gorilla*.
@@ -322,4 +323,5 @@ $$ MHI = \frac{\bar{\rho}_+ - \bar{\rho}_-}{ICV} $$
 
 *Existe relação entre estes parâmetros (em especial, $b_s$) e a magnitude de associação entre caracteres nas diferentes regiões do crânio?*
 
-> - Sim. E a relação é oposta para caracteres da Face (+) e do Neurocrânio (-), refletindo o efeito do desenvolvimento pós-natal na associação entre estes caracteres.
+&nbsp;
+> - Sim, com relações opostas para caracteres da Face (+) e do Neurocrânio (-).
