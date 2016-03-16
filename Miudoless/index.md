@@ -37,19 +37,14 @@ certos elementos interagem entre si mais do que com outros subconjuntos
 
 ---
 
+
 ## Sistemas Morfológicos
 
-![](figures/wagner.png)
+<img src="figures/limb_mod.png" height="450">
 
 *** =pnotes
 
 em sistemas morfológicos, as interações entre elementos são advindas dos efeitos conjuntos entre redes de regulação gênica, as vias de desenvolvimento compartilhadas entre elementos e interações funcionais
-
----
-
-## Campos Morfogenéticos
-
-<img src="figures/limb_mod.png" height="450">
 
 ---
 
@@ -66,6 +61,13 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 ## Interações Funcionais
 
 ![](figures/func.png)
+
+---
+
+##
+
+![](figures/wagner.png)
+
 
 --- &vertical
 
