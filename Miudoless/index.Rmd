@@ -3,7 +3,7 @@ title       : Perspectivas sobre o reconhecimento de padrões de modularidade e 
 author      : Guilherme Garcia
 job         : Universidade de São Paulo - Brasil
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
-revealjs    : {theme: moon, transition: linear}
+revealjs    : {theme: default, transition: slide}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
@@ -45,7 +45,7 @@ em sistemas morfológicos, as interações entre elementos são advindas dos efe
 
 ---
 
-## Regulação Gênica
+## Campos Morfogenéticos
 
 <img src="figures/limb_mod.png" height="450">
 
@@ -84,7 +84,7 @@ $$
 
 ## Resposta a Seleção
 
-![](figures/lande.png)
+<img src='figures/lande.png' height=380>
 
 &nbsp;
 $$
@@ -101,11 +101,49 @@ $$
 
 ![](figures/dist.png)
 
----
+--- 
 
 ## Landmarks
 
 ![](figures/landemph.png)
+
+--- &vertical
+
+### Algoritmos de Procrustes
+
+<img src='figures/gm_a.png', height=350>
+
+***
+
+#### Escalonamento
+
+<img src='figures/gm_b.png', height=350>
+
+***
+
+#### Translação
+
+<img src='figures/gm_c.png', height=350>
+
+***
+
+#### Rotação
+
+<img src='figures/gm_d.png', height=350>
+
+--- &vertical
+
+## Problemas
+
+![](figures/linde_a.png)
+
+***
+
+![](figures/linde_b.png)
+
+***
+
+![](figures/linde_c.png)
 
 --- &twocol
 
