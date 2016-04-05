@@ -50,20 +50,20 @@ $(function() {
 
 ## Genética Quantitativa
 
-![](fig/breeder01.png)
+![](../Figuras/breeder01.png)
 
 ---
 
 ## Genética Quantitativa
 
-![](fig/breeder_skull.png)
+![](../Figuras/breeder_skull.png)
 
 
 ---
 
 ## Genética Quantitativa
 
-![](fig/breeder02.png)
+![](../Figuras/breeder02.png)
 
 \[ \Delta \bar{z} = \frac {\sigma^2_a}{\sigma^2_p} s \]
 
@@ -71,7 +71,7 @@ $(function() {
 
 ## Genética Quantitativa
 
-![](fig/breeder03.png)
+![](../Figuras/breeder03.png)
 
 \[ \Delta \bar{z} = \frac {\sigma^2_a}{\sigma^2_p} s \]
 
@@ -79,25 +79,25 @@ $(function() {
 
 ## Fenótipos Multidimensionais
 
-![](fig/lande01.png)
+![](../Figuras/lande01.png)
 
 ---
 
 ## Fenótipos Multidimensionais
 
-![](fig/lande02.png)
+![](../Figuras/lande02.png)
 
 ---
 
 ## Fenótipos Multidimensionais
 
-![](fig/lande03.png)
+![](../Figuras/lande03.png)
 
 ---
 
 ## Equação de Lande (1979)
 
-![](fig/lande04.png)
+![](../Figuras/lande04.png)
 
 \[ \Delta \bar{\mathbf{z}} = \mathbf{G} \mathbf{P}^{-1} \mathbf{s} \]
 
@@ -105,7 +105,7 @@ $(function() {
 
 ## Equação de Lande (1979)
 
-![](fig/lande05.png)
+![](../Figuras/lande05.png)
 
 \[ \Delta \bar{\mathbf{z}} = \mathbf{G} \mathbf{P}^{-1} \mathbf{s} \]
 
@@ -113,13 +113,13 @@ $(function() {
 
 ## Paisagem Adaptativa
 
-![](fig/landscape01.png)
+![](../Figuras/landscape01.png)
 
 ---
 
 ## Paisagem Adaptativa
 
-![](fig/landscape02.png)
+![](../Figuras/landscape02.png)
 
 \[ \beta = \nabla\ \text{ln}\ \bar{W}(\mathbf{z}) \]
 
@@ -127,7 +127,7 @@ $(function() {
 
 ## Paisagem Adaptativa
 
-![](fig/landscape02.png)
+![](../Figuras/landscape02.png)
 
 \[ \beta = \mathbf{P}^{-1} \mathbf{s} \]
 
@@ -135,7 +135,7 @@ $(function() {
 
 ## Paisagem Adaptativa
 
-![](fig/landscape03.png)
+![](../Figuras/landscape03.png)
 
 \[ \Delta \bar{\mathbf{z}} = \mathbf{G} \beta \]
 
@@ -143,7 +143,7 @@ $(function() {
 
 ## Paisagem Adaptativa
 
-![](fig/landscape04.png)
+![](../Figuras/landscape04.png)
 
 \[ \Delta \bar{\mathbf{z}} = \mathbf{G} \beta \]
 
@@ -151,7 +151,7 @@ $(function() {
 
 ## Evolução em Conjunto
 
-![](fig/together.png)
+![](../Figuras/together.png)
 
 *** =pnotes
 
@@ -176,7 +176,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Mapa Genótipo-Fenótipo
 
-![](fig/wagner.png)
+![](../Figuras/wagner.png)
 
 <span class='footnote'> (Wagner, 1996) </span>
 
@@ -194,7 +194,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 *** =right
 
-<img src='fig/skull_dev.png', width=400px>
+<img src='../Figuras/skull_dev.png', width=400px>
 
 --- &twocol
 
@@ -224,45 +224,45 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 *** =right
 
-<img src='fig/skull_dev.png', width=400px>
+<img src='../Figuras/skull_dev.png', width=400px>
 
-<img src='fig/skull_func.png', width=400px>
-
----
-
-## Expectativas
-
-![](fig/expect01.png)
+<img src='../Figuras/skull_func.png', width=400px>
 
 ---
 
 ## Expectativas
 
-![](fig/expect02.png)
+![](../Figuras/expect01.png)
 
 ---
 
 ## Expectativas
 
-![](fig/expect03.png)
+![](../Figuras/expect02.png)
 
 ---
 
 ## Expectativas
 
-![](fig/expect04.png)
+![](../Figuras/expect03.png)
+
+---
+
+## Expectativas
+
+![](../Figuras/expect04.png)
 
 ---
 
 ## Mas...
 
-<img src='fig/palimpsest.png'>
+<img src='../Figuras/palimpsest.png'>
 
 ---
 
 ## Mudanças na Matriz **G** 
 
-![](fig/erosion01.png)
+![](../Figuras/erosion01.png)
 
 \[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - \beta\beta^T \big) \mathbf{G} + \mathbf{U}\]
 
@@ -272,7 +272,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Seleção Direcional
 
-![](fig/erosion02.png)
+![](../Figuras/erosion02.png)
 
 \[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - {\color{blue} \beta\beta^T} \big)\mathbf{G} + \mathbf{U} \]
 
@@ -280,7 +280,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Seleção Direcional
 
-![](fig/erosion03.png)
+![](../Figuras/erosion03.png)
 
 \[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - {\color{blue} \beta\beta^T} \big)\mathbf{G} + \mathbf{U} \]
 
@@ -288,7 +288,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Seleção Estabilizadora
 
-![](fig/mutseleq01.png)
+![](../Figuras/mutseleq01.png)
 
 \[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - \beta\beta^T \big)\mathbf{G} + \mathbf{U}\]
 
@@ -296,7 +296,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Seleção Estabilizadora
 
-![](fig/mutseleq01.png)
+![](../Figuras/mutseleq01.png)
 
 \[ \Delta \mathbf{G} = \mathbf{G}\mathbf{\gamma}\mathbf{G} + \mathbf{U}\]
 
@@ -304,7 +304,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Seleção Estabilizadora
 
-![](fig/mutseleq02.png)
+![](../Figuras/mutseleq02.png)
 
 \[ \Delta \mathbf{G} = \mathbf{G} {\color{red}\mathbf{\gamma}}\mathbf{G} + \mathbf{U} \]
 
@@ -312,7 +312,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Mutação e Recombinação
 
-![](fig/mutseleq03.png)
+![](../Figuras/mutseleq03.png)
 
 \[ \Delta \mathbf{G} = \mathbf{G} \mathbf{\gamma}\mathbf{G} + {\color{purple}\mathbf{U}} \]
 
@@ -320,7 +320,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Equilíbrio
 
-![](fig/mutseleq04.png)
+![](../Figuras/mutseleq04.png)
 
 \[ \Delta \mathbf{G} = 0 \]
 
@@ -328,7 +328,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Equilíbrio
 
-![](fig/mutseleq05.png)
+![](../Figuras/mutseleq05.png)
 
 \[ {\color{purple}\mathbf{U}} = - \mathbf{G} {\color{red}\mathbf{\gamma}} \mathbf{G} \]
 
@@ -336,7 +336,7 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Pleiotropia Epistática
 
-![](fig/pleioepis.png)
+![](../Figuras/pleioepis.png)
 
 \[
 \mathbf{R}_{aa} =
@@ -364,13 +364,13 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ## Pleiotropia Epistática
 
-![](fig/eruption01.png)
+![](../Figuras/eruption01.png)
 
 ---
 
 ## Pleiotropia Epistática
 
-![](fig/eruption02.png)
+![](../Figuras/eruption02.png)
 
 *** =pnotes
 
@@ -380,7 +380,7 @@ Seleção direcional pode alterar padrões de covariância entre caracteres feno
 
 ## Pleiotropia Epistática
 
-![](fig/eruption03.png)
+![](../Figuras/eruption03.png)
 
 ---
 
@@ -390,31 +390,31 @@ Seleção direcional pode alterar padrões de covariância entre caracteres feno
 
 ## Análise Generalizada de Procrustes
 
-![](fig/gm.png)
+![](../Figuras/gm.png)
 
 ---
 
 ## Cercopithecoidea
 
-![](fig/Cercopithecoidea.png)
+![](../Figuras/Cercopithecoidea.png)
 
 ---
 
 ## Hominoidea
 
-![](fig/Hominoidea.png)
+![](../Figuras/Hominoidea.png)
 
 ---
 
 ## Pitheciidae/Atelidae
 
-![](fig/AtelidaePitheciidae.png)
+![](../Figuras/AtelidaePitheciidae.png)
 
 ---
 
 ## Cebidae
 
-![](fig/Cebidae.png)
+![](../Figuras/Cebidae.png)
 
 ---
 
@@ -430,7 +430,7 @@ base.tree
 
 ## Seleção em Platyrrhini
 
-![](fig/sel_NWM.png)
+![](../Figuras/sel_NWM.png)
 
 <span class='footnote'> (Marroig et al, 2012) </span>
 
@@ -438,6 +438,6 @@ base.tree
 
 ## Seleção em Homininae
 
-![](fig/sel_homininae.png)
+![](../Figuras/sel_homininae.png)
 
 <span class='footnote'> (Ackermann \& Cheverud, 2004) </span>
