@@ -1,0 +1,147 @@
+---
+title       : Covariâncias Fenotípicas em Escala Macroevolutiva
+subtitle    : Defesa de Tese de Doutorado
+author      : Guilherme Garcia
+job         : Genética e Biologia Evolutiva - IBUSP
+framework   : io2012
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [scianimator, mathjax]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+logo        : cerco.png
+--- 
+
+<style type='text/css'>
+img {
+    max-height: 560px;
+    max-width: 964px;
+}
+</style>
+
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('centered');
+});
+</script>
+
+---
+
+## Genética Quantitativa
+
+![](fig/breeder01.png)
+
+---
+
+## Genética Quantitativa
+
+![](fig/breeder02.png)
+
+\[ \Delta \bar{z} = \frac {\sigma^2_a}{\sigma^2_p} s \]
+
+--- 
+
+## Genética Quantitativa
+
+![](fig/breeder03.png)
+
+\[ \Delta \bar{z} = \frac {\sigma^2_a}{\sigma^2_p} s \]
+
+---
+
+## Fenótipos Multidimensionais
+
+![](fig/lande01.png)
+
+---
+
+## Fenótipos Multidimensionais
+
+![](fig/lande02.png)
+
+---
+
+## Fenótipos Multidimensionais
+
+![](fig/lande03.png)
+
+--- {.transition: none}
+
+## Equação de Lande (1979)
+
+![](fig/lande04.png)
+
+\[ \Delta \bar{\mathbf{z}} = \mathbf{G} \mathbf{P}^{-1} \mathbf{s} \]
+
+---
+
+## Equação de Lande (1979)
+
+![](fig/lande05.png)
+
+\[ \Delta \bar{\mathbf{z}} = \mathbf{G} \mathbf{P}^{-1} \mathbf{s} \]
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape01.png)
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape02.png)
+
+\[ \beta = \nabla\ \text{ln}\ \bar{W}(\mathbf{z}) =  \mathbf{P}^{-1} \mathbf{s} \]
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape03.png)
+
+\[ \Delta \bar{\mathbf{z}} = \mathbf{G} \beta \]
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape04.png)
+
+\[ \Delta \bar{\mathbf{z}} = \mathbf{G} \beta \]
+
+---
+
+## Mapa Genótipo-Fenótipo
+
+
+---
+
+## Changes in G-Matrix
+
+\[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - \beta\beta^T \big) + \mathbf{U}\]
+
+---
+
+## Changes in G-Matrix
+
+\[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - \beta\beta^T \big) + \mathbf{U} \]
+
+![](fig/gchange01.png)
+
+---
+
+## Changes in G-Matrix
+
+\[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - \beta\beta^T \big) + \mathbf{U} \]
+
+![](fig/gchange02.png)
+
+---
+
+## Changes in G-Matrix
+
+\[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - \beta\beta^T \big) + \mathbf{U} \]
+
+![](fig/gchange03.png)

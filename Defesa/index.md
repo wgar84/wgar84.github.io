@@ -1,0 +1,439 @@
+---
+title       : Defesa de Tese de Doutorado
+subtitle    : "Perspectivas sobre o reconhecimento de padrões de
+modularidade e suas implicações para a evolução de
+morfologias complexas"
+author      : Guilherme Garcia
+job         : Genética e Biologia Evolutiva - IBUSP
+framework   : io2012
+io2012      : {widescreen: false}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+logo        : cerco.png
+--- 
+
+<style type='text/css'>
+img {
+    max-height: 560px;
+    max-width: 964px;
+}
+</style>
+
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('centered');
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+</script>
+
+## Conteúdo
+
+* Introdução
+  + Genética Quantitativa
+  + Modularidade e Integração Morfológica
+  + Desenvolvimento Craniano
+  + Morfometria
+
+* Testes de Hipótese de Modularidade 
+
+* Alometria e Integração
+
+* Análise Comparativa de Covariâncias Fenotípicas
+
+---
+
+## Genética Quantitativa
+
+![](fig/breeder01.png)
+
+---
+
+## Genética Quantitativa
+
+![](fig/breeder_skull.png)
+
+
+---
+
+## Genética Quantitativa
+
+![](fig/breeder02.png)
+
+\[ \Delta \bar{z} = \frac {\sigma^2_a}{\sigma^2_p} s \]
+
+--- 
+
+## Genética Quantitativa
+
+![](fig/breeder03.png)
+
+\[ \Delta \bar{z} = \frac {\sigma^2_a}{\sigma^2_p} s \]
+
+---
+
+## Fenótipos Multidimensionais
+
+![](fig/lande01.png)
+
+---
+
+## Fenótipos Multidimensionais
+
+![](fig/lande02.png)
+
+---
+
+## Fenótipos Multidimensionais
+
+![](fig/lande03.png)
+
+---
+
+## Equação de Lande (1979)
+
+![](fig/lande04.png)
+
+\[ \Delta \bar{\mathbf{z}} = \mathbf{G} \mathbf{P}^{-1} \mathbf{s} \]
+
+---
+
+## Equação de Lande (1979)
+
+![](fig/lande05.png)
+
+\[ \Delta \bar{\mathbf{z}} = \mathbf{G} \mathbf{P}^{-1} \mathbf{s} \]
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape01.png)
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape02.png)
+
+\[ \beta = \nabla\ \text{ln}\ \bar{W}(\mathbf{z}) \]
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape02.png)
+
+\[ \beta = \mathbf{P}^{-1} \mathbf{s} \]
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape03.png)
+
+\[ \Delta \bar{\mathbf{z}} = \mathbf{G} \beta \]
+
+---
+
+## Paisagem Adaptativa
+
+![](fig/landscape04.png)
+
+\[ \Delta \bar{\mathbf{z}} = \mathbf{G} \beta \]
+
+---
+
+## Evolução em Conjunto
+
+![](fig/together.png)
+
+*** =pnotes
+
+Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias genéticas ou por serem selecionados conjuntamente.
+
+--- {.build}
+
+## Integração Morfológica
+
+* **Olson \& Miller (1958)**
+
+* Organização das correlações fenotípicas entre elementos morfológicos.
+
+* Hipóteses a respeito dos padrões observados:
+
+  + Participação conjunta em complexos funcionais;
+  + Vias de desenvolvimento compartilhadas;
+  + Fatores genéticos: pleiotropia e desequilíbrio de ligação;
+  + Co-seleção.
+
+---
+
+## Mapa Genótipo-Fenótipo
+
+![](fig/wagner.png)
+
+<span class='footnote'> (Wagner, 1996) </span>
+
+--- &twocol
+
+## Crânio de Mamíferos
+
+*** =left
+
+* Desenvolvimento: 
+
+  - <font color='#0064FF'> Mesoderme Paraxial </font>
+
+  - <font color='#FF181A'> Crista Neural </font>
+
+*** =right
+
+<img src='fig/skull_dev.png', width=400px>
+
+--- &twocol
+
+## Crânio de Mamíferos
+
+*** =left
+
+* Desenvolvimento: 
+
+  - Face: <font color='#0064FF'> Mesoderme Paraxial </font>
+
+  - Neurocrânio: <font color='#FF181A'> Crista Neural </font>
+
+* Função:
+
+  - <font color='#f423f7'> Oral </font>
+  
+  - <font color='#ed536a'> Nasal </font>
+
+  - <font color='#00f00e'> Zigomático </font>
+  
+  - <font color='#c8ab37'> Órbita </font>
+
+  - <font color='#124bee'> Base </font>
+  
+  - <font color='#00c4bd'> Abóbada </font>
+
+*** =right
+
+<img src='fig/skull_dev.png', width=400px>
+
+<img src='fig/skull_func.png', width=400px>
+
+---
+
+## Expectativas
+
+![](fig/expect01.png)
+
+---
+
+## Expectativas
+
+![](fig/expect02.png)
+
+---
+
+## Expectativas
+
+![](fig/expect03.png)
+
+---
+
+## Expectativas
+
+![](fig/expect04.png)
+
+---
+
+## Mas...
+
+
+
+---
+
+## Mudanças na Matriz **G** 
+
+![](fig/erosion01.png)
+
+\[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - \beta\beta^T \big) \mathbf{G} + \mathbf{U}\]
+
+<span class="footnote"> (Arnold, 1992) </span>
+
+---
+
+## Seleção Direcional
+
+![](fig/erosion02.png)
+
+\[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - {\color{blue} \beta\beta^T} \big)\mathbf{G} + \mathbf{U} \]
+
+---
+
+## Seleção Direcional
+
+![](fig/erosion03.png)
+
+\[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - {\color{blue} \beta\beta^T} \big)\mathbf{G} + \mathbf{U} \]
+
+---
+
+## Seleção Estabilizadora
+
+![](fig/mutseleq01.png)
+
+\[ \Delta \mathbf{G} = \mathbf{G} \big( \mathbf{\gamma} - \beta\beta^T \big)\mathbf{G} + \mathbf{U}\]
+
+---
+
+## Seleção Estabilizadora
+
+![](fig/mutseleq01.png)
+
+\[ \Delta \mathbf{G} = \mathbf{G}\mathbf{\gamma}\mathbf{G} + \mathbf{U}\]
+
+---
+
+## Seleção Estabilizadora
+
+![](fig/mutseleq02.png)
+
+\[ \Delta \mathbf{G} = \mathbf{G} {\color{red}\mathbf{\gamma}}\mathbf{G} + \mathbf{U} \]
+
+---
+
+## Mutação e Recombinação
+
+![](fig/mutseleq03.png)
+
+\[ \Delta \mathbf{G} = \mathbf{G} \mathbf{\gamma}\mathbf{G} + {\color{purple}\mathbf{U}} \]
+
+---
+
+## Equilíbrio
+
+![](fig/mutseleq04.png)
+
+\[ \Delta \mathbf{G} = 0 \]
+
+---
+
+## Equilíbrio
+
+![](fig/mutseleq05.png)
+
+\[ {\color{purple}\mathbf{U}} = - \mathbf{G} {\color{red}\mathbf{\gamma}} \mathbf{G} \]
+
+---
+
+## Pleiotropia Epistática
+
+![](fig/pleioepis.png)
+
+\[
+\mathbf{R}_{aa} =
+\begin{bmatrix}
+1 & 0 \\
+0 & 1 \\
+\end{bmatrix}
+\qquad
+\mathbf{R}_{Aa} =
+\begin{bmatrix}
+1 & 0.5 \\
+0.5 & 1 \\
+\end{bmatrix}
+\qquad
+\mathbf{R}_{AA} =
+\begin{bmatrix}
+1 & 0.7 \\
+0.7 & 1 \\
+\end{bmatrix}
+\]
+
+<span class='footnote'> (Wagner et al, 2007) </span>
+
+---
+
+## Pleiotropia Epistática
+
+![](fig/eruption01.png)
+
+---
+
+## Pleiotropia Epistática
+
+![](fig/eruption02.png)
+
+--- {.build}
+
+## Pleiotropia Epistática
+
+![](fig/eruption03.png)
+
+Seleção direcional pode alterar padrões de covariância entre caracteres fenotípicos!
+
+---
+
+## Morfometria
+
+---
+
+## Análise Generalizada de Procrustes
+
+![](fig/gm.png)
+
+---
+
+## Cercopithecoidea
+
+![](fig/Cercopithecoidea.png)
+
+---
+
+## Hominoidea
+
+![](fig/Hominoidea.png)
+
+---
+
+## Pitheciidae/Atelidae
+
+![](fig/AtelidaePitheciidae.png)
+
+---
+
+## Cebidae
+
+![](fig/Cebidae.png)
+
+---
+
+## Relações Filogenéticas em Anthropoidea
+
+![plot of chunk base_tree](assets/fig/base_tree-1.png)
+
+<span class='footnote'> (Springer et al, 2012) </span>
+
+---
+
+## Seleção em Platyrrhini
+
+![](fig/sel_NWM.png)
+
+<span class='footnote'> (Marroig et al, 2012) </span>
+
+---
+
+## Seleção em Homininae
+
+![](fig/sel_homininae.png)
+
+<span class='footnote'> (Ackermann \& Cheverud, 2004) </span>
