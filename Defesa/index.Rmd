@@ -372,13 +372,15 @@ Caracteres fenotípicos evoluem de maneira concertada devido a covariâncias gen
 
 ![](fig/eruption02.png)
 
---- {.build}
+*** =pnotes
+
+Seleção direcional pode alterar padrões de covariância entre caracteres fenotípicos.
+
+---
 
 ## Pleiotropia Epistática
 
 ![](fig/eruption03.png)
-
-Seleção direcional pode alterar padrões de covariância entre caracteres fenotípicos!
 
 ---
 
