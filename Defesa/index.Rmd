@@ -793,15 +793,19 @@ post.ppca $ plot.srd.gl12 +
 
 A partir de uma representação de forma, esta estabilidade de padrões se mantém?
 
-__Sim.__
-
-Divergência em covariâncias entre linhagens-irmãs apresentam um padrão consistente com interações ontogenéticas/funcionais.
+__Sim.__ Divergência em covariâncias entre linhagens-irmãs apresentam um padrão consistente com interações ontogenéticas/funcionais.
 
 * Algumas regiões mantêm quase constantes seus padrões de covariância:
     + Oral, Nasal, Abóbada;
 
 * Outras regiões consistentemente mudam ao longo da diversificação do grupo:
     + _logCS_, Basicrânio, Órbita.
+
+<div class='columns-2'>
+
+<img src='../Figuras/skull_func.png', width=300px>
+
+<img src='../Figuras/skull_dev.png', width=300px>
 
 <div class='notes'>
 
