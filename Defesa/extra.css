@@ -1,0 +1,36 @@
+slides > slide.title-slide hgroup h1 {
+  font-family: 'Open Sans Condensed';
+  font-weight: normal;
+  font-size: 38pt;
+  color: #E0E0E0;
+  transform: translate(-5%, -20%);
+  top: 100%;
+  left: 100%;
+}
+
+.title-slide {
+    background-color: #222222;
+    font-family: 'Open Sans';
+    font-size: 20pt;
+}
+
+slide h2{
+ font-family: 'Open Sans Condensed';
+ font-weight: 700;
+ font-size: 36pt;
+ color: darkslategray;
+}
+
+slide h1{
+    background: #222222;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    font-size: 30pt;
+    color: darkslategray;
+}
+
+body {
+    font-family: 'Helvetica';
+    font-size: 20pt;
+    color: black;
+}
