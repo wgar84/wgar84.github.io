@@ -572,18 +572,14 @@ resultados experimentais indicam a existência de pleio epis, e as consequência
 ## Seleção para Tamanho em Platyrrhini {.centered}
 ![Marroig _et al_ 2012](../Figuras/sel_NWM.png)
 
-## Seleção em Homininae {.centered}
-![Ackermann \& Cheverud 2004](../Figuras/sel_homininae.png)
 
-<div class='notes'>
-na separação entre australopithecini e hominini, a linhagem que dá origem a Homo sofreu 
-</div>
-
-## Seleção sobre Forma {.centered}
+## Seleção sobre Forma em Homininae {.centered}
 
 ![Schroeder _et al_ 2014](../Figuras/sel_earlyhomo.png)
 
+
 <div class='notes'>
+na divergência entre australopithecini e hominini, a linhagem que dá origem a Homo sofreu 
 Seleção para redução dos elementos faciais e aumento da capacidade do neurocrânio.
 </div>
 
@@ -669,6 +665,8 @@ Tree.Plots $ slope.tree
     + intercepto e inclinação.
 
 <img src='../Figuras/skull_dev.png' width=400px>
+
+</div>
 
 ## Alometria e Modularidade
 

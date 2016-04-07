@@ -332,7 +332,7 @@ ppca.Plots $ var.moran + guides(size = FALSE)
 
 ## Global pPC1
 
-```{r phylo_g1, echo = FALSE, fig.width = 8, fig.height = 6}
+```{r phylo_g1, echo = FALSE, warning = FALSE, fig.width = 8, fig.height = 6}
 
 values.axis <- etd.def.ppca $ li [, c(1, 2, 4, 3)]
 

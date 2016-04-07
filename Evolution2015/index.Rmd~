@@ -3,7 +3,7 @@ title       : A Phylogenetic Analysis of Covariance Structure in the Skull of An
 author      : Guilherme Garcia & Gabriel Marroig
 job         : University of São Paulo - Brasil
 framework   : revealjs  # {io2012, html5slides, shower, dzslides, ...}
-revealjs    : {theme: night, transition: linear}
+revealjs    : {theme: night, transition: convex}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 widgets     : [mathjax]     # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
