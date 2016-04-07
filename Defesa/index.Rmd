@@ -461,8 +461,6 @@ subamostra controlada para tamanhos amostrais e representativa de todas as linha
 * $H_0$: o padrão inferido não se diferencia de uma associação entre caracteres tomados ao acaso;
 * Significância: permutações na matriz de associação.
 
-<img src='../Figuras/sig.png', width = 700px>
-
 ##
 
 ```{r mhi_local, echo = FALSE, fig.width = 10, fig.height = 7}
