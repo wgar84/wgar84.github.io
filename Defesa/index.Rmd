@@ -2,8 +2,9 @@
 title: "Perspectivas sobre o reconhecimento de padrões de
 modularidade e suas implicações para a evolução de
 morfologias complexas"
-author: Guilherme Garcia
-date: 07 de Abril de 2016
+subtitle: Guilherme Garcia
+author: "Orientador - Gabriel Marroig"
+date: Departamento de Genética e Biologia Evolutiva
 logo: ../Figuras/cerco.png
 output:
   ioslides_presentation:
@@ -59,6 +60,7 @@ img {
 ![](../Figuras/breeder01.png)
 
 <div class='notes'>
+muitos alelos, distr contínua de efeitos desses alelos sobre o fenótipo
 </div>
 
 ## Genética Quantitativa {.centered}
@@ -197,11 +199,11 @@ neuro: dérmica
 <img src='../Figuras/skull_func.png', width=400px>
 
 <div class='notes'>
-Oral: mastigação;
-Nasal: respiração/termorregulação;
-Zigomático: sustentação da musculatura associada à elevação da mandíbula;
-Órbita/Abóbada: proteção das órbitas oculares e SNC;
-Basicrânio: sustentação das demais estruturas e conexões com o resto dos sistemas do organismo.
+Oral: mastigação; <br>
+Nasal: respiração/termorregulação; <br>
+Zigomático: sustentação da musculatura associada à elevação da mandíbula; <br>
+Órbita/Abóbada: proteção das órbitas oculares e SNC; <br>
+Basicrânio: sustentação das demais estruturas e conexões com o resto dos sistemas do organismo. <br>
 </div>
 
 ## Expectativas {.centered}
@@ -237,10 +239,6 @@ o mapa genótipo-fenótipo do wagner é uma simplificação dos processos de des
 ![Hallgrímsson \& Liebermann 2008](../Figuras/palimpsest.png)
 
 <div class='notes'>
-musculatura induz o crescimento da face
-
-enquanto cresce, cérebro exerce pressão e induz a secreção de fatores de crescimento do neurocrânio a partir de suas membranas envoltórias
-
 ainda que estes processos sejam localizados, sua sobreposição espacial e a dinâmica temporal inerente a eles podem afetar os padrões de covariância recuperados na população adulta
 </div>
 
@@ -252,10 +250,10 @@ Pearson \& Davin (1924) introduziram a noção de que mensurações devem ser pa
 </div>
 
 ## *Landmarks* e Homologia {.centered}
-![](../Figuras/skull_lm.png)
+![Pearson \& Davin 1924](../Figuras/skull_lm.png)
 
 ## Distâncias Lineares {.centered}
-![](../Figuras/skull_dist.png)
+![Cheverud 1982](../Figuras/skull_dist.png)
 
 <div class='notes'>
 definidas desta forma, as distâncias representam processos locais
@@ -263,7 +261,7 @@ de desenvolvimento e função
 </div>
 
 ## Coordenadas Cartesianas {.centered}
-![](../Figuras/skull_lm.png)
+![Klingenberg 2010](../Figuras/skull_lm.png)
 
 ## Coordenadas como Caracteres? {.centered}
 ![](../Figuras/gm_a.png)
@@ -310,11 +308,14 @@ Márquez _et al_ 2012
 
 <div class='notes'>
 expansões ou retrações locais
-herda a separação de tamanho e forma da abordagem baseada em coordenadas
+representação elegante do ponto de vista matemático
+herda a separação de tamanho e forma da representação baseada em coordenadas
 representa processos locais de desnvolvimento e função
 </div>
 
 ## Objetivo {.build}
+Investigar a relação entre:
+
 > - Representações de Variação Morfológica
 > - Covariâncias Fenotípicas em Escala Macroevolutiva
 > - Linhagem Modelo: Anthropoidea
@@ -441,7 +442,7 @@ podemos estimar alguma métrica que represente a associação entre os padrões 
     + MHI (Porto *et al*, 2013):
 
 \[
-\text{MHI} = \frac {{\color{blue} \rho_d} - \rho_f} {\text{ICV}}
+\text{MHI} = \frac {\rho_d - \rho_f} {\text{ICV}}
 \]
 
 * Representações:
@@ -585,9 +586,9 @@ Seleção para redução dos elementos faciais e aumento da capacidade do neuroc
 
 # The Evolution of Skull Allometry in Anthropoid Primates {.smaller}
 
-Estes eventos de seleção mudaram as relações entre tamanho e forma nos Antropóides?
+- Estes eventos de seleção mudaram as relações entre tamanho e forma nos Antropóides?
 
-Mudanças nestas relações implicam em alterações nos padrões de modularidade estimados sobre Distâncias Lineares?
+- Mudanças nestas relações implicam em alterações nos padrões de modularidade estimados sobre distâncias lineares?
 
 ## Alometria {.centered}
 ![](../Figuras/allo01.png)
@@ -820,7 +821,12 @@ logCS: changes in allometric relationships (post-natal stages)
 
 * Sob diferentes perspectivas, os padrões de covariância em Anthropoidea se mostram estáveis.
 
-## Agradecimentos
+## Agradecimentos {.centered}
+
+<img src='../Figuras/thx.svg' width = 600px>
 
 # Obrigado!
 
+<img src='../Figuras/end.jpg' width=300px>
+
+![](../Figuras/end.jpg)
