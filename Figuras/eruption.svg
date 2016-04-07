@@ -2413,9 +2413,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="414.26651"
-     inkscape:cy="221.61185"
+     inkscape:zoom="0.7"
+     inkscape:cx="494.69211"
+     inkscape:cy="71.667731"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2424,9 +2424,9 @@
      inkscape:object-paths="true"
      inkscape:snap-global="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-height="1042"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:object-nodes="true"
      inkscape:snap-center="true"
@@ -3318,18 +3318,18 @@
          sodipodi:role="line"
          id="tspan20638"
          x="410.54361"
-         y="788.79077">β</tspan></text>
+         y="788.79077">Δz</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text20640"
        y="913.81439"
-       x="113.03982"
+       x="109.03982"
        style="font-style:normal;font-weight:normal;font-size:21.34110832px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#cc00ff;fill-opacity:1;stroke:#cc00ff;stroke-width:0.53352767px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="913.81439"
-         x="113.03982"
+         x="109.03982"
          id="tspan20642"
          sodipodi:role="line"
-         style="stroke-width:0.53352767px">β</tspan></text>
+         style="stroke-width:0.53352767px">Δz</tspan></text>
   </g>
 </svg>
