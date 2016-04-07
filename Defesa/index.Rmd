@@ -459,7 +459,7 @@ subamostra controlada para tamanhos amostrais e representativa de todas as linha
 ## Testes de Hipótese
 
 * $H_0$: o padrão inferido não se diferencia de uma associação entre caracteres tomados ao acaso;
-* Significância: permutações na matriz de associação.
+    + Significância: permutações na matriz de associação.
 
 ##
 
@@ -737,13 +737,13 @@ __Decomposição de Diversidade__
 
 __Decomposição de Diversidade__
 
-* Testes a respeito da distribuição de diversidades sobre a filogenia:
-    + Um nó sozinho corresponde à maior parte da diversidade;
-    + Apenas alguns nós correspondem à maior parte da diversidade;
-    + Diversidade acumulada na base/topo da filogenia;
+* Testes de Hipótese:
+    + Apenas um nó corresponde à maior parte da diversidade;
+    + Alguns nós contribuem em maior peso à diversidade;
+    + Diversidade acumulada na base ou no topo da filogenia;
 
-* $H_0$: Distribuição de diversidade ao acaso sobre a filogenia;
-    + Distribuição nula gerada a partir de permutações sobre a filogenia.
+* $H_0$: Diversidade distribuída ao acaso ao longo da filogenia;
+    + Distribuição nula gerada a partir de permutações.
 
 <div class='notes'>
 Mas, esse teste não indica quais caracteres representados nas matrizes influenciam a divergência entre linhagens. Então, para avaliar esse aspecto,
