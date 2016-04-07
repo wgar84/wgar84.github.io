@@ -827,6 +827,5 @@ logCS: changes in allometric relationships (post-natal stages)
 
 # Obrigado!
 
-<img src='../Figuras/end.jpg' width=300px>
+<img src='../Figuras/end.jpg' width=350px align='right'>
 
-![](../Figuras/end.jpg)
