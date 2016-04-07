@@ -807,6 +807,8 @@ __Sim.__ Divergência em covariâncias entre linhagens-irmãs apresentam um padr
 
 <img src='../Figuras/skull_dev.png', width=300px>
 
+</div>
+
 <div class='notes'>
 
 regiões instáveis são aquelas que sofrem intereferência dos dois tecidos precursores
