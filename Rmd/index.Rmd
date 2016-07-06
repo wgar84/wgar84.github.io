@@ -161,9 +161,13 @@ kable(summary(cars))
 
 * não existe implementação de referência às figuras no texto
 
+* para figuras que não vem do R:
+
+<pre><code>![caption](/path/to/figure)</code></pre>
+
 ## Equações
 
-* Idêntica a sintaxe de LaTeX:
+* Sintaxe do LaTeX:
 
 <pre>
 <code>$$
@@ -181,8 +185,6 @@ $$
 
 Supondo a existência de um banco de dados declarado no preâmbulo do documento
 
-* Sintaxe bastante simples:
-
 <pre>
 <code>[@lande_quantitative_1979; @arnold_constrains_1992]</code>
 </pre>
@@ -191,6 +193,8 @@ Supondo a existência de um banco de dados declarado no preâmbulo do documento
 
 * Ao final do documento, a lista de referências é impressa automaticamente
 
+# Fluxo de Trabalho
+
 ## {.centered}
 
 ![](../Figuras/workflow1.png)
@@ -198,3 +202,8 @@ Supondo a existência de um banco de dados declarado no preâmbulo do documento
 ## {.centered}
 
 ![](../Figuras/workflow2.png)
+
+## RStudio {.centered}
+
+![](../Figuras/rstudio.png)
+
