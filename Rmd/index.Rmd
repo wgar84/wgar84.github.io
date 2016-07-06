@@ -65,6 +65,7 @@ img {
 * formatos possíveis de saída:
     + texto: pdf (LaTeX), docx, rtf, odt;
     + apresentação: pdf (LaTeX + Beamer), ioslides, reveal.js (html);
+	+ aplicativos online: shiny
     + etc...
 
 # Estrutura do Documento
@@ -206,4 +207,34 @@ Supondo a existência de um banco de dados declarado no preâmbulo do documento
 ## RStudio {.centered}
 
 ![](../Figuras/rstudio.png)
+
+# Exemplo: phd.Rmd
+
+## {.centered}
+
+![](../Figuras/workflowtese.png)
+
+## {.centered}
+
+![](../Figuras/workflowtese2.png)
+
+## Porque usar RMarkdown?
+
+* Curva de aprendizado rápida
+
+* Flexibilidade e Eficiência
+
+* Nenhum conhecimento sobre outras linguagens será desperdiçado!
+
+* Ciência aberta
+
+## Links
+
+[phd.Rmd no GitHub](https://github.com/wgar84/phd.Rmd)
+
+[esta apresentação](http://wgar84.github.io/Rmd)
+
+[código de apresentações no GitHub](https://github.com/wgar84/wgar84.github.io)
+
+[RMarkdown cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 

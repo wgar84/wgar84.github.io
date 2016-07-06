@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="192.17334mm"
+   height="132.30785mm"
+   viewBox="0 0 680.92914 468.80732"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="workflowtese2.svg"
+   inkscape:export-filename="/home/guilherme/Dropbox/IO/Figuras/workflowtese2.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7089"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL">
+      <path
+         transform="scale(0.8,0.8)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path7091"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4581"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4583"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4331"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="394.85612"
+     inkscape:cy="267.70013"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-center="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="-162.3594,523.35554"
+       orientation="0,1"
+       id="guide7414" />
+    <sodipodi:guide
+       position="-229.02947,-176.68015"
+       orientation="0,1"
+       id="guide7416" />
+    <sodipodi:guide
+       position="280.57044,253.19587"
+       orientation="0,1"
+       id="guide3466" />
+    <sodipodi:guide
+       position="270.21581,335.96606"
+       orientation="0,1"
+       id="guide3468" />
+    <sodipodi:guide
+       position="199.01936,245.22834"
+       orientation="0,1"
+       id="guide3470" />
+    <sodipodi:guide
+       position="221.22341,180.00584"
+       orientation="0,1"
+       id="guide3472" />
+    <sodipodi:guide
+       position="236.88077,172.29182"
+       orientation="0,1"
+       id="guide3474" />
+    <sodipodi:guide
+       position="252.53814,79.321743"
+       orientation="0,1"
+       id="guide3476" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-166.40001,-357.37726)">
+    <rect
+       style="fill:#b3b3b3;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect7498"
+       width="680.92914"
+       height="468.80731"
+       x="166.40001"
+       y="357.37726" />
+    <rect
+       style="fill:#ff9955;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7405"
+       width="160.63612"
+       height="322.05038"
+       x="662.50677"
+       y="439.4635" />
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.90863037;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL)"
+       d="m 174.44485,546.30809 156.61743,-0.73455"
+       id="path3383"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       y="490.21851"
+       x="365.41937"
+       height="82.770187"
+       width="163.10216"
+       id="rect5635"
+       style="fill:#3771c8;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path7087"
+       d="m 546.98653,616.73642 82.76899,-0.89126"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:3.52924323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7089)" />
+    <text
+       transform="matrix(0.99996664,-0.00816767,0.00816767,0.99996664,0,0)"
+       inkscape:transform-center-y="-3.3223264"
+       inkscape:transform-center-x="23.093813"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.40275574px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="175.49509"
+       y="536.15393"
+       id="text7448"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7450"
+         x="175.49509"
+         y="536.15393">modcomp.RData</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.50863266px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="553.60675"
+       y="609.4729"
+       id="text7472"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7474"
+         x="553.60675"
+         y="609.4729">render( )</tspan></text>
+    <rect
+       style="fill:#ff6600;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect7478"
+       width="142.93503"
+       height="82.770187"
+       x="671.95953"
+       y="490.21851" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text7456"
+       y="509.94611"
+       x="694.03662"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.68342018px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="509.94611"
+         x="694.03662"
+         id="tspan7458"
+         sodipodi:role="line">modcomp.pdf</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7500"
+       y="408.06345"
+       x="663.22736"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.05688477px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="408.06345"
+         x="663.22736"
+         id="tspan7502"
+         sodipodi:role="line">tese.aux.R</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3391"
+       y="518.5083"
+       x="175.63921"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.40275574px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:transform-center-x="23.093829"
+       inkscape:transform-center-y="-3.3223305"
+       transform="matrix(0.99996664,-0.00816767,0.00816767,0.99996664,0,0)"><tspan
+         y="518.5083"
+         x="175.63921"
+         id="tspan3393"
+         sodipodi:role="line">modsim.RData</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3414"
+       d="m 174.44485,616.43333 156.61743,-0.73454"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.90863037;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL)" />
+    <rect
+       style="fill:#3771c8;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3416"
+       width="163.10216"
+       height="65.222504"
+       x="365.41937"
+       y="580.95624" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3418"
+       y="606.27679"
+       x="174.92221"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.40275574px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:transform-center-x="23.09383"
+       inkscape:transform-center-y="-3.3223503"
+       transform="matrix(0.99996664,-0.00816767,0.00816767,0.99996664,0,0)"><tspan
+         y="606.27679"
+         x="174.92221"
+         id="tspan3420"
+         sodipodi:role="line">allo.RData</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3430"
+       y="512.96875"
+       x="371.58075"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.91230774px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         y="512.96875"
+         x="371.58075"
+         id="tspan3432"
+         sodipodi:role="line">modcomp.Rmd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.91230774px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="435.84262"
+       y="604.93213"
+       id="text3434"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3436"
+         x="435.84262"
+         y="604.93213">allo.Rmd</tspan></text>
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.90863037;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL)"
+       d="m 174.44485,689.36981 156.61743,-0.73454"
+       id="path3438"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       y="653.89276"
+       x="365.41937"
+       height="92.970078"
+       width="163.10216"
+       id="rect3440"
+       style="fill:#3771c8;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       transform="matrix(0.99996664,-0.00816767,0.00816767,0.99996664,0,0)"
+       inkscape:transform-center-y="-3.3223938"
+       inkscape:transform-center-x="23.09382"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.40275574px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="174.32649"
+       y="679.21075"
+       id="text3442"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3444"
+         x="174.32649"
+         y="679.21075">ppca.RData</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3446"
+       y="677.86859"
+       x="423.44669"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.91230774px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         y="677.86859"
+         x="423.44669"
+         id="tspan3448"
+         sodipodi:role="line">ppca.Rmd</tspan></text>
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:3.52924323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7089)"
+       d="m 546.98653,536.73642 82.76899,-0.89126"
+       id="path3454"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3456"
+       y="529.4729"
+       x="553.60675"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.50863266px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="529.4729"
+         x="553.60675"
+         id="tspan3458"
+         sodipodi:role="line">render( )</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3460"
+       d="m 546.98653,696.73642 82.76899,-0.89126"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:3.52924323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7089)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.50863266px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="553.60675"
+       y="689.4729"
+       id="text3462"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3464"
+         x="553.60675"
+         y="689.4729">render( )</tspan></text>
+    <rect
+       y="580.95624"
+       x="671.95953"
+       height="65.222488"
+       width="142.93503"
+       id="rect3478"
+       style="fill:#ff6600;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.68342018px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="746.43781"
+       y="601.94611"
+       id="text3480"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3482"
+         x="746.43781"
+         y="601.94611">allo.pdf</tspan></text>
+    <rect
+       style="fill:#ff6600;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3484"
+       width="142.93503"
+       height="92.835236"
+       x="671.95953"
+       y="654.02759" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3486"
+       y="675.94611"
+       x="736.32977"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.68342018px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="675.94611"
+         x="736.32977"
+         id="tspan3488"
+         sodipodi:role="line">ppca.pdf</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7452"
+       y="469.39969"
+       x="733.51288"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.80575371px;line-height:125%;font-family:'Futura Bk BT';-inkscape-font-specification:'Futura Bk BT';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         y="469.39969"
+         x="733.51288"
+         id="tspan7454"
+         sodipodi:role="line">Output</tspan></text>
+  </g>
+</svg>
