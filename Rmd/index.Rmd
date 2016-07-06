@@ -206,7 +206,12 @@ Supondo a existência de um banco de dados declarado no preâmbulo do documento
 
 ## RStudio {.centered}
 
-![](../Figuras/rstudio.png)
+![](../Figuras/rstudio1.png)
+
+## RStudio {.centered}
+
+![](../Figuras/rstudio2.png)
+
 
 # Exemplo: phd.Rmd
 
