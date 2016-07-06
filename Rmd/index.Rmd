@@ -124,9 +124,20 @@ require(ggplot2)
 ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_bw()
 ```
 
-## Tabelas
+## Tabelas 
 
-* Markdown possui uma estrutura própria de tabelas
+* Markdown possui um formato próprio de tabelas
+
+<pre>
+|   |    speed    |     dist      |
+|:--|:------------|:--------------|
+|   |Min.   : 4.0 |Min.   :  2.00 |
+|   |1st Qu.:12.0 |1st Qu.: 26.00 |
+|   |Median :15.0 |Median : 36.00 |
+|   |Mean   :15.4 |Mean   : 42.98 |
+|   |3rd Qu.:19.0 |3rd Qu.: 56.00 |
+|   |Max.   :25.0 |Max.   :120.00 |
+</pre>
 
 * kable() disponível no pacote knitr produz uma saída compatível com o formato
 
@@ -139,8 +150,16 @@ kable(summary(cars))
 
 ## Figuras
 
-* cabeçalho do pedaço de código define parâmetros da figura
+* cabeçalho do pedaço de código define parâmetros da figura:
 
+<pre>
+<code>```{r plot_something, fig.height = 5, fig.width = 8, fig.cap = "Something"}</code>
+</pre>
+
+* opção por formatos de saída distintos (default: pdf)
+    + dispositivos gráficos disponíveis em R
+
+* não existe implementação de referência às figuras no texto
 
 ## Equações
 
@@ -156,12 +175,26 @@ $$
 \frac{dx_i}{dt} = f(x_i) + \sum_{j=1}^n\mathbf{A}_{ij} \cdot g(x_i, x_j)
 $$
 
+* permite equações _inline_
+
 ## Referências
 
+Supondo a existência de um banco de dados declarado no preâmbulo do documento
 
+* Sintaxe bastante simples:
 
-## Fluxo de Trabalho {.centered}
+<pre>
+<code>[@lande_quantitative_1979; @arnold_constrains_1992]</code>
+</pre>
+
+* Impressão da referências ao longo do texto baseada em templates em css
+
+* Ao final do documento, a lista de referências é impressa automaticamente
+
+## {.centered}
 
 ![](../Figuras/workflow1.png)
 
-##  Fluxo de Trabalho {.centered}
+## {.centered}
+
+![](../Figuras/workflow2.png)
