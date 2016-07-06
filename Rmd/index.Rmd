@@ -1,0 +1,167 @@
+---
+title: "RMarkdown: Documentos Dinâmicos em R"
+subtitle: "Guilherme Garcia"
+date: 06 de Julho de 2016
+logo: ../Figuras/Rlogo.png
+output:
+  ioslides_presentation:
+    transitions: faster
+    self_contained: true
+    widescreen: false
+    fig_caption: true
+    toc: true
+    css: extra.css
+---	
+
+<style>
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Source+Code+Pro:500|Open+Sans|Oswald);
+</style>
+
+<style type='text/css'>
+img {
+    max-height: 560px;
+    max-width: 964px;
+}
+</style>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+</script>
+
+## Markdown
+
+* Linguagem estilo _markup_ para formatação de documentos
+
+* Ferramenta para conversão em HTML
+
+* Sintaxe minimalista
+
+* Diferentes versões, diferentes propósitos
+
+##
+
+<pre><code>## Markdown
+
+* Linguagem estilo _markup_ para formatação de documentos
+
+* Ferramenta para conversão em HTML
+
+* Sintaxe minimalista
+
+* Diferentes versões, diferentes propósitos</code></pre>
+
+## RMarkdown {.smaller}
+
+<div class='centered'>
+![](../Figuras/RMarkdownFlow.png)
+</div>
+
+&nbsp;
+
+* **knitr**: converte pedaços de código em R para LaTeX/Markdown
+
+* **pandoc**: conversor de formatos de texto multiuso
+
+* formatos possíveis de saída:
+    + texto: pdf (LaTeX), docx, rtf, odt;
+    + apresentação: pdf (LaTeX + Beamer), ioslides, reveal.js (html);
+    + etc...
+
+# Estrutura do Documento
+
+* Preâmbulo
+
+* Código
+
+* Figuras e Tabelas
+
+* Referências
+
+## Preâmbulo
+
+<pre><code>---
+title: "A Phylogenetic Analysis of Covariance Structure in Anthropoids"
+author: G. Garcia^1,2^, F. B. de Oliveira^1^ & G. Marroig^1^
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document:
+    includes:
+      in_header: Tex/ppca_head.tex
+      before_body: Tex/chap_info.tex
+    fig_caption: true
+    keep_tex: true
+fontsize: 12pt
+csl: Bib/journal-of-evolutionary-biology.csl
+bibliography: Bib/ppca.bib
+---</code></pre>
+
+## Código em Pedaços
+
+<pre>
+<code>```{r carsumm}
+data(cars)
+summary(cars)
+``` </code>
+</pre>
+
+<pre>
+<code>```{r plot_mtcars, fig.height = 5, fig.width = 8, echo = FALSE}
+require(ggplot2)
+ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_bw()
+``` </code>
+</pre>
+
+## Código em Pedaços
+
+```{r carsumm}
+data(cars)
+summary(cars)
+```
+## Código em Pedaços
+
+```{r plot_mtcars, fig.height = 5, fig.width = 8, echo = FALSE}
+require(ggplot2)
+ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_bw()
+```
+
+## Tabelas
+
+* Markdown possui uma estrutura própria de tabelas
+
+* kable() disponível no pacote knitr produz uma saída compatível com o formato
+
+##
+
+```{r kable}
+require(knitr)
+kable(summary(cars))
+```
+
+## Figuras
+
+* cabeçalho do pedaço de código define parâmetros da figura
+
+
+## Equações
+
+* Idêntica a sintaxe de LaTeX:
+
+<pre>
+<code>$$
+\frac{dx_i}{dt} = f(x_i) + \sum_{j=1}^n\mathbf{A}_{ij} \cdot g(x_i, x_j)
+$$</code>
+</pre>
+
+$$
+\frac{dx_i}{dt} = f(x_i) + \sum_{j=1}^n\mathbf{A}_{ij} \cdot g(x_i, x_j)
+$$
+
+## Referências
+
+
+
+## Fluxo de Trabalho {.centered}
+
+![](../Figuras/workflow1.png)
+
+##  Fluxo de Trabalho {.centered}
