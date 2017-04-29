@@ -1,8 +1,8 @@
 ---
 title: "Homologias, Caracteres e Mensurações"
-subtitle: "592.5906 - Aula 2"
-author: "Guilherme Garcia"
-date: 04 de Abril de 2017
+subtitle: "Modularidade: conectando padrões e processos em evolução multivariada"
+author: Guilherme Garcia
+logo: ../../logo.png
 output:
   ioslides_presentation:
     transitions: faster
@@ -16,7 +16,7 @@ bibliography: /home/guilherme/Dropbox/Global/tudo.bib
 ---	
 
 <style>
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Source+Code+Pro:500|Open+Sans|Oswald);
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lora:700|Open+Sans+Condensed:300');
 </style>
 
 <style type='text/css'>
@@ -30,14 +30,23 @@ img {
   MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
 </script>
 
-## Conteúdo
+# Objetivos {.objs}
 
-* Caracteres
+> - Prover definições precisas destes três conceitos
 
-* Homologias
-    + Marcos Anatômicos
+> - Identificar a estrutura imposta por estes conceitos em análises comparativas entre organismos
 
-* Mensurações
+> - Revelar pressupostos escondidos no processo de definir e mensurar caracteres
 
+## Caracteres {.centered}
+
+![](../../../Figuras/lizard_set_1.png)
+
+## Caracteres {.centered}
+
+![](../../../Figuras/lizard_set_2.png)
+
+## Mapa Genótipo-Fenótipo {.centered}
+![](../../../Figuras/wagner.png)
 
 
