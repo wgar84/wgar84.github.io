@@ -17,36 +17,51 @@ bibliography: /home/guilherme/Dropbox/Global/tudo.bib
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lora:700|Open+Sans+Condensed:300');
-</style>
 
-<style type='text/css'>
+slides > slide:not(.nobackground):after {
+    font-family: 'Crimson Text';
+}
+
+.forceBreak { 
+	-webkit-column-break-after: always; 
+	break-after: column; 
+}
+
+div.footnotes {
+  position: absolute;
+  bottom: 0;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  width: 80%;
+  font-family: 'Crimson Text';
+  font-size: 0.6em;
+}
+
 img {
     max-height: 560px;
     max-width: 964px;
 }
 </style>
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">');
+  $('footnote').each(function(index) {
+    var oldChars = $(this).html();
+    var fnNum    = (index+1).toString().sup();
+    var newChars = oldChars + fnNum;
+    $(this).html(newChars);
+   	var content = fnNum + ': ' + $(this).attr('content') + '<br/>';
+	var oldContent = $(this).parents('slide').children('div.footnotes').html();
+    var newContent = oldContent + content;
+    $(this).parents('slide').children('div.footnotes').html(newContent);
+  });
+});
 </script>
+
 
 # Objetivos {.objs}
 
-> - Prover definições precisas destes três conceitos
-
-> - Identificar a estrutura imposta por estes conceitos em análises comparativas entre organismos
-
-> - Revelar pressupostos escondidos no processo de definir e mensurar caracteres
-
-## Caracteres {.centered}
-
-![](../../../Figuras/lizard_set_1.png)
-
-## Caracteres {.centered}
-
-![](../../../Figuras/lizard_set_2.png)
-
-## Mapa Genótipo-Fenótipo {.centered}
-![](../../../Figuras/wagner.png)
-
-
+> - 

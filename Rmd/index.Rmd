@@ -212,7 +212,6 @@ Supondo a existência de um banco de dados declarado no preâmbulo do documento
 
 ![](../Figuras/rstudio2.png)
 
-
 # Exemplo: phd.Rmd
 
 ## {.centered}
